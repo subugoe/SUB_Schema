@@ -8,8 +8,8 @@ SUB_Schema
 * Förderung der Interoperabilität auf unterschiedlichen Ebenen:
     * Datenquellen
     * Anwendungen
-    * Abteilungen
-    * Internen/Externen Anforderungen
+    * Abteilungen/Projektpartnern
+    * (Internen/Externen Anforderungen)
     * etc.
 * Integration von Datenquellen, Vereinheitlichung von Unterschieden und Abbildung von Beziehungen:
     * Beziehung METS -> TEI
