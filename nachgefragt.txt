@@ -108,7 +108,7 @@ Hinweise
     - Aufbau: 021A a : 021N a		
     - Leerzeichen?
     - alternativ zu den vorgenannten? oder zusätzlich?
-      - derzeit zusätzlich
+      - derzeit zusätzlich, d.h. auf eigenes tei:title Element abgebildet. 
 	
     ---
     -  derzeit werden 021A, 021B, 021M und 021N auf das selbe tei:bibl Elemente abgebildet
@@ -125,14 +125,14 @@ Hinweise
 							
     ---
     - darf das Tag wiederholt auftreten? Das geht nicht klar aus der PICA3 Übersicht hervor.
-    - aktuell werden auch Wiederholungen behandelt, die aber auf dasselbe tei:author Element abgebildet werden
+    - aktuell werden auch Wiederholungen behandelt, die aber auf eigenes tei:author Element abgebildet werden
     - was ist gemeint mit 'c' Präfix (nicht in der Ordnungsgruppe des Famliliennamens anzusetzen)
 
 
   PICA-Tag 028B
     - wie 028A, aber Tag darf nicht wiederholt vorkommen
     - sind Wiederholungen für a,d,c,p je Verfasser zulässig? Aktuelle Behandlung.
-    - wenn Wiederholungen zulässig sind, dann alles unter dasselbe tei:author Element oder jeweils ein eigenes? 
+    - wenn Wiederholungen zulässig sind, dann alles unter eigenes tei:author Element oder jeweils ein eigenes? 
       - derzeit auf ein author-Element abgebildet
 			
 
@@ -159,7 +159,7 @@ Hinweise
       - ist etwas optional?
     ---
     - darf das Tag wiederholt auftreten? Das geht nicht klar aus der PICA3 Übersicht hervor.
-      - aktuell werden auch Wiederholungen behandelt, die aber auf dasselbe tei:author Element abgebildet werden 
+      - aktuell werden auch Wiederholungen behandelt, die aber auf eigenes tei:author Element abgebildet werden 
 
 
   PICA-Tag 029F
@@ -168,7 +168,7 @@ Hinweise
       - wirklich 028A? oder 029A?
       - derzeit wird 028A berücksichtigt
     - Tag darf nicht wiederholt vorkommen
-    - eigenes tei:author Element? aktuell ja
+    - eigenes tei:author Element
 
 					
   ---
