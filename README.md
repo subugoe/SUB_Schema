@@ -20,7 +20,7 @@ SUB_Schema
 
 ## Mappings
 * Definitionen werden im Unterverzeichnis 'mappings/' abgelegt.
-* Die Datei 'Mappings2TEI.xsl' enthält Definitionen für:
+* Die Datei 'mappings/Mappings2TEI.xsl' enthält Definitionen für:
     * PICA nach TEI (Tabelle 'PICA2TEI') und
     * MODS nach TEI (Tabelle 'MODS2TEI').
 * Später ist auch die Transformation in umgekehrter Richtung zu implementieren:
