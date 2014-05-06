@@ -1,0 +1,217 @@
+mods2tei
+========		
+	
+Hinweise
+- es fehlen folgende (in TEI-LITE verpflichtende) TEI Elemente
+				
+  - TEI -> teiHeader -> fileDesc -> titleStmt
+  - TEI -> teiHeader -> profileDesc -> langUsage -> language -> ident
+  - TEI -> teiHeader -> profileDesc -> textClass -> classCode -> scheme 
+  - TEI -> text
+
+
+pica2tei
+========
+
+Hinweise
+-------------
+		
+- allgemeine Fragen
+				
+  - dürfen subfields bzw. "gleiche Codes" wiederholt werden (welche, wann)? Z.B. mehrfaches Auftreten von code="a" bei 021A oder 028A.
+  - können/müssen Angaben konkretisiert werden? Z.B. um Hinweis zu geben, um was es sich bei einem Element 'tei:date' handelt.
+	
+  Titel
+  ====
+
+  PICA-Tag 021A
+    - Aufbau: a / e : d = f
+    - Leerzeichen? Aktuell wird vor und nach /, : und = ein Leerzeichen gesetzt.	
+    - a wurde als verpflichtend angenommen.
+				
+    ---
+    - Tag darf nicht wiederholt auftreten
+    - was meint @ als Steuerzeichen, wie gehe ich damit um? Aktuell prüfe ich ob @ enthalten ist und lösche entferne es ggf.
+
+  
+  PICA-Tag 021B	
+    - wie 021A 
+    - sind mit "j-Sätze" solche mit code="j" gemeint?		
+    - ist 021B alternativ zu 021A? oder zusätzlich?
+      - derzeit als zusätzlich behandelt
+      - d.h. auf eigenes tei:title Element abgebildet
+							
+  
+  PICA-Tag 021M
+    - wie 021A	
+      - Tag darf aber wiederholt auftreten		
+    - ist 021M alternativ zu 021A? oder zusätzlich?
+      - derzeit als zusätzlich behandelt
+      - d.h. auf eigenes tei:title Element abgebildet					
+		
+ 
+  PICA-Tag 021N
+    - Aufbau: 021A a : 021N a		
+    - Leerzeichen?
+    - alternativ zu den vorgenannten? oder zusätzlich?
+      - derzeit zusätzlich
+	
+    ---
+    -  derzeit werden 021A, 021B, 021M und 021N auf das selbe tei:bibl Elemente abgebildet
+			
+			
+  Verfasser
+  ========
+			
+  PICA-Tag 028A
+    - Aufbau: a, d c (p)
+    - Leerzeichen?	
+      -  aktuell wird nach 'a,'  'd' und 'c' ein Leerzeichen gesetzt
+    - aktuell wird alles als verpflichtend angenommen
+							
+    ---
+    - darf das Tag wiederholt auftreten? Das geht nicht klar aus der PICA3 Übersicht hervor.
+    - aktuell werden auch Wiederholungen behandelt, die aber auf dasselbe tei:author Element abgebildet werden
+    - was ist gemeint mit 'c' Präfix (nicht in der Ordnungsgruppe des Famliliennamens anzusetzen)
+
+
+  PICA-Tag 028B
+    - wie 028A, aber Tag darf nicht wiederholt vorkommen
+    - sind Wiederholungen für a,d,c,p je Verfasser zulässig? Aktuelle Behandlung.
+    - wenn Wiederholungen zulässig sind, dann alles unter dasselbe tei:author Element oder jeweils ein eigenes? 
+      - derzeit auf ein author-Element abgebildet
+			
+
+  PICA-Tag 028C/D
+    - Aufbau: a, d c (p)
+    - Leerzeichen?				
+    - ist etwas optional?
+
+    ---
+    - wie 028A bzw. 028B
+    - Tag darf nicht wiederholt vorkommen
+    - heißt das Tag "028C/D" oder handelt es sich um zwei Tags "028C" und "028D"?
+       - behandle es derzeit als Tag "028C/D"
+    - wenn code="B" -> "[Hrsg.]", dann tei:editor
+    - wenn nicht?
+      - wird es ignoriert
+      - oder dann tei:author?
+					
+			
+  PICA-Tag 029A
+    - Aufbau: a/b [g]
+    - Leerzeichen?				
+      - derzeit zwischen "b" und "["
+      - ist etwas optional?
+    ---
+    - darf das Tag wiederholt auftreten? Das geht nicht klar aus der PICA3 Übersicht hervor.
+      - aktuell werden auch Wiederholungen behandelt, die aber auf dasselbe tei:author Element abgebildet werden 
+
+
+  PICA-Tag 029F
+    - Aufbau: wie 029A
+    - wie 029A, aber nur wenn, kein 028A vorhanden
+      - wirklich 028A? oder 029A?
+      - derzeit wird 028A berücksichtigt
+    - Tag darf nicht wiederholt vorkommen
+    - eigenes tei:author Element? aktuell ja
+
+					
+  ---
+  - sollen 028A, 028B, 029A und 029F auf das selbe "tei:author" Elemente abgebildet werden?			
+
+			
+  Gattung
+  =======
+							
+  PICA-Tag 044S
+    - Aufbau: a [g]
+    - Leerzeichen? Derzeit zwischen "a" und "["
+    - Tag darf wiederholt auftreten
+      - wird dann auf eigene "tei:term" Elemente abgebildet
+    - ist "g" optional?
+
+			
+  Erscheinungsangaben der Vorlage
+  =============================
+			
+  PICA-Tag 033A
+    - Tag darf wiederholt auftreten
+      - wird auf eigene "tei:bibl" Elemente abgebildet (so realisiert)
+      - oder auf bibl -> list -> item -> ...?
+
+			
+  PICA-Tag 033J
+    - Tag darf wiederholt auftreten
+      - wird dann auf eigene "tei:publisher" Elemente abgebildet (aktuell so realisert)
+      - oder auf bibl -> list -> item -> ...?
+			
+			
+  PICA-Tag 011@
+    - Tag darf nicht wiederholt auftreten
+    - sind "a" und "b" verpflichtend oder ist "b" optional?
+      - bislang als verpflichtend angenommen
+    - kann/muss tei:date weiter konkretisiert werden? 
+      - z.B. über type Attribute mit Wert 
+        - "Erscheinungsjahr"
+	- "Erscheinungsjahr (Normierte Datumsangabe)" 
+	- "Erscheinungsjahr (nach RAK-WB)" 
+	- "Ursprüngliches Erscheinungsjahr"
+			
+  ---
+  - oder sollen 033A, 033J und 011@ auf das selbe "tei:bibl" Elemente abgebildet werden?
+	
+			
+  Erscheinungsangaben des Digitalisats
+  ================================
+			
+  PICA-Tag 033N
+    - Tag darf wiederholt auftreten
+      - wird dann auf eigenes "tei:publicationStmt" Elemente abgebildet (aktuell so realisiert)						
+			
+  PICA-Tag 033O
+    - wie 033N
+    - aber auf eigenes "tei:publicationStmt" Elemente abgebildet
+
+			
+  PICA-Tag 033P
+    - wie 033N
+    - aber auf eigenes "tei:publicationStmt" Elemente abgebildet
+			
+			
+  PICA-Tag 011B
+    - wie 033N, aber
+    - Tag darf nicht wiederholt auftreten
+    - wird auf eigenes "tei:publicationStmt" Elemente abgebildet
+			
+  ---			
+  - oder sollen 033N, 033O, 033P und 011B auf das selbe "tei:publicationStmt" Elemente abgebildet werden?
+
+			
+  Sprache 
+  =======
+			
+  PICA-Tag 010@
+    - Tag darf nicht wiederholt auftreten
+    - ein subfield Element mit code="a" je Sprache
+      - werden alle auf das selbe "tei:langUsage" Element abgebildet
+			
+			
+  Umfangsangabe
+  ==============
+			
+  PICA-Tag 034D
+    - Tag darf nicht wiederholt auftreten
+    - subfield Element mit code="a"
+      - auf tei:extend Element abgebildet
+	 				
+
+  PICA-Tag 034M
+    - wie 034D
+    - aber eigenes tei:extend Element (selbe tei:fileDesc)
+			
+  ---
+  - zu 034D, 034M
+    - kann/muss zur Konkretisierung über tei:extent -> tei:ident ein Hinweis auf die Bedeutung des Elements gegeben werden?
+
+					
