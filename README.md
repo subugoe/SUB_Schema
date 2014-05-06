@@ -28,11 +28,11 @@ SUB_Schema
     * TEI nach PICA
 
 ## Implementierungen der Transformationen
-
 * Transformationen werden in jeweils eigenen Unterverzeichnissen 'x2y' abgelegt.
 * Die Transformation 'MODS2TEI' und 'PICA2TEI' wurde mit 'Altova MapForce' modelliert. Die Modellierung bietet den Vorteil, das die Transformation leicht nachvollziehbar ist und Erweiterungen bzw. Änderungen über das Modell vorgenommen werden können.
     * 'MODS2TEI' Transformationen sind in dem Verzeichnis 'mods2tei/' enthalten. Das abschliessende Modell wird ist der Datei 'mods2tei.mfd' beschrieben.
     * 'PICA2TEI' Transformationen sind in dem Verzeichnis 'pica2tei/' enthalten. Das abschliessende Modell wird ist der Datei 'pica2tei.mfd' beschrieben.
+    * Als Input-Schema wurde 'pica-xml-v1-0.xsd' angenommen (siehe [https://github.com/gbv/PICA-Record/blob/master/pica-xml-v1-0.xsd hier]).
     * Zugehörige XSLT-Stylesheets liegen im Unterverzeichnis 'x2y/xslt/'. Das abschließende Modell integriert benutzerdefinierte Funktionen, die Teiltransformationen beschreiben. Bei 'doppel-klick' auf den Header des Modellelements (der Funktion) wird automatisch das zugehörige Modell geladen.
 
 
