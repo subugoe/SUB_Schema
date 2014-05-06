@@ -2,16 +2,16 @@ SUB_Schema
 ==========
 
 ## Ziele
-* Es werden einheitliche Mappings von 'Schema xyz' (TEI, PICA, METS, MODS, ...) nach 'SUB Schema' definiert und entsprechende Transformationen implementiert.
-* Clients können sich auf Daten im 'SUB Schema' verlassen.
-* Lieferungen werden im 'Sub Schema' erwartet, bzw. bei Lieferung entsprechend transformiert (ist noch zu klären).
-* Das 'SUB Schema' fördert die Interoperabilität auf unterschiedlichen Ebenen:
+* Definition einheitlicher Mappings von 'Schema xyz' (z.B. PICA, METS, MODS, ...) nach 'SUB Schema' und Implementierung entsprechender Transformationen.
+* Absicherung von Clients bzw. Anwendungen, so dass sie sich auf Daten im 'SUB Schema' verlassen. Änderungen an den Datenquellen werden durch das 'SUB Schema' gekapselt.
+* Festlegung eines einheitlichen Schemas für Datenlieferungen, ggf. ist eine Transformation bei Lieferung erforderlich (ist noch zu klären).
+* Förderung der Interoperabilität auf unterschiedlichen Ebenen:
     * Datenquellen
     * Anwendungen
     * Abteilungen
     * Internen/Externen Anforderungen
     * etc.
-* Über das 'SUB Schema' werden Datenquellen integriert, Unterschiede vereinheitlicht und Beziehungen abgebildet:
+* Integration von Datenquellen, Vereinheitlichung von Unterschieden und Abbildung von Beziehungen:
     * Beziehung METS -> TEI
     * Beziehung log./phys. METS Strukturbeschreibung -> TEI DIVs
     * Variationen: TEI Dokument oder eingebettet in ein METS Dokument
