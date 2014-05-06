@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record xmlns="info:srw/schema/5/picaXML-v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="info:srw/schema/5/picaXML-v1.0 ./pica-xml-v1-0.xsd">
+    <datafield tag="001@">
+        <subfield code="0">40</subfield>
+    </datafield>
+    <datafield tag="001A">
+        <subfield code="0">0007:26-07-06</subfield>
+    </datafield>
+    <datafield tag="001B">
+        <subfield code="0">1999:08-04-13</subfield>
+        <subfield code="t">00:43:23.000</subfield>
+    </datafield>
+    <datafield tag="001D">
+        <subfield code="0">0007:26-07-06</subfield>
+    </datafield>
+    <datafield tag="001U">
+        <subfield code="0">utf8</subfield>
+    </datafield>
+    <datafield tag="001X">
+        <subfield code="0">0</subfield>
+    </datafield>
+    <datafield tag="002@">
+        <subfield code="0">Oau</subfield>
+    </datafield>
+    <datafield tag="003@">
+        <subfield code="0">514964626</subfield>
+    </datafield>
+    <datafield tag="003O">
+        <subfield code="a">OCoLC</subfield>
+        <subfield code="0">836298072</subfield>
+        <subfield code="v">2012-12-31</subfield>
+    </datafield>
+    <datafield tag="007G">
+        <subfield code="c">GBV</subfield>
+        <subfield code="0">514964626</subfield>
+    </datafield>
+    <datafield tag="008@">
+        <subfield code="b">8</subfield>
+    </datafield>
+    <datafield tag="008@">
+        <subfield code="b">ee</subfield>
+    </datafield>
+    <datafield tag="009A">
+        <subfield code="b">de</subfield>
+        <subfield code="c">SUB Göttingen</subfield>
+        <subfield code="a">DD2004 A 38</subfield>
+    </datafield>
+    <datafield tag="009P" occurrence="03">
+        <subfield code="S">1</subfield>
+        <subfield code="0">cgi</subfield>
+        <subfield code="a">http://resolver.sub.uni-goettingen.de/purl?PPN514964626</subfield>
+    </datafield>
+    <datafield tag="010@">
+        <subfield code="a">ger</subfield>
+        <subfield code="a">bla</subfield>
+    </datafield>
+    <datafield tag="011@">
+        <subfield code="a">1730</subfield>
+        <subfield code="b">1731</subfield>
+        <subfield code="c">1730</subfield>
+        <subfield code="d">1731</subfield>
+        <subfield code="n">Erscheinungsjahr nach RAK-WB</subfield>
+        <subfield code="e">urspr. Erscheinungsjahr</subfield>
+
+    </datafield>
+    <datafield tag="011B">
+        <subfield code="a">011Ba - 2006</subfield>
+        <subfield code="b">011Bb - 2007</subfield>
+        <subfield code="n">011Bn - ...2006</subfield>
+    </datafield>
+    <datafield tag="016H">
+        <subfield code="0">Elektronische Ressource</subfield>
+    </datafield>
+    <datafield tag="021A">
+        <subfield code="a">Ein @schön neu-erfundenes Kunst-Büchlein</subfield>
+        <subfield code="d">Darinnen Hundert fünff und zwantzig Stück, vor Menschen und Vieh,
+            sonderlich aber vor reisende Leuthe, wie auch vor die jenigen, so Vieh haben, sehr
+            nutzlich zugebrauchen, mit schönen offt probirten Recepten beschrieben ; Welches von mir
+            mit sonderbahrem Fleiß aufgesetzt und gut befunden worden ...</subfield>
+        <subfield code="h">Heraus gegeben von D. Plein Horati, Königlichen Leib-Medico in Egypten,
+            als einem gebohrnen Zigeuner</subfield>
+        <subfield code="e">authorInfo</subfield>
+        <subfield code="f">parallelTitle</subfield>
+    </datafield>
+    <datafield tag="021B">
+        <subfield code="a">021Ba - bla</subfield>
+        <subfield code="d">021Bd - bla</subfield>
+        <subfield code="h">021Bh - bla</subfield>
+        <subfield code="e">021Be - bla</subfield>
+        <subfield code="f">021Bf - bla</subfield>
+    </datafield>
+    <datafield tag="021N">
+        <subfield code="a">021Na - bla</subfield>
+    </datafield>
+    <datafield tag="021M">
+        <subfield code="a">021Ma - ups</subfield>
+        <subfield code="d">021Md - ups</subfield>
+        <subfield code="h">021Mh - ups</subfield>
+        <subfield code="e">021Me - ups</subfield>
+        <subfield code="f">021Mf - ups</subfield>
+    </datafield>
+    <!--
+    <datafield tag="028A">
+        <subfield code="d">028A - Plein</subfield>
+        <subfield code="a">028A - Horath</subfield>
+        <subfield code="9">028A - 48879434X</subfield>
+        <subfield code="d">028A - Pelin</subfield>
+        <subfield code="a">028A - Horáth</subfield>
+        <subfield code="0">gnd/130053813</subfield>
+        <subfield code="c">028A - ein c</subfield>
+        <subfield code="p">028A - ein p</subfield>
+        <subfield code="h">028A - h - 1972</subfield>
+        <subfield code="D">028A - D - 1972</subfield>
+    </datafield>
+    -->
+    <datafield tag="028B">
+        <subfield code="d">028Ba - Plein</subfield>
+        <subfield code="a">028Ba - Horath</subfield>
+        <subfield code="9">028Ba - 48879434X</subfield>
+        <subfield code="d">028Ba - Pelin</subfield>
+        <subfield code="a">028Ba - Horáth</subfield>
+        <subfield code="0">028Ba - gnd/130053814</subfield>
+        <subfield code="c">028Ba - ein c</subfield>
+        <subfield code="p">028Ba - ein p</subfield>
+        <subfield code="h">028Ba - h - 1972</subfield>
+        <subfield code="D">028Ba - D - 1972</subfield>
+    </datafield>
+    <datafield tag="028B">
+        <subfield code="d">1d</subfield>
+        <subfield code="a">1a</subfield>
+        <subfield code="9">028B 2 - 48879434X</subfield>
+        <subfield code="d">2d</subfield>
+        <subfield code="a">2a</subfield>
+        <subfield code="0">gnd/130053815</subfield>
+        <subfield code="c">ein c</subfield>
+        <subfield code="p">ein p</subfield>
+        <subfield code="h">h_1972</subfield>
+        <subfield code="d">3d</subfield>
+        <subfield code="a">3a</subfield>
+        <subfield code="D">D_1972</subfield>
+    </datafield>
+    <datafield tag="028C/D">
+        <subfield code="d">028C/D - d</subfield>
+        <subfield code="a">028C/D - a</subfield>
+        <subfield code="9">028C/D - g</subfield>
+        <subfield code="d">028C/D - 2.d</subfield>
+        <subfield code="a">028C/D - 2.a</subfield>
+        <subfield code="0">gnd/130053815</subfield>
+        <subfield code="c">028C/D - c</subfield>
+        <subfield code="p">028C/D - p</subfield>
+        <subfield code="h">028C/D - h</subfield>
+        <subfield code="d">028C/D - 3.d</subfield>
+        <subfield code="a">028C/D - 3.a</subfield>
+        <subfield code="D">028C/D - D_1972</subfield>
+        <subfield code="B">[Hrsg.]</subfield>
+    </datafield>
+    <datafield tag="029A">
+        <subfield code="a">Hauptkörperschaft - 1</subfield>
+        <subfield code="b">Untergeordnete Körperschaft - 1</subfield>
+        <subfield code="g">Zusatz - 1</subfield>
+        <subfield code="0">gnd/130053815 - 1</subfield>
+    </datafield>
+    <datafield tag="029A">
+        <subfield code="a">Hauptkörperschaft - 2</subfield>
+        <subfield code="b">Untergeordnete Körperschaft - 2</subfield>
+        <subfield code="g">Zusatz - 2</subfield>
+        <subfield code="0">gnd/130053815 - 2</subfield>
+    </datafield>
+    <datafield tag="029F">
+        <subfield code="a">Hauptkörperschaft</subfield>
+        <subfield code="b">Untergeordnete Körperschaft</subfield>
+        <subfield code="g">Zusatz</subfield>
+        <subfield code="0">gnd/130053825</subfield>
+    </datafield>
+    <datafield tag="032C">
+        <subfield code="a">[Online-Ausg.]</subfield>
+    </datafield>
+    <datafield tag="033A">
+        <subfield code="p">033A1 - pubPlace</subfield>
+        <subfield code="n">033A1 - publisher</subfield>
+    </datafield>
+    <datafield tag="033A">
+        <subfield code="p">033A2 - pubPlace</subfield>
+        <subfield code="n">033A2 - publisher</subfield>
+    </datafield>
+    <datafield tag="033J">
+        <subfield code="a">033J1 - name</subfield>
+        <subfield code="0">033J1 - gnd/130053815</subfield>
+    </datafield>
+    <datafield tag="033J">
+        <subfield code="a">033J2 - name</subfield>
+        <subfield code="0">033J2 - gnd/130053816</subfield>
+    </datafield>
+
+    <datafield tag="033B" occurrence="01">
+        <subfield code="p">Göttingen</subfield>
+        <subfield code="n">Niedersächsische Staats- und Universitätsbibliothek</subfield>
+    </datafield>
+
+    <datafield tag="033N">
+        <subfield code="p">033N1 - Göttingen</subfield>
+        <subfield code="n">033N1 - Niedersächsische Staats- und Universitätsbibliothek</subfield>
+    </datafield>
+
+    <datafield tag="033N">
+        <subfield code="p">033N2 - Göttingen</subfield>
+        <subfield code="n">033N2 - Niedersächsische Staats- und Universitätsbibliothek</subfield>
+    </datafield>
+
+    <datafield tag="033O">
+        <subfield code="p">033O - Göttingen</subfield>
+        <subfield code="n">033O - GDZ</subfield>
+    </datafield>
+    <datafield tag="033P">
+        <subfield code="p">033P - Göttingen</subfield>
+        <subfield code="n">033P - DigiWunschbuch</subfield>
+    </datafield>
+    <datafield tag="034D">
+        <subfield code="a">034D - [15] Bl</subfield>
+    </datafield>
+    <datafield tag="034M">
+        <subfield code="a">034M - [15] Bl</subfield>
+    </datafield>
+    <datafield tag="037G">
+        <subfield code="a">Zugl. digitaler Master</subfield>
+    </datafield>
+    <datafield tag="037H">
+        <subfield code="a">TIFF, Vers.6.0, 600 dpi, 1 bit (s/w), ITU group 4;
+            Digitalisierungsvorlage: Primärausgabe</subfield>
+    </datafield>
+    <datafield tag="044S">
+        <subfield code="a">Begriff - 1</subfield>
+        <subfield code="g">Zusatz - 1</subfield>
+    </datafield>
+    <datafield tag="044S">
+        <subfield code="a">Begriff - 2</subfield>
+        <subfield code="g">Zusatz - 2</subfield>
+    </datafield>
+    <datafield tag="045Q" occurrence="01">
+        <subfield code="9">10641593X</subfield>
+        <subfield code="a">44.52</subfield>
+        <subfield code="j">Therapie</subfield>
+        <subfield code="X">Medizin</subfield>
+    </datafield>
+    <datafield tag="047C">
+        <subfield code="a">schönes</subfield>
+    </datafield>
+    <datafield tag="101@">
+        <subfield code="a">40</subfield>
+        <subfield code="c">PICA</subfield>
+    </datafield>
+    <datafield tag="201B" occurrence="01">
+        <subfield code="0">15-05-09</subfield>
+        <subfield code="t">16:18:35.000</subfield>
+    </datafield>
+    <datafield tag="201D" occurrence="01">
+        <subfield code="0">15-05-09</subfield>
+        <subfield code="b">708</subfield>
+        <subfield code="a">0007</subfield>
+    </datafield>
+    <datafield tag="201U" occurrence="01">
+        <subfield code="0">utf8</subfield>
+    </datafield>
+    <datafield tag="203@" occurrence="01">
+        <subfield code="0">772721424</subfield>
+    </datafield>
+    <datafield tag="208@" occurrence="01">
+        <subfield code="a">26-07-06</subfield>
+        <subfield code="b">x</subfield>
+    </datafield>
+    <datafield tag="209B" occurrence="01">
+        <subfield code="a">Göttingen : Niedersächsische Staats- und
+            Universitätsbibliothek</subfield>
+        <subfield code="x">75</subfield>
+    </datafield>
+    <datafield tag="209O" occurrence="01">
+        <subfield code="a">DigiWuBu</subfield>
+        <subfield code="x">00</subfield>
+    </datafield>
+    <datafield tag="209R" occurrence="01">
+        <subfield code="S">1</subfield>
+        <subfield code="0">cgi</subfield>
+        <subfield code="a">http://resolver.sub.uni-goettingen.de/purl?PPN514964626</subfield>
+    </datafield>
+    <datafield tag="220B" occurrence="01">
+        <subfield code="a">www-gdz</subfield>
+    </datafield>
+    <datafield tag="233P" occurrence="01">
+        <subfield code="n">DigiWunschbuch</subfield>
+    </datafield>
+    <datafield tag="245P" occurrence="01">
+        <subfield code="a">c</subfield>
+    </datafield>
+</record>

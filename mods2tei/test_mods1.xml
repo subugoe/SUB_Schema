@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+  version="3.4"
+  xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <nonSort>Ein </nonSort>
+    <title>schön neu-erfundenes Kunst-Büchlein</title>
+    <subTitle>Darinnen Hundert fünff und zwantzig Stück, vor Menschen und Vieh, sonderlich
+              aber vor reisende Leuthe, wie auch vor die jenigen, so Vieh haben, sehr nutzlich
+              zugebrauchen, mit schönen offt probirten Recepten beschrieben ; Welches von mir mit
+              sonderbahrem Fleiß aufgesetzt und gut befunden worden</subTitle>
+  </titleInfo>
+  <titleInfo type="alternative">
+    <title>schönes</title>
+  </titleInfo>
+  <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
+    valueURI="http://d-nb.info/gnd/130053813" usage="primary">
+    <namePart type="family">Horáth</namePart>
+    <namePart type="given">Plein</namePart>
+    <role>
+      <roleTerm>aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
+    valueURI="http://d-nb.info/gnd/130053813" usage="primary">
+    <namePart type="family">Pipa</namePart>
+    <namePart type="given">Jorg</namePart>
+    <role>
+      <roleTerm>aut</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
+    valueURI="http://d-nb.info/gnd/130053813" usage="primary">
+    <namePart type="family">Pipa</namePart>
+    <namePart type="given">Din</namePart>
+    <role>
+      <roleTerm>edt</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
+    valueURI="http://d-nb.info/gnd/130053813" usage="primary">
+    <namePart type="family">Makof</namePart>
+    <namePart type="given">Eddy</namePart>
+    <role>
+      <roleTerm>edt</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre>
+    bla
+  </genre>
+  <originInfo>
+    <place>
+      <placeTerm type="text">S.l.]</placeTerm>
+    </place>
+    <place>
+      <placeTerm type="text">Göttingen</placeTerm>
+    </place>
+    <dateIssued>1730</dateIssued>
+    <dateCreated>1700</dateCreated>
+    <dateOther type="test">2014</dateOther>
+    <publisher>Niedersächsische Staats- und Universitätsbibliothek</publisher>
+    <issuance>monographic</issuance>
+    <edition></edition>
+  </originInfo>
+  
+  <originInfo>
+    <place>
+      <placeTerm type="text">S.l.]</placeTerm>
+    </place>
+    <place>
+      <placeTerm type="text">Göttingen</placeTerm>
+    </place>
+    <dateCaptured>1979</dateCaptured>
+    <publisher>Niedersächsische Staats- und Universitätsbibliothek</publisher>
+    <issuance>monographic</issuance>
+    <edition>[Electronic ed.]</edition>
+  </originInfo>
+  
+  <genre>
+    ups
+  </genre>
+  
+  <language>
+    <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marcform">electronic</form>
+    <form authority="gmd">Elektronische Ressource</form>
+    <form>TIFF, Vers.6.0, 600 dpi, 1 bit (s/w), ITU group 4; Digitalisierungsvorlage:
+              Primärausgabe</form>
+    <form authority="marccategory">electronic resource</form>
+    <form authority="marcsmd">remote</form>
+    <extent>Online-Ressource [15] Bl</extent>
+  </physicalDescription>
+  <note type="reproduction">Online-Ausg. Göttingen GDZ Göttingen DigiWunschbuch 2006 Zugl.
+            digitaler Master |2006||||||||||</note>
+  <note type="original location">SUB Göttingen &lt;DD2004 A 38&gt;</note>
+  <classification authority="bcl">44.52</classification>
+  <location>
+    <url displayLabel="electronic resource" usage="primary display"
+      >http://resolver.sub.uni-goettingen.de/purl?PPN514964626</url>
+  </location>
+  <identifier type="oclc">836298072</identifier>
+  <recordInfo>
+    <descriptionStandard>rakwb</descriptionStandard>
+    <recordContentSource authority="marcorg">GBVCP</recordContentSource>
+    <recordCreationDate encoding="marc">060726</recordCreationDate>
+    <recordChangeDate encoding="iso8601">20130408004323.0</recordChangeDate>
+    <recordIdentifier source="DE-601">514964626</recordIdentifier>
+    <recordOrigin>Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl
+              (Revision 1.74gbv3)</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <subject>
+    <topic lang="bla">topic</topic>
+    <geographic>geographic</geographic>
+    <temporal>temporal</temporal>
+    <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
+      valueURI="http://d-nb.info/gnd/130053813" >
+      <namePart type="family">subjName(aut): subjName: Horáth</namePart>
+      <namePart type="given">subjName(aut): subjName: Plein</namePart>
+      <role>
+        <roleTerm>aut</roleTerm>
+      </role>
+    </name>
+    <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
+      valueURI="http://d-nb.info/gnd/130053813" >
+      <namePart type="family">subjName(edt): Pipa</namePart>
+      <namePart type="given">subjName(edt): Din</namePart>
+      <role>
+        <roleTerm>edt</roleTerm>
+      </role>
+    </name>
+    <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
+      valueURI="http://d-nb.info/gnd/130053813" >
+      <namePart type="family">subjName(edt): Makof</namePart>
+      <namePart type="given">subjName(edt): Eddy</namePart>
+      <role>
+        <roleTerm>edt</roleTerm>
+      </role>
+    </name>
+    
+    <titleInfo>
+      <nonSort>Ein </nonSort>
+      <title>schön neu-erfundenes Kunst-Büchlein</title>
+      <subTitle>(subject.tiTleInfo) Darinnen Hundert fünff und zwantzig Stück, vor Menschen und Vieh, sonderlich
+        aber vor reisende Leuthe, wie auch vor die jenigen, so Vieh haben, sehr nutzlich
+        zugebrauchen, mit schönen offt probirten Recepten beschrieben ; Welches von mir mit
+        sonderbahrem Fleiß aufgesetzt und gut befunden worden</subTitle>
+    </titleInfo>
+    <titleInfo type="alternative">
+      <title>schönes</title>
+    </titleInfo>
+    
+  </subject>
+</mods>

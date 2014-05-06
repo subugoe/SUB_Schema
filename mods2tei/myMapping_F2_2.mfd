@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap1" blackbox="0" uid="1" editable="1">
+		<properties SelectedLanguage="xslt2"/>
+		<structure>
+			<children>
+				<component name="constant" library="core" uid="49" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="112"/>
+					</targets>
+					<view ltx="529" lty="130" rbx="597" rby="148"/>
+					<data>
+						<constant value="family" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="50" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="114"/>
+					</targets>
+					<view ltx="973" lty="251" rbx="1019" rby="269"/>
+					<data>
+						<constant value=", " datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="51" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="106"/>
+					</targets>
+					<view ltx="743" lty="359" rbx="809" rby="377"/>
+					<data>
+						<constant value="given" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="52" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="111"/>
+						<datapoint pos="1" key="113"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="116"/>
+					</targets>
+					<view ltx="649" lty="92" rbx="702" rby="148"/>
+				</component>
+				<component name="mods-3-5" library="xml" uid="53" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="125" lty="-282" rbx="463" rby="991"/>
+					<data>
+						<root scrollposition="155">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.loc.gov/mods/v3"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="2" expanded="1">
+								<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="mods" ns="1" expanded="1">
+										<entry name="name" ns="1" expanded="1">
+											<entry name="namePart" ns="1" outkey="127" expanded="1">
+												<entry name="type" type="attribute" outkey="110"/>
+											</entry>
+											<entry name="role" ns="1" expanded="1">
+												<entry name="roleTerm" ns="1" expanded="1"/>
+											</entry>
+										</entry>
+										<entry name="titleInfo" ns="1" expanded="1">
+											<entry name="title" ns="1" expanded="1"/>
+											<entry name="subTitle" ns="1" expanded="1"/>
+											<entry name="nonSort" ns="1" expanded="1"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="mods-3-5.xsd" inputinstance="test_mods1.xml" outputinstance="mods-3-5.xml" instanceroot="{http://www.loc.gov/mods/v3}mods"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="54" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="140"/>
+						<datapoint pos="1" key="107"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="108"/>
+					</targets>
+					<view ltx="876" lty="359" rbx="929" rby="415"/>
+				</component>
+				<component name="namePart" library="core" uid="55" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="128"/>
+						<datapoint pos="1" key="109"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="138"/>
+						<datapoint/>
+					</targets>
+					<view ltx="542" lty="383" rbx="645" rby="439"/>
+				</component>
+				<component name="namePart" library="core" uid="56" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="133"/>
+						<datapoint pos="1" key="117"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="120"/>
+						<datapoint/>
+					</targets>
+					<view ltx="529" lty="30" rbx="632" rby="86"/>
+				</component>
+				<component name="tei_lite" library="xml" uid="57" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="1426" lty="-282" rbx="1816" rby="991"/>
+					<data>
+						<root scrollposition="2344">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="TEI" expanded="1">
+										<entry name="teiHeader" expanded="1">
+											<entry name="fileDesc" expanded="1">
+												<entry name="titleStmt" expanded="1"/>
+												<entry name="sourceDesc" expanded="1">
+													<entry name="bibl" expanded="1">
+														<entry name="title"/>
+														<entry name="title" clone="1"/>
+														<entry name="title" clone="1"/>
+														<entry name="title" clone="1"/>
+														<entry name="author" expanded="1">
+															<entry name="name" inpkey="135" expanded="1"/>
+														</entry>
+														<entry name="editor" expanded="1">
+															<entry name="name" expanded="1"/>
+														</entry>
+													</entry>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="tei_lite.xsd" outputinstance="tei_lite.xml" instanceroot="{http://www.tei-c.org/ns/1.0}TEI"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="document" library="xml" uid="58" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="709" lty="438" rbx="1009" rby="638"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="http://www.loc.gov/mods/v3"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="namePart" inpkey="139" outkey="122" expanded="1"/>
+							</entry>
+						</root>
+						<document schema="mods-3-5.xsd" instanceroot="{http://www.loc.gov/mods/v3}mods/{http://www.loc.gov/mods/v3}name/{http://www.loc.gov/mods/v3}namePart"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="namePart"/>
+					</data>
+				</component>
+				<component name="position" library="core" uid="59" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="124"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="125"/>
+					</targets>
+					<view ltx="1108" lty="30" rbx="1175" rby="69"/>
+				</component>
+				<component name="position" library="core" uid="60" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="123"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="129"/>
+					</targets>
+					<view ltx="1108" lty="376" rbx="1175" rby="415"/>
+				</component>
+				<component name="concat" library="core" uid="61" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="119"/>
+						<datapoint pos="1" key="115"/>
+						<datapoint pos="2" key="141"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="136"/>
+					</targets>
+					<view ltx="1090" lty="211" rbx="1175" rby="287"/>
+				</component>
+				<component name="if-else" library="core" uid="62" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="132"/>
+						<datapoint pos="1" key="137"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="134"/>
+					</targets>
+					<view ltx="1296" lty="251" rbx="1393" rby="327"/>
+				</component>
+				<component name="equal" library="core" uid="63" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="126"/>
+						<datapoint pos="1" key="130"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="131"/>
+					</targets>
+					<view ltx="1201" lty="159" rbx="1254" rby="215"/>
+				</component>
+				<component name="document" library="xml" uid="64" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="724" lty="-108" rbx="1024" rby="92"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="http://www.loc.gov/mods/v3"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="namePart" inpkey="121" outkey="118" expanded="1"/>
+							</entry>
+						</root>
+						<document schema="mods-3-5.xsd" instanceroot="{http://www.loc.gov/mods/v3}mods/{http://www.loc.gov/mods/v3}name/{http://www.loc.gov/mods/v3}namePart"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="namePart"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges>
+					<edge edgekey="142">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="143">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="144">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="145">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+				</edges>
+				<vertices>
+					<vertex vertexkey="106">
+						<edges>
+							<edge vertexkey="107" edgekey="146"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="108">
+						<edges>
+							<edge vertexkey="109" edgekey="147"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="110">
+						<edges>
+							<edge vertexkey="111" edgekey="148"/>
+							<edge vertexkey="140" edgekey="149"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="112">
+						<edges>
+							<edge vertexkey="113" edgekey="150"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="114">
+						<edges>
+							<edge vertexkey="115" edgekey="151"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="116">
+						<edges>
+							<edge vertexkey="117" edgekey="152"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="118">
+						<edges>
+							<edge vertexkey="119" edgekey="153"/>
+							<edge vertexkey="124" edgekey="154"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="120">
+						<edges>
+							<edge vertexkey="121" edgekey="142"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="122">
+						<edges>
+							<edge vertexkey="123" edgekey="155"/>
+							<edge vertexkey="141" edgekey="156"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="125">
+						<edges>
+							<edge vertexkey="126" edgekey="157"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="127">
+						<edges>
+							<edge vertexkey="128" edgekey="143"/>
+							<edge vertexkey="133" edgekey="145"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="129">
+						<edges>
+							<edge vertexkey="130" edgekey="158"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="131">
+						<edges>
+							<edge vertexkey="132" edgekey="159"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="134">
+						<edges>
+							<edge vertexkey="135" edgekey="160"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="136">
+						<edges>
+							<edge vertexkey="137" edgekey="161"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="138">
+						<edges>
+							<edge vertexkey="139" edgekey="144"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>
