@@ -9,6 +9,60 @@ Hinweise
   - TEI -> teiHeader -> profileDesc -> textClass -> classCode -> scheme 
   - TEI -> text
 
+  Titel
+  ======
+  
+
+  Verfasser
+  =========
+
+    - wenn mods -> name@type="corporate"
+      - gibt es dann einen namePart @type="given" ?
+      - werden dann Vor und Nachname geführt?
+
+  Genre
+  =====
+
+  Erscheinungsangaben der Vorlage
+  ===============================
+
+    - um zu unterscheiden um welches Datum es sich handelt wurde der Nodename (z.B. dateIssued) im type Attribut abgelegt
+      - TEI -> teiHeader -> fileDesc -> sourceSesc -> bibl -> date: @type
+
+  Erscheinungsangaben des Digitalisats
+  ====================================
+    
+    - um zu unterscheiden um welches Datum es sich handelt wurde der Nodename (z.B. dateIssued) im type Attribut abgelegt
+      - TEI -> teiHeader -> fileDesc -> sourceSesc -> bibl -> date: @type
+
+  Sprache
+  =======
+
+  Umfangsangabe
+  =============
+
+  Thema
+  =====
+
+    - mods -> subject -> {topic | geographic | temporal}
+    - mods -> subject -> {titleInfo | name}
+			
+      - wurden jeweils abgebildet auf eigene Elemente:
+        - TEI -> teiHeader -> profileDesc -> textClass -> keywords -> list -> item 
+	- 'name' wird abgebildet auf
+          - ... -> item -> bible -> {author | editor} -> name
+ 	  - bei Wiederholungen auf eigene 'bibl' Elemente
+					
+	- es ist nicht ersichtlich, worum es sich bei dem 'item' handelt
+	  - wäre ein Hinweis, z.B. über das Type Attribute sinnvoll?
+
+
+
+
+
+
+
+
 
 pica2tei
 ========
@@ -22,7 +76,7 @@ Hinweise
   - können/müssen Angaben konkretisiert werden? Z.B. um Hinweis zu geben, um was es sich bei einem Element 'tei:date' handelt.
 	
   Titel
-  ====
+  =====
 
   PICA-Tag 021A
     - Aufbau: a / e : d = f
