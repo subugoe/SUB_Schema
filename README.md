@@ -29,7 +29,7 @@ SUB_Schema
 
 ## Implementierungen der Transformationen
 * Transformationen werden in jeweils eigenen Unterverzeichnissen 'x2y' abgelegt.
-* Die Transformation 'MODS2TEI' und 'PICA2TEI' wurde mit 'Altova MapForce' modelliert. Die Modellierung bietet den Vorteil, das die Transformation leicht nachvollziehbar ist und Erweiterungen bzw. Änderungen über das Modell vorgenommen werden können.
+* Die Transformationen 'MODS2TEI' und 'PICA2TEI' wurden mit 'Altova MapForce' modelliert. Die Modellierung bietet den Vorteil, dass die Transformationen leicht nachvollziehbar sind und Erweiterungen bzw. Änderungen über das Modell vorgenommen werden können. Die Transformationen sind 'XSLT 2.0' basiert.
     * 'MODS2TEI' Transformationen sind in dem Verzeichnis 'mods2tei/' enthalten. Das abschliessende Modell wird ist der Datei 'mods2tei.mfd' beschrieben. Benutzerdefinierte Funktionen sind Teil des Modells.
     * 'PICA2TEI' Transformationen sind in dem Verzeichnis 'pica2tei/' enthalten. Das abschliessende Modell wird ist der Datei 'pica2tei.mfd' beschrieben. Benutzerdefinierte Funktionen wurden in separaten Modellen erstellt. Das abschließende Modell integriert diese Funktionen, die Teiltransformationen beschreiben. Bei 'doppel-klick' auf den Header des Modellelements (der Funktion) wird automatisch das zugehörige Modell geladen.
     * Als Input-Schema wurde 'pica-xml-v1-0.xsd' angenommen (siehe auch: [XML Schema for XML representation of PICA data](https://github.com/gbv/PICA-Record/blob/master/pica-xml-v1-0.xsd)).
@@ -39,10 +39,7 @@ SUB_Schema
 
 ## Konfiguration
 * Ggf. erforderliche Änderungen an den Modellen
-* Die Modelle verwenden teilweise absolute Pfadangaben, so dass die Modelle nach dem auschecken (Git) nicht direkt genutzt werden können.
-    * Fehler werden im Modell durch rote Umrandung der Modellelemente und Kanten angezeigt.
-    * Änderungen der Pfade sind möglich über: 'rechts-klick' des Modellelements-Header -> Eigenschaften
-    * Zudem besteht die Möglichkeit das Modell zu validieren: Menue-Leiste -> Butten mit grünem Häkchen
+    * Sollten die Modelle nach dem auschecken (Git) nicht direkt genutzt werden können, so kann das an Absoluten Pfadangaben liegen. Derartige Fehler werden im Modell durch rote Umrandung der Modellelemente und Kanten angezeigt. Änderungen der Pfade sind möglich über: 'rechts-klick' des Modellelements-Header -> Eigenschaften. Zudem besteht die Möglichkeit das Modell zu validieren: Menue-Leiste -> Butten mit grünem Häkchen.
 
 
 
