@@ -1,48 +1,48 @@
-mods2tei
+1. mods2tei
 ========		
 	
-Hinweise
-- es fehlen folgende (in TEI-LITE verpflichtende) TEI Elemente
+  1.1 Hinweise
+  - es fehlen folgende (in TEI-LITE verpflichtende) TEI Elemente
 				
-  - TEI -> teiHeader -> fileDesc -> titleStmt
-  - TEI -> teiHeader -> profileDesc -> langUsage -> language -> ident
-  - TEI -> teiHeader -> profileDesc -> textClass -> classCode -> scheme 
-  - TEI -> text
+    - TEI -> teiHeader -> fileDesc -> titleStmt
+    - TEI -> teiHeader -> profileDesc -> langUsage -> language -> ident
+    - TEI -> teiHeader -> profileDesc -> textClass -> classCode -> scheme 
+    - TEI -> text
 
-  Titel
-  ======
+  1.2 Titel
+  =========
   
 
-  Verfasser
-  =========
+  1.3 Verfasser
+  =============
 
     - wenn mods -> name@type="corporate"
       - gibt es dann einen namePart @type="given" ?
       - werden dann Vor und Nachname geführt?
 
-  Genre
-  =====
+  1.4 Genre
+  ==========
 
-  Erscheinungsangaben der Vorlage
-  ===============================
+  1.5 Erscheinungsangaben der Vorlage
+  ===================================
 
     - um zu unterscheiden um welches Datum es sich handelt wurde der Nodename (z.B. dateIssued) im type Attribut abgelegt
       - TEI -> teiHeader -> fileDesc -> sourceSesc -> bibl -> date: @type
 
-  Erscheinungsangaben des Digitalisats
-  ====================================
+  1.6 Erscheinungsangaben des Digitalisats
+  ========================================
     
     - um zu unterscheiden um welches Datum es sich handelt wurde der Nodename (z.B. dateIssued) im type Attribut abgelegt
       - TEI -> teiHeader -> fileDesc -> sourceSesc -> bibl -> date: @type
 
-  Sprache
-  =======
+  1.7 Sprache
+  ===========
 
-  Umfangsangabe
-  =============
+  1.8 Umfangsangabe
+  =================
 
-  Thema
-  =====
+  1.9 Thema
+  =========
 
     - mods -> subject -> {topic | geographic | temporal}
     - mods -> subject -> {titleInfo | name}
@@ -64,19 +64,19 @@ Hinweise
 
 
 
-pica2tei
-========
+2.0 pica2tei
+============
 
-Hinweise
--------------
+  2.1 Hinweise
+  -------------
 		
-- allgemeine Fragen
-				
-  - dürfen subfields bzw. "gleiche Codes" wiederholt werden (welche, wann)? Z.B. mehrfaches Auftreten von code="a" bei 021A oder 028A.
-  - können/müssen Angaben konkretisiert werden? Z.B. um Hinweis zu geben, um was es sich bei einem Element 'tei:date' handelt.
+  - allgemeine Fragen
+ 				
+    - dürfen subfields bzw. "gleiche Codes" wiederholt werden (welche, wann)? Z.B. mehrfaches Auftreten von code="a" bei 021A oder 028A.
+    - können/müssen Angaben konkretisiert werden? Z.B. um Hinweis zu geben, um was es sich bei einem Element 'tei:date' handelt.
 	
-  Titel
-  =====
+  2.2 Titel
+  =========
 
   PICA-Tag 021A
     - Aufbau: a / e : d = f
@@ -114,8 +114,8 @@ Hinweise
     -  derzeit werden 021A, 021B, 021M und 021N auf das selbe tei:bibl Elemente abgebildet
 			
 			
-  Verfasser
-  ========
+  2.3 Verfasser
+  =============
 			
   PICA-Tag 028A
     - Aufbau: a, d c (p)
@@ -175,8 +175,8 @@ Hinweise
   - sollen 028A, 028B, 029A und 029F auf das selbe "tei:author" Elemente abgebildet werden?			
 
 			
-  Gattung
-  =======
+  2.4 Gattung
+  ===========
 							
   PICA-Tag 044S
     - Aufbau: a [g]
@@ -186,8 +186,8 @@ Hinweise
     - ist "g" optional?
 
 			
-  Erscheinungsangaben der Vorlage
-  =============================
+  2.5 Erscheinungsangaben der Vorlage
+  ===================================
 			
   PICA-Tag 033A
     - Tag darf wiederholt auftreten
@@ -216,8 +216,8 @@ Hinweise
   - oder sollen 033A, 033J und 011@ auf das selbe "tei:bibl" Elemente abgebildet werden?
 	
 			
-  Erscheinungsangaben des Digitalisats
-  ================================
+  2.6 Erscheinungsangaben des Digitalisats
+  ========================================
 			
   PICA-Tag 033N
     - Tag darf wiederholt auftreten
@@ -242,8 +242,8 @@ Hinweise
   - oder sollen 033N, 033O, 033P und 011B auf das selbe "tei:publicationStmt" Elemente abgebildet werden?
 
 			
-  Sprache 
-  =======
+  2.7 Sprache 
+  ===========
 			
   PICA-Tag 010@
     - Tag darf nicht wiederholt auftreten
@@ -251,8 +251,8 @@ Hinweise
       - werden alle auf das selbe "tei:langUsage" Element abgebildet
 			
 			
-  Umfangsangabe
-  ==============
+  2.8 Umfangsangabe
+  =================
 			
   PICA-Tag 034D
     - Tag darf nicht wiederholt auftreten
