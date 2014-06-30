@@ -27,21 +27,19 @@
     <namePart type="family">Pipa</namePart>
     <namePart type="given">Jorg</namePart>
     <role>
-      <roleTerm>aut</roleTerm>
-    </role>
-  </name>
-  <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
-    valueURI="http://d-nb.info/gnd/130053813" usage="primary">
-    <namePart type="family">Pipa</namePart>
-    <namePart type="given">Din</namePart>
-    <role>
       <roleTerm>edt</roleTerm>
     </role>
   </name>
-  <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
+  <name type="corporate" authority="gnd" authorityURI="http://d-nb.info/gnd/"
     valueURI="http://d-nb.info/gnd/130053813" usage="primary">
-    <namePart type="family">Makof</namePart>
-    <namePart type="given">Eddy</namePart>
+    <namePart type="family">SLUB Dresdn</namePart>
+    <role>
+      <roleTerm>aut</roleTerm>
+    </role>
+  </name>
+  <name type="corporate" authority="gnd" authorityURI="http://d-nb.info/gnd/"
+    valueURI="http://d-nb.info/gnd/130053813" usage="primary">
+    <namePart type="family">SUB Gö</namePart>
     <role>
       <roleTerm>edt</roleTerm>
     </role>

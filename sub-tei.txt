@@ -1,0 +1,62 @@
+tei:teiHeader
+ tei:fileDesc  
+    tei:titleStmt
+      tei:title
+      tei:author
+      tei:editor
+    tei:publicationStmt
+      tei:publisher
+      tei:pubPlace
+      tei:date
+     tei:availability
+       tei:licence
+    tei:extent
+    tei:sourceDesc
+     tei:bibl
+      tei:title
+      tei:author
+        tei:name @type="person" oder @type="org"
+        tei:date
+        tei:ref         
+      tei:editor
+        tei:name @type="person" oder @type="org"
+        tei:date
+        tei:ref
+      tei:publisher
+      tei:pubPlace
+      tei:date
+    tei:profileDesc
+      tei:langUsage
+        tei:language @ident
+     tei:textClass
+      tei:keywords @scheme
+        tei:list  
+          tei:item
+      tei:settingDesc
+     tei:particDesc
+     
+     
+  
+tei:text
+ tei:front
+ tei:back
+  tei:body
+    tei:head
+    tei:p
+   tei:div
+      tei:seg
+      tei:lb
+      tei:w @tei:type
+    tei:figure
+    tei:table
+     tei:row
+     tei:cell
+    tei:pb
+    tei:cb
+  
+    tei:q
+    tei:persName
+    tei:placeName
+    tei:date
+    tei:note @tei:place
+    tei:gap

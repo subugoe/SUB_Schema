@@ -8,7 +8,7 @@
 				<component name="mods2tei_erscheinungsangabenVorlage" library="user" blackbox="0" uid="662" kind="19" visible="0">
 					<view ltx="1173" lty="-459" rbx="1485" rby="-361"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.loc.gov/mods/v3"/>
@@ -50,37 +50,10 @@
 						</root>
 					</data>
 				</component>
-				<component name="mods2tei_genre" library="user" blackbox="0" uid="1029" kind="19" visible="0">
-					<view ltx="1173" lty="-539" rbx="1485" rby="-497"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace uid="http://www.loc.gov/mods/v3"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="mods35" ns="1" componentid="1027" expanded="1">
-								<entry name="genre" inpkey="2334"/>
-							</entry>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="tei_lite" ns="1" componentid="1028" expanded="1">
-								<entry name="term" outkey="2335"/>
-							</entry>
-						</root>
-					</data>
-				</component>
 				<component name="mods2tei_erscheinungsangabenDigitalisat" library="user" blackbox="0" uid="636" kind="19" visible="0">
 					<view ltx="1173" lty="-211" rbx="1485" rby="-137"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.loc.gov/mods/v3"/>
@@ -112,42 +85,10 @@
 						</root>
 					</data>
 				</component>
-				<component name="mods2tei_verfasser" library="user" blackbox="0" uid="1130" kind="19" visible="0">
-					<view ltx="1173" lty="-921" rbx="1485" rby="-863"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace uid="http://www.loc.gov/mods/v3"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="mods35" ns="1" componentid="1127" expanded="1">
-								<entry name="name" inpkey="2519">
-									<entry name="role" expanded="1"/>
-								</entry>
-							</entry>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="tei_lite2" ns="1" componentid="1129" expanded="1">
-								<entry name="name" outkey="2520"/>
-							</entry>
-							<entry name="tei_lite" ns="1" componentid="1128" expanded="1">
-								<entry name="name" outkey="2521"/>
-							</entry>
-						</root>
-					</data>
-				</component>
 				<component name="mods2tei_sprache" library="user" blackbox="0" uid="1017" kind="19" visible="0">
 					<view ltx="1160" lty="46" rbx="1485" rby="78"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.loc.gov/mods/v3"/>
@@ -174,7 +115,7 @@
 				<component name="mods2tei_umfangsangabe" library="user" blackbox="0" uid="1023" kind="19" visible="0">
 					<view ltx="1160" lty="116" rbx="1484" rby="143"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.loc.gov/mods/v3"/>
@@ -198,24 +139,33 @@
 						</root>
 					</data>
 				</component>
-				<component name="mods2tei_titel" library="user" blackbox="0" uid="1152" kind="19" visible="0">
-					<view ltx="1173" lty="-671" rbx="1486" rby="-579"/>
+				<component name="mods2tei_thema" library="user" blackbox="0" uid="1892" kind="19" visible="0">
+					<view ltx="1045" lty="454" rbx="1345" rby="654"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.loc.gov/mods/v3"/>
 									<namespace/>
 								</namespaces>
 							</header>
-							<entry name="mods35" ns="1" componentid="1148" expanded="1">
-								<entry name="nonSort" inpkey="2562"/>
+							<entry name="mods35" ns="1" componentid="1880" expanded="1">
+								<entry name="nonSort" inpkey="4048"/>
 							</entry>
-							<entry name="mods353" ns="1" componentid="1150" expanded="1">
-								<entry name="title" inpkey="2563"/>
+							<entry name="mods356" ns="1" componentid="1885" expanded="1">
+								<entry name="title" inpkey="4049"/>
 							</entry>
-							<entry name="mods352" ns="1" componentid="1149" expanded="1">
-								<entry name="subTitle" inpkey="2564"/>
+							<entry name="mods354" ns="1" componentid="1883" expanded="1">
+								<entry name="subTitle" inpkey="4050"/>
+							</entry>
+							<entry name="mods352" ns="1" componentid="1881" expanded="1">
+								<entry name="topic" inpkey="4051"/>
+							</entry>
+							<entry name="mods355" ns="1" componentid="1884" expanded="1">
+								<entry name="temporal" inpkey="4052"/>
+							</entry>
+							<entry name="mods353" ns="1" componentid="1882" expanded="1">
+								<entry name="name" inpkey="4053"/>
 							</entry>
 						</root>
 						<root rootindex="1">
@@ -225,72 +175,59 @@
 									<namespace/>
 								</namespaces>
 							</header>
-							<entry name="tei_lite" ns="1" componentid="1151" expanded="1">
-								<entry name="title" outkey="2565"/>
+							<entry name="tei_lite5" ns="1" componentid="1890" expanded="1">
+								<entry name="item" outkey="4054"/>
+							</entry>
+							<entry name="tei_lite6" ns="1" componentid="1891" expanded="1">
+								<entry name="item" outkey="4055"/>
+							</entry>
+							<entry name="tei_lite3" ns="1" componentid="1888" expanded="1">
+								<entry name="item" outkey="4056"/>
+							</entry>
+							<entry name="tei_lite4" ns="1" componentid="1889" expanded="1">
+								<entry name="item" outkey="4057"/>
+							</entry>
+							<entry name="tei_lite" ns="1" componentid="1886" expanded="1">
+								<entry name="name" outkey="4058"/>
+							</entry>
+							<entry name="tei_lite2" ns="1" componentid="1887" expanded="1">
+								<entry name="name" outkey="4059"/>
 							</entry>
 						</root>
 					</data>
 				</component>
-				<component name="mods-3-5" library="xml" uid="10" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="355" lty="-921" rbx="693" rby="352"/>
+				<component name="mods2tei_genre" library="user" blackbox="0" uid="1029" kind="19" visible="0">
+					<view ltx="1173" lty="-582" rbx="1485" rby="-540"/>
 					<data>
-						<root scrollposition="697">
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.loc.gov/mods/v3"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
+									<namespace/>
 								</namespaces>
 							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="mods" expanded="1">
-										<entry name="classification" outkey="408"/>
-										<entry name="genre" outkey="211"/>
-										<entry name="language">
-											<entry name="languageTerm" outkey="377"/>
-										</entry>
-										<entry name="name" outkey="7" expanded="1">
-											<entry name="role" expanded="1">
-												<entry name="roleTerm" expanded="1"/>
-											</entry>
-										</entry>
-										<entry name="originInfo" outkey="304"/>
-										<entry name="physicalDescription">
-											<entry name="extent" outkey="380" expanded="1"/>
-										</entry>
-										<entry name="subject" expanded="1">
-											<entry name="topic" outkey="386"/>
-											<entry name="temporal" outkey="409"/>
-											<entry name="titleInfo" expanded="1">
-												<entry name="title" outkey="440"/>
-												<entry name="subTitle" outkey="452"/>
-												<entry name="nonSort" outkey="432"/>
-											</entry>
-											<entry name="name" outkey="411" expanded="1">
-												<entry name="role" expanded="1">
-													<entry name="roleTerm" expanded="1"/>
-												</entry>
-											</entry>
-										</entry>
-										<entry name="titleInfo" expanded="1">
-											<entry name="title" outkey="143"/>
-											<entry name="subTitle" outkey="144"/>
-											<entry name="nonSort" outkey="146"/>
-										</entry>
-									</entry>
-								</entry>
+							<entry name="mods35" ns="1" componentid="1027" expanded="1">
+								<entry name="genre" inpkey="2334"/>
 							</entry>
 						</root>
-						<document schema="mods-3-5.xsd" inputinstance="test_mods1.xml" outputinstance="mods-3-5.xml" instanceroot="{http://www.loc.gov/mods/v3}mods"/>
-						<wsdl/>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="tei_lite" ns="1" componentid="1028" expanded="1">
+								<entry name="term" outkey="2335"/>
+							</entry>
+						</root>
 					</data>
 				</component>
 				<component name="tei_lite" library="xml" uid="4" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
 					<view ltx="1920" lty="-921" rbx="2310" rby="352"/>
 					<data>
-						<root scrollposition="7338">
+						<root scrollposition="6230">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.tei-c.org/ns/1.0"/>
@@ -317,7 +254,7 @@
 												</entry>
 												<entry name="sourceDesc" expanded="1">
 													<entry name="bibl" expanded="1">
-														<entry name="title" inpkey="145"/>
+														<entry name="title" inpkey="145" expanded="1"/>
 														<entry name="date" inpkey="1012">
 															<entry name="type" ns="1" type="attribute" inpkey="1011"/>
 														</entry>
@@ -328,7 +265,7 @@
 															<entry name="type" ns="1" type="attribute" inpkey="1008"/>
 														</entry>
 														<entry name="author" expanded="1">
-															<entry name="name" inpkey="10" expanded="1"/>
+															<entry name="name" inpkey="10"/>
 														</entry>
 														<entry name="editor" expanded="1">
 															<entry name="name" inpkey="17" expanded="1"/>
@@ -381,33 +318,24 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="mods2tei_thema" library="user" blackbox="0" uid="1892" kind="19" visible="0">
-					<view ltx="1045" lty="454" rbx="1345" rby="654"/>
+				<component name="mods2tei_titel" library="user" blackbox="0" uid="1152" kind="19" visible="0">
+					<view ltx="1160" lty="-750" rbx="1473" rby="-658"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.loc.gov/mods/v3"/>
 									<namespace/>
 								</namespaces>
 							</header>
-							<entry name="mods35" ns="1" componentid="1880" expanded="1">
-								<entry name="nonSort" inpkey="4048"/>
+							<entry name="mods35" ns="1" componentid="1148" expanded="1">
+								<entry name="nonSort" inpkey="2562"/>
 							</entry>
-							<entry name="mods356" ns="1" componentid="1885" expanded="1">
-								<entry name="title" inpkey="4049"/>
+							<entry name="mods353" ns="1" componentid="1150" expanded="1">
+								<entry name="title" inpkey="2563"/>
 							</entry>
-							<entry name="mods354" ns="1" componentid="1883" expanded="1">
-								<entry name="subTitle" inpkey="4050"/>
-							</entry>
-							<entry name="mods352" ns="1" componentid="1881" expanded="1">
-								<entry name="topic" inpkey="4051"/>
-							</entry>
-							<entry name="mods355" ns="1" componentid="1884" expanded="1">
-								<entry name="temporal" inpkey="4052"/>
-							</entry>
-							<entry name="mods353" ns="1" componentid="1882" expanded="1">
-								<entry name="name" inpkey="4053"/>
+							<entry name="mods352" ns="1" componentid="1149" expanded="1">
+								<entry name="subTitle" inpkey="2564"/>
 							</entry>
 						</root>
 						<root rootindex="1">
@@ -417,23 +345,95 @@
 									<namespace/>
 								</namespaces>
 							</header>
-							<entry name="tei_lite5" ns="1" componentid="1890" expanded="1">
-								<entry name="item" outkey="4054"/>
+							<entry name="tei_lite" ns="1" componentid="1151" expanded="1">
+								<entry name="title" outkey="2565" expanded="1"/>
 							</entry>
-							<entry name="tei_lite6" ns="1" componentid="1891" expanded="1">
-								<entry name="item" outkey="4055"/>
+						</root>
+					</data>
+				</component>
+				<component name="mods-3-5" library="xml" uid="10" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="355" lty="-921" rbx="693" rby="352"/>
+					<data>
+						<root scrollposition="103">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.loc.gov/mods/v3"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="mods" expanded="1">
+										<entry name="classification" outkey="408"/>
+										<entry name="genre" outkey="211"/>
+										<entry name="language">
+											<entry name="languageTerm" outkey="377"/>
+										</entry>
+										<entry name="name" outkey="7" expanded="1">
+											<entry name="role" expanded="1">
+												<entry name="roleTerm" expanded="1"/>
+											</entry>
+										</entry>
+										<entry name="originInfo" outkey="304"/>
+										<entry name="physicalDescription">
+											<entry name="extent" outkey="380" expanded="1"/>
+										</entry>
+										<entry name="subject" expanded="1">
+											<entry name="topic" outkey="386"/>
+											<entry name="temporal" outkey="409"/>
+											<entry name="titleInfo" expanded="1">
+												<entry name="title" outkey="440"/>
+												<entry name="subTitle" outkey="452"/>
+												<entry name="nonSort" outkey="432"/>
+											</entry>
+											<entry name="name" outkey="411" expanded="1">
+												<entry name="role" expanded="1">
+													<entry name="roleTerm" expanded="1"/>
+												</entry>
+											</entry>
+										</entry>
+										<entry name="titleInfo" expanded="1">
+											<entry name="title" outkey="143"/>
+											<entry name="subTitle" outkey="144"/>
+											<entry name="nonSort" outkey="146"/>
+										</entry>
+									</entry>
+								</entry>
 							</entry>
-							<entry name="tei_lite3" ns="1" componentid="1888" expanded="1">
-								<entry name="item" outkey="4056"/>
+						</root>
+						<document schema="mods-3-5.xsd" inputinstance="test_mods1.xml" outputinstance="mods-3-5.xml" instanceroot="{http://www.loc.gov/mods/v3}mods"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="mods2tei_verfasser" library="user" blackbox="0" uid="1130" kind="19" visible="0">
+					<view ltx="1173" lty="-921" rbx="1485" rby="-818"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.loc.gov/mods/v3"/>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="mods35" ns="1" componentid="1127" expanded="1">
+								<entry name="name" inpkey="2519" expanded="1">
+									<entry name="role" expanded="1"/>
+								</entry>
 							</entry>
-							<entry name="tei_lite4" ns="1" componentid="1889" expanded="1">
-								<entry name="item" outkey="4057"/>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="tei_lite2" ns="1" componentid="1129" expanded="1">
+								<entry name="name" outkey="2520"/>
 							</entry>
-							<entry name="tei_lite" ns="1" componentid="1886" expanded="1">
-								<entry name="name" outkey="4058"/>
-							</entry>
-							<entry name="tei_lite2" ns="1" componentid="1887" expanded="1">
-								<entry name="name" outkey="4059"/>
+							<entry name="tei_lite" ns="1" componentid="1128" expanded="1">
+								<entry name="name" outkey="2521"/>
 							</entry>
 						</root>
 					</data>
@@ -3207,7 +3207,6 @@
 	</component>
 	<component name="erscheinungsangabenDigitalisat" library="user" blackbox="0" uid="430" editable="1" inline="1">
 		<properties/>
-		<description/>
 		<structure>
 			<children>
 				<component name="document" library="xml" uid="431" kind="14">
@@ -3281,7 +3280,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="436" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view rbx="157" rby="340"/>
 					<data>
 						<root>
@@ -3300,7 +3299,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="437" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1493" lty="1100" rbx="1643" rby="1600"/>
 					<data>
 						<root scrollposition="1">
@@ -3320,7 +3319,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="438" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1493" rbx="1643" rby="500"/>
 					<data>
 						<root scrollposition="1">
@@ -3337,7 +3336,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="439" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1493" lty="550" rbx="1643" rby="1050"/>
 					<data>
 						<root scrollposition="1">
@@ -3420,7 +3419,6 @@
 	</component>
 	<component name="mods2tei_erscheinungsangabenDigitalisat" library="user" blackbox="0" uid="626" editable="1" inline="1">
 		<properties/>
-		<description/>
 		<structure>
 			<children>
 				<component name="document" library="xml" uid="627" kind="14">
@@ -3494,7 +3492,7 @@
 					<view ltx="1162" lty="489" rbx="1243" rby="528"/>
 				</component>
 				<component name="document" library="xml" uid="632" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view rbx="157" rby="340"/>
 					<data>
 						<root>
@@ -3513,7 +3511,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="633" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1493" lty="1100" rbx="1643" rby="1600"/>
 					<data>
 						<root scrollposition="1">
@@ -3533,7 +3531,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="634" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1493" rbx="1643" rby="500"/>
 					<data>
 						<root scrollposition="1">
@@ -3550,7 +3548,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="635" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1493" lty="550" rbx="1643" rby="1050"/>
 					<data>
 						<root scrollposition="1">
@@ -3633,7 +3631,6 @@
 	</component>
 	<component name="mods2tei_erscheinungsangabenVorlage" library="user" blackbox="0" uid="649" editable="1" inline="1">
 		<properties/>
-		<description/>
 		<structure>
 			<children>
 				<component name="document" library="xml" uid="650" kind="14">
@@ -3723,7 +3720,7 @@
 					<view ltx="1085" lty="402" rbx="1166" rby="441"/>
 				</component>
 				<component name="document" library="xml" uid="656" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view rbx="157" rby="340"/>
 					<data>
 						<root>
@@ -3742,7 +3739,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="657" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1443" lty="550" rbx="1593" rby="1050"/>
 					<data>
 						<root scrollposition="1">
@@ -3759,7 +3756,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="658" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1443" lty="1650" rbx="1593" rby="2150"/>
 					<data>
 						<root scrollposition="1">
@@ -3779,7 +3776,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="659" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1443" lty="2200" rbx="1593" rby="2700"/>
 					<data>
 						<root scrollposition="1">
@@ -3799,7 +3796,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="660" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1443" lty="1100" rbx="1593" rby="1600"/>
 					<data>
 						<root scrollposition="1">
@@ -3819,7 +3816,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="661" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1443" rbx="1593" rby="500"/>
 					<data>
 						<root scrollposition="1">
@@ -3923,7 +3920,6 @@
 	</component>
 	<component name="thema" library="user" blackbox="0" uid="950" editable="1" inline="1">
 		<properties/>
-		<description/>
 		<structure>
 			<children>
 				<component name="concat" library="core" uid="953" kind="5" growable="1" growablebasename="value">
@@ -4485,7 +4481,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="998" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view rbx="150" rby="200"/>
 					<data>
 						<root>
@@ -4502,7 +4498,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1001" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view lty="1504" rbx="150" rby="1895"/>
 					<data>
 						<root>
@@ -4523,7 +4519,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1002" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view lty="1000" rbx="150" rby="1200"/>
 					<data>
 						<root>
@@ -4540,7 +4536,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1004" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view lty="500" rbx="150" rby="700"/>
 					<data>
 						<root>
@@ -4557,7 +4553,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1007" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="2063" lty="2750" rbx="2213" rby="3250"/>
 					<data>
 						<root scrollposition="1">
@@ -4574,7 +4570,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1009" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="2063" lty="1100" rbx="2213" rby="1600"/>
 					<data>
 						<root scrollposition="1">
@@ -4591,7 +4587,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1010" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="2063" lty="2200" rbx="2213" rby="2700"/>
 					<data>
 						<root scrollposition="1">
@@ -4608,7 +4604,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1000" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view lty="250" rbx="150" rby="450"/>
 					<data>
 						<root>
@@ -4625,7 +4621,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1005" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="2063" rbx="2213" rby="500"/>
 					<data>
 						<root scrollposition="1">
@@ -4642,7 +4638,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="999" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view lty="750" rbx="150" rby="950"/>
 					<data>
 						<root>
@@ -4659,7 +4655,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1006" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="2063" lty="550" rbx="2213" rby="1050"/>
 					<data>
 						<root scrollposition="1">
@@ -4676,7 +4672,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1003" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view lty="1250" rbx="150" rby="1454"/>
 					<data>
 						<root>
@@ -4693,7 +4689,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1008" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="2063" lty="1650" rbx="2213" rby="2150"/>
 					<data>
 						<root scrollposition="1">
@@ -5064,11 +5060,10 @@
 	</component>
 	<component name="mods2tei_sprache" library="user" blackbox="0" uid="1013" editable="1" inline="1">
 		<properties/>
-		<description/>
 		<structure>
 			<children>
 				<component name="document" library="xml" uid="1015" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view rbx="150" rby="200"/>
 					<data>
 						<root>
@@ -5085,7 +5080,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1016" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="577" rbx="727" rby="500"/>
 					<data>
 						<root scrollposition="1">
@@ -5116,11 +5111,10 @@
 	</component>
 	<component name="mods2tei_umfangsangabe" library="user" blackbox="0" uid="1019" editable="1" inline="1">
 		<properties/>
-		<description/>
 		<structure>
 			<children>
 				<component name="document" library="xml" uid="1021" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view rbx="150" rby="200"/>
 					<data>
 						<root>
@@ -5137,7 +5131,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1022" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="577" rbx="727" rby="500"/>
 					<data>
 						<root scrollposition="1">
@@ -5168,11 +5162,10 @@
 	</component>
 	<component name="mods2tei_genre" library="user" blackbox="0" uid="1025" editable="1" inline="1">
 		<properties/>
-		<description/>
 		<structure>
 			<children>
 				<component name="document" library="xml" uid="1028" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="597" rbx="747" rby="500"/>
 					<data>
 						<root scrollposition="1">
@@ -5192,7 +5185,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1027" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view rbx="150" rby="204"/>
 					<data>
 						<root>
@@ -5239,29 +5232,8 @@
 	</component>
 	<component name="mods2tei_verfasser" library="user" blackbox="0" uid="1090" editable="1" inline="1">
 		<properties/>
-		<description/>
 		<structure>
 			<children>
-				<component name="document" library="xml" uid="1091" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1266" rbx="1566" rby="120"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace uid="http://www.loc.gov/mods/v3"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="namePart" inpkey="36" outkey="14" expanded="1"/>
-							</entry>
-						</root>
-						<document schema="mods-3-5.xsd" instanceroot="{http://www.loc.gov/mods/v3}mods/{http://www.loc.gov/mods/v3}name/{http://www.loc.gov/mods/v3}namePart"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="namePart"/>
-					</data>
-				</component>
 				<component name="position" library="core" uid="1093" kind="5">
 					<properties/>
 					<sources>
@@ -5270,18 +5242,7 @@
 					<targets>
 						<datapoint pos="0" key="43"/>
 					</targets>
-					<view ltx="1703" lty="37" rbx="1771" rby="64"/>
-				</component>
-				<component name="constant" library="core" uid="1095" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="71"/>
-					</targets>
-					<view ltx="856" lty="98" rbx="955" rby="110"/>
-					<data>
-						<constant value="family" datatype="string"/>
-						<wsdl/>
-					</data>
+					<view ltx="1703" lty="37" rbx="1800" rby="76"/>
 				</component>
 				<component name="equal" library="core" uid="1096" kind="5">
 					<properties/>
@@ -5292,7 +5253,7 @@
 					<targets>
 						<datapoint pos="0" key="85"/>
 					</targets>
-					<view ltx="1796" lty="166" rbx="1857" rby="204"/>
+					<view ltx="1796" lty="166" rbx="1882" rby="222"/>
 				</component>
 				<component name="concat" library="core" uid="1097" kind="5" growable="1" growablebasename="value">
 					<properties/>
@@ -5304,30 +5265,7 @@
 					<targets>
 						<datapoint pos="0" key="37"/>
 					</targets>
-					<view ltx="1685" lty="218" rbx="1749" rby="267"/>
-				</component>
-				<component name="constant" library="core" uid="1098" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="78"/>
-					</targets>
-					<view ltx="1568" lty="258" rbx="1652" rby="270"/>
-					<data>
-						<constant value=", " datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="if-else" library="core" uid="1099" kind="4">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="86"/>
-						<datapoint pos="1" key="38"/>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="77"/>
-					</targets>
-					<view ltx="1891" lty="258" rbx="1958" rby="307"/>
+					<view ltx="1685" lty="218" rbx="1778" rby="294"/>
 				</component>
 				<component name="document" library="xml" uid="1100" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
@@ -5357,18 +5295,7 @@
 					<targets>
 						<datapoint pos="0" key="61"/>
 					</targets>
-					<view ltx="1703" lty="383" rbx="1771" rby="410"/>
-				</component>
-				<component name="constant" library="core" uid="1103" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="21"/>
-					</targets>
-					<view ltx="856" lty="428" rbx="954" rby="440"/>
-					<data>
-						<constant value="given" datatype="string"/>
-						<wsdl/>
-					</data>
+					<view ltx="1703" lty="383" rbx="1800" rby="422"/>
 				</component>
 				<component name="name" library="core" uid="1108" kind="3">
 					<properties/>
@@ -5380,7 +5307,7 @@
 						<datapoint pos="0" key="10"/>
 						<datapoint/>
 					</targets>
-					<view ltx="455" lty="710" rbx="523" rby="748"/>
+					<view ltx="455" lty="710" rbx="558" rby="766"/>
 				</component>
 				<component name="equal" library="core" uid="1109" kind="5">
 					<properties/>
@@ -5391,7 +5318,7 @@
 					<targets>
 						<datapoint pos="0" key="27"/>
 					</targets>
-					<view ltx="311" lty="728" rbx="372" rby="766"/>
+					<view ltx="311" lty="728" rbx="397" rby="784"/>
 				</component>
 				<component name="equal" library="core" uid="1110" kind="5">
 					<properties/>
@@ -5402,18 +5329,7 @@
 					<targets>
 						<datapoint pos="0" key="67"/>
 					</targets>
-					<view ltx="1954" lty="814" rbx="2015" rby="852"/>
-				</component>
-				<component name="constant" library="core" uid="1111" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="47"/>
-					</targets>
-					<view ltx="285" lty="828" rbx="375" rby="840"/>
-					<data>
-						<constant value="edt" datatype="string"/>
-						<wsdl/>
-					</data>
+					<view ltx="1954" lty="814" rbx="2040" rby="870"/>
 				</component>
 				<component name="namePart" library="core" uid="1112" kind="3">
 					<properties/>
@@ -5425,7 +5341,7 @@
 						<datapoint pos="0" key="51"/>
 						<datapoint/>
 					</targets>
-					<view ltx="1307" lty="842" rbx="1381" rby="880"/>
+					<view ltx="1307" lty="842" rbx="1412" rby="898"/>
 				</component>
 				<component name="equal" library="core" uid="1113" kind="5">
 					<properties/>
@@ -5436,7 +5352,7 @@
 					<targets>
 						<datapoint pos="0" key="31"/>
 					</targets>
-					<view ltx="1214" lty="866" rbx="1275" rby="904"/>
+					<view ltx="1214" lty="866" rbx="1300" rby="922"/>
 				</component>
 				<component name="concat" library="core" uid="1114" kind="5" growable="1" growablebasename="value">
 					<properties/>
@@ -5448,41 +5364,7 @@
 					<targets>
 						<datapoint pos="0" key="69"/>
 					</targets>
-					<view ltx="1843" lty="866" rbx="1907" rby="915"/>
-				</component>
-				<component name="constant" library="core" uid="1115" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="58"/>
-					</targets>
-					<view ltx="1094" lty="904" rbx="1193" rby="916"/>
-					<data>
-						<constant value="family" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1116" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="65"/>
-					</targets>
-					<view ltx="1744" lty="906" rbx="1828" rby="918"/>
-					<data>
-						<constant value=", " datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="if-else" library="core" uid="1117" kind="4">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="68"/>
-						<datapoint pos="1" key="70"/>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="55"/>
-					</targets>
-					<view ltx="2049" lty="906" rbx="2116" rby="955"/>
+					<view ltx="1843" lty="866" rbx="1936" rby="942"/>
 				</component>
 				<component name="position" library="core" uid="1118" kind="5">
 					<properties/>
@@ -5492,81 +5374,7 @@
 					<targets>
 						<datapoint pos="0" key="73"/>
 					</targets>
-					<view ltx="1861" lty="1031" rbx="1929" rby="1058"/>
-				</component>
-				<component name="namePart" library="core" uid="1119" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="24"/>
-						<datapoint pos="1" key="2"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="45"/>
-						<datapoint/>
-					</targets>
-					<view ltx="1234" lty="1139" rbx="1308" rby="1177"/>
-				</component>
-				<component name="document" library="xml" uid="1120" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1384" lty="1139" rbx="1684" rby="1339"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace uid="http://www.loc.gov/mods/v3"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="namePart" inpkey="46" outkey="5" expanded="1"/>
-							</entry>
-						</root>
-						<document schema="mods-3-5.xsd" instanceroot="{http://www.loc.gov/mods/v3}mods/{http://www.loc.gov/mods/v3}name/{http://www.loc.gov/mods/v3}namePart"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="namePart"/>
-					</data>
-				</component>
-				<component name="equal" library="core" uid="1121" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="84"/>
-						<datapoint pos="1" key="64"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1"/>
-					</targets>
-					<view ltx="1094" lty="1170" rbx="1155" rby="1208"/>
-				</component>
-				<component name="constant" library="core" uid="1122" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="63"/>
-					</targets>
-					<view ltx="1044" lty="1250" rbx="1142" rby="1262"/>
-					<data>
-						<constant value="given" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="1125" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1289" lty="547" rbx="1589" rby="747"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace uid="http://www.loc.gov/mods/v3"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="namePart" inpkey="52" outkey="3" expanded="1"/>
-							</entry>
-						</root>
-						<document schema="mods-3-5.xsd" instanceroot="{http://www.loc.gov/mods/v3}mods/{http://www.loc.gov/mods/v3}name/{http://www.loc.gov/mods/v3}namePart"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="namePart"/>
-					</data>
+					<view ltx="1861" lty="1031" rbx="1958" rby="1070"/>
 				</component>
 				<component name="position" library="core" uid="1126" kind="5">
 					<properties/>
@@ -5576,28 +5384,57 @@
 					<targets>
 						<datapoint pos="0" key="80"/>
 					</targets>
-					<view ltx="1861" lty="685" rbx="1929" rby="712"/>
+					<view ltx="1861" lty="685" rbx="1958" rby="724"/>
 				</component>
-				<component name="document" library="xml" uid="1128" kind="14">
+				<component name="name" library="core" uid="1106" kind="3">
 					<properties/>
-					<view ltx="2396" lty="550" rbx="2546" rby="1050"/>
+					<sources>
+						<datapoint pos="0" key="16"/>
+						<datapoint pos="1" key="83"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="53"/>
+						<datapoint/>
+					</targets>
+					<view ltx="482" lty="493" rbx="585" rby="549"/>
+				</component>
+				<component name="namePart" library="core" uid="1102" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="8"/>
+						<datapoint pos="1" key="26"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="49"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1137" lty="390" rbx="1242" rby="446"/>
+				</component>
+				<component name="equal" library="core" uid="1094" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="60"/>
+						<datapoint pos="1" key="72"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="33"/>
+					</targets>
+					<view ltx="976" lty="60" rbx="1062" rby="116"/>
+				</component>
+				<component name="constant" library="core" uid="1111" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="47"/>
+					</targets>
+					<view ltx="160" lty="766" rbx="292" rby="784"/>
 					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="name" inpkey="89" expanded="1"/>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}editor/{http://www.tei-c.org/ns/1.0}name"/>
+						<constant value="edt" datatype="string"/>
 						<wsdl/>
-						<parameter usageKind="output" name="tei_lite"/>
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1123" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="876" lty="728" rbx="1021" rby="1427"/>
+					<view ltx="844" lty="961" rbx="989" rby="1660"/>
 					<data>
 						<root>
 							<header>
@@ -5621,18 +5458,6 @@
 						<parameter usageKind="variable" name="name"/>
 					</data>
 				</component>
-				<component name="name" library="core" uid="1106" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="16"/>
-						<datapoint pos="1" key="83"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="53"/>
-						<datapoint/>
-					</targets>
-					<view ltx="482" lty="493" rbx="550" rby="531"/>
-				</component>
 				<component name="namePart" library="core" uid="1092" kind="3">
 					<properties/>
 					<sources>
@@ -5643,30 +5468,7 @@
 						<datapoint pos="0" key="35"/>
 						<datapoint/>
 					</targets>
-					<view ltx="1124" lty="37" rbx="1198" rby="75"/>
-				</component>
-				<component name="namePart" library="core" uid="1102" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="8"/>
-						<datapoint pos="1" key="26"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="49"/>
-						<datapoint/>
-					</targets>
-					<view ltx="1137" lty="390" rbx="1211" rby="428"/>
-				</component>
-				<component name="equal" library="core" uid="1094" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="60"/>
-						<datapoint pos="1" key="72"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="33"/>
-					</targets>
-					<view ltx="976" lty="60" rbx="1037" rby="98"/>
+					<view ltx="1124" lty="37" rbx="1229" rby="93"/>
 				</component>
 				<component name="document" library="xml" uid="1124" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
@@ -5694,6 +5496,28 @@
 						<parameter usageKind="variable" name="name"/>
 					</data>
 				</component>
+				<component name="constant" library="core" uid="1103" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="21"/>
+					</targets>
+					<view ltx="801" lty="428" rbx="944" rby="446"/>
+					<data>
+						<constant value="given" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1095" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="71"/>
+					</targets>
+					<view ltx="801" lty="98" rbx="946" rby="116"/>
+					<data>
+						<constant value="family" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
 				<component name="equal" library="core" uid="1104" kind="5">
 					<properties/>
 					<sources>
@@ -5703,38 +5527,93 @@
 					<targets>
 						<datapoint pos="0" key="25"/>
 					</targets>
-					<view ltx="989" lty="428" rbx="1050" rby="466"/>
+					<view ltx="1002" lty="402" rbx="1088" rby="458"/>
 				</component>
-				<component name="constant" library="core" uid="1107" kind="2">
+				<component name="constant" library="core" uid="1098" kind="2">
 					<properties/>
 					<targets>
-						<datapoint pos="0" key="17"/>
+						<datapoint pos="0" key="78"/>
 					</targets>
-					<view ltx="250" lty="520" rbx="340" rby="532"/>
+					<view ltx="1511" lty="258" rbx="1634" rby="276"/>
 					<data>
-						<constant value="aut" datatype="string"/>
+						<constant value=", " datatype="string"/>
 						<wsdl/>
 					</data>
 				</component>
-				<component name="document" library="xml" uid="1127" kind="14">
-					<properties/>
-					<view rbx="150" rby="459"/>
+				<component name="document" library="xml" uid="1120" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1490" lty="1139" rbx="1790" rby="1339"/>
 					<data>
-						<root scrollposition="66">
+						<root>
 							<header>
 								<namespaces>
 									<namespace uid="http://www.loc.gov/mods/v3"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
 								</namespaces>
 							</header>
-							<entry name="name" outkey="87" expanded="1">
-								<entry name="role" expanded="1">
-									<entry name="roleTerm" outkey="88" expanded="1"/>
-								</entry>
+							<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="namePart" inpkey="46" outkey="5" expanded="1"/>
 							</entry>
 						</root>
-						<document schema="mods-3-5.xsd" instanceroot="{http://www.loc.gov/mods/v3}mods/{http://www.loc.gov/mods/v3}name"/>
+						<document schema="mods-3-5.xsd" instanceroot="{http://www.loc.gov/mods/v3}mods/{http://www.loc.gov/mods/v3}name/{http://www.loc.gov/mods/v3}namePart"/>
 						<wsdl/>
-						<parameter usageKind="input" name="mods35"/>
+						<parameter usageKind="variable" name="namePart"/>
+					</data>
+				</component>
+				<component name="namePart" library="core" uid="1119" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="24"/>
+						<datapoint pos="1" key="2"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="45"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1348" lty="1149" rbx="1453" rby="1205"/>
+				</component>
+				<component name="equal" library="core" uid="1121" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="84"/>
+						<datapoint pos="1" key="64"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1"/>
+					</targets>
+					<view ltx="1176" lty="1149" rbx="1262" rby="1205"/>
+				</component>
+				<component name="constant" library="core" uid="1122" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="63"/>
+					</targets>
+					<view ltx="999" lty="1187" rbx="1142" rby="1205"/>
+					<data>
+						<constant value="given" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1115" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="58"/>
+					</targets>
+					<view ltx="1050" lty="904" rbx="1195" rby="922"/>
+					<data>
+						<constant value="family" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1116" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="65"/>
+					</targets>
+					<view ltx="1677" lty="906" rbx="1800" rby="924"/>
+					<data>
+						<constant value=", " datatype="string"/>
+						<wsdl/>
 					</data>
 				</component>
 				<component name="equal" library="core" uid="1105" kind="5">
@@ -5746,10 +5625,77 @@
 					<targets>
 						<datapoint pos="0" key="82"/>
 					</targets>
-					<view ltx="360" lty="482" rbx="421" rby="520"/>
+					<view ltx="360" lty="482" rbx="446" rby="538"/>
+				</component>
+				<component name="constant" library="core" uid="1107" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="17"/>
+					</targets>
+					<view ltx="204" lty="520" rbx="336" rby="538"/>
+					<data>
+						<constant value="aut" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1894" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="149"/>
+					</targets>
+					<view ltx="1420" lty="-96" rbx="1579" rby="-78"/>
+					<data>
+						<constant value="personal" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="1895" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="156"/>
+						<datapoint pos="1" key="151"/>
+					</sources>
+					<targets>
+						<datapoint/>
+					</targets>
+					<view ltx="1602" lty="-69" rbx="1688" rby="-13"/>
+				</component>
+				<component name="constant" library="core" uid="1896" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="150"/>
+					</targets>
+					<view ltx="1417" lty="-31" rbx="1581" rby="-13"/>
+					<data>
+						<constant value="corporate" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="1893" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="148"/>
+						<datapoint pos="1" key="146"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="147"/>
+					</targets>
+					<view ltx="1605" lty="-134" rbx="1691" rby="-78"/>
+				</component>
+				<component name="if-else" library="core" uid="1897" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="154"/>
+						<datapoint pos="1" key="152"/>
+						<datapoint pos="2" key="155"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="153"/>
+					</targets>
+					<view ltx="1891" lty="-134" rbx="1988" rby="-58"/>
 				</component>
 				<component name="document" library="xml" uid="1129" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="2396" rbx="2546" rby="500"/>
 					<data>
 						<root scrollposition="1">
@@ -5763,6 +5709,167 @@
 						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}author/{http://www.tei-c.org/ns/1.0}name"/>
 						<wsdl/>
 						<parameter usageKind="output" name="tei_lite2"/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="1099" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="86"/>
+						<datapoint pos="1" key="38"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="77"/>
+					</targets>
+					<view ltx="1891" lty="258" rbx="1988" rby="334"/>
+				</component>
+				<component name="document" library="xml" uid="1091" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1266" rbx="1566" rby="120"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="http://www.loc.gov/mods/v3"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="namePart" inpkey="36" outkey="14" expanded="1"/>
+							</entry>
+						</root>
+						<document schema="mods-3-5.xsd" instanceroot="{http://www.loc.gov/mods/v3}mods/{http://www.loc.gov/mods/v3}name/{http://www.loc.gov/mods/v3}namePart"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="namePart"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1898" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="160"/>
+					</targets>
+					<view ltx="1731" lty="635" rbx="1895" rby="653"/>
+					<data>
+						<constant value="corporate" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="1900" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="168"/>
+						<datapoint pos="1" key="159"/>
+						<datapoint pos="2" key="162"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="158"/>
+					</targets>
+					<view ltx="2205" lty="532" rbx="2302" rby="608"/>
+				</component>
+				<component name="constant" library="core" uid="1901" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="164"/>
+					</targets>
+					<view ltx="1734" lty="570" rbx="1893" rby="588"/>
+					<data>
+						<constant value="personal" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="1902" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="166"/>
+						<datapoint pos="1" key="161"/>
+					</sources>
+					<targets>
+						<datapoint/>
+					</targets>
+					<view ltx="1916" lty="597" rbx="2002" rby="653"/>
+				</component>
+				<component name="equal" library="core" uid="1899" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="163"/>
+						<datapoint pos="1" key="165"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="167"/>
+					</targets>
+					<view ltx="1919" lty="532" rbx="2005" rby="588"/>
+				</component>
+				<component name="document" library="xml" uid="1128" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="2396" lty="550" rbx="2546" rby="1050"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+								</namespaces>
+							</header>
+							<entry name="name" inpkey="89" expanded="1"/>
+						</root>
+						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}editor/{http://www.tei-c.org/ns/1.0}name"/>
+						<wsdl/>
+						<parameter usageKind="output" name="tei_lite"/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="1117" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="68"/>
+						<datapoint pos="1" key="70"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="55"/>
+					</targets>
+					<view ltx="2049" lty="906" rbx="2146" rby="982"/>
+				</component>
+				<component name="document" library="xml" uid="1125" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1289" lty="547" rbx="1589" rby="747"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="http://www.loc.gov/mods/v3"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="namePart" inpkey="52" outkey="3" expanded="1"/>
+							</entry>
+						</root>
+						<document schema="mods-3-5.xsd" instanceroot="{http://www.loc.gov/mods/v3}mods/{http://www.loc.gov/mods/v3}name/{http://www.loc.gov/mods/v3}namePart"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="namePart"/>
+					</data>
+				</component>
+				<component name="document" library="xml" uid="1127" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view rbx="150" rby="459"/>
+					<data>
+						<root scrollposition="66">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.loc.gov/mods/v3"/>
+								</namespaces>
+							</header>
+							<entry name="name" ns="1" outkey="87" expanded="1">
+								<entry name="type" type="attribute" outkey="157"/>
+								<entry name="namePart" ns="1" expanded="1"/>
+								<entry name="role" ns="1" expanded="1">
+									<entry name="roleTerm" ns="1" outkey="88" expanded="1"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="mods-3-5.xsd" instanceroot="{http://www.loc.gov/mods/v3}mods/{http://www.loc.gov/mods/v3}name"/>
+						<wsdl/>
+						<parameter usageKind="input" name="mods35"/>
 					</data>
 				</component>
 			</children>
@@ -5839,6 +5946,7 @@
 						<edges>
 							<edge vertexkey="4" edgekey="104"/>
 							<edge vertexkey="57" edgekey="105"/>
+							<edge vertexkey="162" edgekey="169"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="5">
@@ -5868,6 +5976,7 @@
 						<edges>
 							<edge vertexkey="15" edgekey="108"/>
 							<edge vertexkey="20" edgekey="109"/>
+							<edge vertexkey="155" edgekey="170"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="17">
@@ -5960,7 +6069,7 @@
 					</vertex>
 					<vertex vertexkey="55">
 						<edges>
-							<edge vertexkey="89" edgekey="125"/>
+							<edge vertexkey="159" edgekey="171"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="58">
@@ -6005,7 +6114,7 @@
 					</vertex>
 					<vertex vertexkey="77">
 						<edges>
-							<edge vertexkey="90" edgekey="134"/>
+							<edge vertexkey="152" edgekey="172"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="78">
@@ -6040,13 +6149,60 @@
 							<edge vertexkey="9" edgekey="140"/>
 						</edges>
 					</vertex>
+					<vertex vertexkey="147">
+						<edges>
+							<edge vertexkey="154" edgekey="173"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="149">
+						<edges>
+							<edge vertexkey="146" edgekey="174"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="150">
+						<edges>
+							<edge vertexkey="151" edgekey="175"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="153">
+						<edges>
+							<edge vertexkey="90" edgekey="176"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="157">
+						<edges>
+							<edge vertexkey="148" edgekey="177"/>
+							<edge vertexkey="156" edgekey="178"/>
+							<edge vertexkey="163" edgekey="179"/>
+							<edge vertexkey="166" edgekey="180"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="158">
+						<edges>
+							<edge vertexkey="89" edgekey="181"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="160">
+						<edges>
+							<edge vertexkey="161" edgekey="182"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="164">
+						<edges>
+							<edge vertexkey="165" edgekey="183"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="167">
+						<edges>
+							<edge vertexkey="168" edgekey="184"/>
+						</edges>
+					</vertex>
 				</vertices>
 			</graph>
 		</structure>
 	</component>
 	<component name="mods2tei_titel" library="user" blackbox="0" uid="1139" editable="1" inline="1">
 		<properties/>
-		<description/>
 		<structure>
 			<children>
 				<component name="exists" library="core" uid="1140" kind="5">
@@ -6057,7 +6213,7 @@
 					<targets>
 						<datapoint pos="0" key="12"/>
 					</targets>
-					<view ltx="303" rbx="370" rby="39"/>
+					<view ltx="303" rbx="392" rby="39"/>
 				</component>
 				<component name="concat" library="core" uid="1141" kind="5" growable="1" growablebasename="value">
 					<properties/>
@@ -6069,7 +6225,7 @@
 					<targets>
 						<datapoint pos="0" key="21"/>
 					</targets>
-					<view ltx="341" lty="56" rbx="426" rby="132"/>
+					<view ltx="341" lty="56" rbx="434" rby="132"/>
 				</component>
 				<component name="if-else" library="core" uid="1142" kind="4">
 					<properties/>
@@ -6083,17 +6239,6 @@
 					</targets>
 					<view ltx="497" lty="56" rbx="594" rby="132"/>
 				</component>
-				<component name="constant" library="core" uid="1143" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="19"/>
-					</targets>
-					<view ltx="250" lty="99" rbx="293" rby="117"/>
-					<data>
-						<constant value=" " datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
 				<component name="if-else" library="core" uid="1144" kind="4">
 					<properties/>
 					<sources>
@@ -6106,16 +6251,6 @@
 					</targets>
 					<view ltx="830" lty="166" rbx="927" rby="242"/>
 				</component>
-				<component name="exists" library="core" uid="1145" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="11"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="3"/>
-					</targets>
-					<view ltx="359" lty="177" rbx="426" rby="216"/>
-				</component>
 				<component name="concat" library="core" uid="1146" kind="5" growable="1" growablebasename="value">
 					<properties/>
 					<sources>
@@ -6126,21 +6261,10 @@
 					<targets>
 						<datapoint pos="0" key="9"/>
 					</targets>
-					<view ltx="664" lty="226" rbx="749" rby="302"/>
-				</component>
-				<component name="constant" library="core" uid="1147" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="1"/>
-					</targets>
-					<view ltx="557" lty="264" rbx="606" rby="282"/>
-					<data>
-						<constant value=" : " datatype="string"/>
-						<wsdl/>
-					</data>
+					<view ltx="664" lty="226" rbx="757" rby="302"/>
 				</component>
 				<component name="document" library="xml" uid="1148" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view rbx="150" rby="200"/>
 					<data>
 						<root>
@@ -6157,7 +6281,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1149" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view lty="500" rbx="150" rby="700"/>
 					<data>
 						<root>
@@ -6174,7 +6298,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1150" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view lty="250" rbx="150" rby="450"/>
 					<data>
 						<root>
@@ -6191,7 +6315,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1151" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1177" rbx="1327" rby="500"/>
 					<data>
 						<root scrollposition="1">
@@ -6205,6 +6329,38 @@
 						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}title"/>
 						<wsdl/>
 						<parameter usageKind="output" name="tei_lite"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1143" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="19"/>
+					</targets>
+					<view ltx="190" lty="97" rbx="310" rby="115"/>
+					<data>
+						<constant value=" " datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="exists" library="core" uid="1145" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="11"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="3"/>
+					</targets>
+					<view ltx="345" lty="250" rbx="434" rby="289"/>
+				</component>
+				<component name="constant" library="core" uid="1147" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="1"/>
+					</targets>
+					<view ltx="497" lty="271" rbx="623" rby="289"/>
+					<data>
+						<constant value=" : " datatype="string"/>
+						<wsdl/>
 					</data>
 				</component>
 			</children>
@@ -6276,7 +6432,6 @@
 	</component>
 	<component name="mods2tei_subject_titel" library="user" blackbox="0" uid="1733" editable="1" inline="1">
 		<properties/>
-		<description/>
 		<structure>
 			<children>
 				<component name="exists" library="core" uid="1735" kind="5">
@@ -6348,7 +6503,7 @@
 					<view ltx="853" lty="301" rbx="917" rby="350"/>
 				</component>
 				<component name="document" library="xml" uid="1743" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view rbx="150" rby="200"/>
 					<data>
 						<root>
@@ -6365,7 +6520,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1744" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view lty="500" rbx="150" rby="700"/>
 					<data>
 						<root>
@@ -6382,7 +6537,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1745" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view lty="250" rbx="150" rby="450"/>
 					<data>
 						<root>
@@ -6399,7 +6554,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1746" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1336" rbx="1486" rby="500"/>
 					<data>
 						<root>
@@ -6506,7 +6661,6 @@
 	</component>
 	<component name="mods2tei_subject_verfasser" library="user" blackbox="0" uid="1784" editable="1" inline="1">
 		<properties/>
-		<description/>
 		<structure>
 			<children>
 				<component name="equal" library="core" uid="1785" kind="5">
@@ -6976,7 +7130,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1821" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view rbx="150" rby="279"/>
 					<data>
 						<root>
@@ -6997,7 +7151,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1822" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="2439" rbx="2589" rby="500"/>
 					<data>
 						<root>
@@ -7014,7 +7168,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1823" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="2439" lty="550" rbx="2589" rby="1050"/>
 					<data>
 						<root>
@@ -7311,46 +7465,12 @@
 	</component>
 	<component name="mods2tei_thema" library="user" blackbox="0" uid="1874" editable="1" inline="1">
 		<properties/>
-		<description/>
 		<structure>
 			<children>
-				<component name="mods2tei_subject_titel" library="user" blackbox="0" uid="1875" kind="19" visible="0">
-					<view ltx="481" rbx="781" rby="200"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace uid="http://www.loc.gov/mods/v3"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="mods35" ns="1" componentid="1743" expanded="1">
-								<entry name="nonSort" inpkey="3"/>
-							</entry>
-							<entry name="mods353" ns="1" componentid="1745" expanded="1">
-								<entry name="title" inpkey="2"/>
-							</entry>
-							<entry name="mods352" ns="1" componentid="1744" expanded="1">
-								<entry name="subTitle" inpkey="5"/>
-							</entry>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="tei_lite" ns="1" componentid="1746" expanded="1">
-								<entry name="item" outkey="4"/>
-							</entry>
-						</root>
-					</data>
-				</component>
 				<component name="mods2tei_subject_verfasser" library="user" blackbox="0" uid="1879" kind="19" visible="0">
 					<view ltx="482" lty="263" rbx="782" rby="463"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.loc.gov/mods/v3"/>
@@ -7380,7 +7500,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1880" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view rbx="150" rby="200"/>
 					<data>
 						<root>
@@ -7397,10 +7517,10 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1882" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view lty="1250" rbx="150" rby="1529"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.loc.gov/mods/v3"/>
@@ -7414,7 +7534,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1883" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view lty="500" rbx="150" rby="700"/>
 					<data>
 						<root>
@@ -7431,7 +7551,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1885" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view lty="250" rbx="150" rby="450"/>
 					<data>
 						<root>
@@ -7448,10 +7568,10 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1886" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1032" lty="2200" rbx="1182" rby="2700"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.tei-c.org/ns/1.0"/>
@@ -7465,10 +7585,10 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1887" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1032" lty="2750" rbx="1182" rby="3250"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.tei-c.org/ns/1.0"/>
@@ -7481,28 +7601,11 @@
 						<parameter usageKind="output" name="tei_lite2"/>
 					</data>
 				</component>
-				<component name="document" library="xml" uid="1890" kind="14">
-					<properties/>
-					<view ltx="1032" rbx="1182" rby="500"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="item" inpkey="24" expanded="1"/>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}profileDesc/{http://www.tei-c.org/ns/1.0}textClass/{http://www.tei-c.org/ns/1.0}keywords/{http://www.tei-c.org/ns/1.0}list/{http://www.tei-c.org/ns/1.0}item"/>
-						<wsdl/>
-						<parameter usageKind="output" name="tei_lite5"/>
-					</data>
-				</component>
 				<component name="document" library="xml" uid="1884" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view lty="1000" rbx="150" rby="1200"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.loc.gov/mods/v3"/>
@@ -7516,10 +7619,10 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1889" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1032" lty="1650" rbx="1182" rby="2150"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.tei-c.org/ns/1.0"/>
@@ -7533,10 +7636,10 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1888" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1032" lty="1100" rbx="1182" rby="1600"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.tei-c.org/ns/1.0"/>
@@ -7550,7 +7653,7 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1881" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view lty="750" rbx="150" rby="950"/>
 					<data>
 						<root>
@@ -7567,10 +7670,10 @@
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1891" kind="14">
-					<properties/>
+					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1032" lty="550" rbx="1182" rby="1050"/>
 					<data>
-						<root>
+						<root scrollposition="48">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.tei-c.org/ns/1.0"/>
@@ -7581,6 +7684,56 @@
 						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}profileDesc/{http://www.tei-c.org/ns/1.0}textClass/{http://www.tei-c.org/ns/1.0}keywords/{http://www.tei-c.org/ns/1.0}list/{http://www.tei-c.org/ns/1.0}item"/>
 						<wsdl/>
 						<parameter usageKind="output" name="tei_lite6"/>
+					</data>
+				</component>
+				<component name="mods2tei_subject_titel" library="user" blackbox="0" uid="1875" kind="19" visible="0">
+					<view ltx="481" rbx="781" rby="200"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.loc.gov/mods/v3"/>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="mods35" ns="1" componentid="1743" expanded="1">
+								<entry name="nonSort" inpkey="3"/>
+							</entry>
+							<entry name="mods353" ns="1" componentid="1745" expanded="1">
+								<entry name="title" inpkey="2"/>
+							</entry>
+							<entry name="mods352" ns="1" componentid="1744" expanded="1">
+								<entry name="subTitle" inpkey="5"/>
+							</entry>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="tei_lite" ns="1" componentid="1746" expanded="1">
+								<entry name="item" outkey="4"/>
+							</entry>
+						</root>
+					</data>
+				</component>
+				<component name="document" library="xml" uid="1890" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1032" rbx="1182" rby="500"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+								</namespaces>
+							</header>
+							<entry name="item" inpkey="24" expanded="1"/>
+						</root>
+						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}profileDesc/{http://www.tei-c.org/ns/1.0}textClass/{http://www.tei-c.org/ns/1.0}keywords/{http://www.tei-c.org/ns/1.0}list/{http://www.tei-c.org/ns/1.0}item"/>
+						<wsdl/>
+						<parameter usageKind="output" name="tei_lite5"/>
 					</data>
 				</component>
 			</children>

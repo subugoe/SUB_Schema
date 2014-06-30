@@ -3,3 +3,6 @@ pica2tei/temp/
 mods2tei/temp/
 .DS_Store
 *.tmp
+grafik/*.key
+grafik/*.key/
+
