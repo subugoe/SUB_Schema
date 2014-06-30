@@ -33,6 +33,7 @@
   <name type="corporate" authority="gnd" authorityURI="http://d-nb.info/gnd/"
     valueURI="http://d-nb.info/gnd/130053813" usage="primary">
     <namePart type="family">SLUB Dresdn</namePart>
+    <namePart type="given">Jorg</namePart>
     <role>
       <roleTerm>aut</roleTerm>
     </role>
@@ -40,13 +41,14 @@
   <name type="corporate" authority="gnd" authorityURI="http://d-nb.info/gnd/"
     valueURI="http://d-nb.info/gnd/130053813" usage="primary">
     <namePart type="family">SUB Gö</namePart>
+    <namePart type="given">Jorg</namePart>
     <role>
       <roleTerm>edt</roleTerm>
     </role>
   </name>
   <typeOfResource>software, multimedia</typeOfResource>
   <genre>
-    bla
+    ein genre
   </genre>
   <originInfo>
     <place>
@@ -77,7 +79,7 @@
   </originInfo>
   
   <genre>
-    ups
+    nochein genre
   </genre>
   
   <language>
@@ -114,29 +116,33 @@
     </languageOfCataloging>
   </recordInfo>
   <subject>
-    <topic lang="bla">topic</topic>
+    <topic lang="bla">1.1 topic</topic>
+  </subject>
+  
+  <subject>
+    <topic lang="bla">2.1 topic</topic>
+    <topic lang="bla">2.2 topic</topic>
     <geographic>geographic</geographic>
     <temporal>temporal</temporal>
     <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
       valueURI="http://d-nb.info/gnd/130053813" >
-      <namePart type="family">subjName(aut): subjName: Horáth</namePart>
-      <namePart type="given">subjName(aut): subjName: Plein</namePart>
+      <namePart type="family">1. last</namePart>
+      <namePart type="given">1. first</namePart>
       <role>
         <roleTerm>aut</roleTerm>
       </role>
     </name>
     <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
       valueURI="http://d-nb.info/gnd/130053813" >
-      <namePart type="family">subjName(edt): Pipa</namePart>
-      <namePart type="given">subjName(edt): Din</namePart>
+      <namePart type="family">2. last</namePart>
+      <namePart type="given">2. first</namePart>
       <role>
         <roleTerm>edt</roleTerm>
       </role>
     </name>
-    <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
+    <name type="corporate" authority="gnd" authorityURI="http://d-nb.info/gnd/"
       valueURI="http://d-nb.info/gnd/130053813" >
-      <namePart type="family">subjName(edt): Makof</namePart>
-      <namePart type="given">subjName(edt): Eddy</namePart>
+      <namePart type="family">SUB Gö</namePart>
       <role>
         <roleTerm>edt</roleTerm>
       </role>
@@ -153,6 +159,13 @@
     <titleInfo type="alternative">
       <title>schönes</title>
     </titleInfo>
-    
+    <titleInfo>
+      <nonSort>Ein </nonSort>
+      <title>schön neu-erfundenes Kunst-Büchlein</title>
+      <subTitle>(subject.tiTleInfo) Darinnen Hundert fünff und zwantzig Stück, vor Menschen und Vieh, sonderlich
+        aber vor reisende Leuthe, wie auch vor die jenigen, so Vieh haben, sehr nutzlich
+        zugebrauchen, mit schönen offt probirten Recepten beschrieben ; Welches von mir mit
+        sonderbahrem Fleiß aufgesetzt und gut befunden worden</subTitle>
+    </titleInfo>
   </subject>
 </mods>
