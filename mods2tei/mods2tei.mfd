@@ -5,51 +5,6 @@
 		<properties ShowLibraryNameInHeader="1" ShowAnnotations="0" SelectedLanguage="xslt2"/>
 		<structure>
 			<children>
-				<component name="mods2tei_erscheinungsangabenVorlage" library="user" blackbox="0" uid="662" kind="19" visible="0">
-					<view ltx="1173" lty="-459" rbx="1485" rby="-361"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.loc.gov/mods/v3"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="mods35" ns="1" componentid="656" expanded="1">
-								<entry name="originInfo" inpkey="1608"/>
-							</entry>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="tei_lite5" ns="1" componentid="661" expanded="1">
-								<entry name="pubPlace" outkey="1609"/>
-							</entry>
-							<entry name="tei_lite" ns="1" componentid="657" expanded="1">
-								<entry name="publisher" outkey="1610"/>
-							</entry>
-							<entry name="tei_lite4" ns="1" componentid="660" expanded="1">
-								<entry name="date" outkey="1611">
-									<entry name="type" ns="1" type="attribute" outkey="1612"/>
-								</entry>
-							</entry>
-							<entry name="tei_lite2" ns="1" componentid="658" expanded="1">
-								<entry name="date" outkey="1613">
-									<entry name="type" ns="1" type="attribute" outkey="1614"/>
-								</entry>
-							</entry>
-							<entry name="tei_lite3" ns="1" componentid="659" expanded="1">
-								<entry name="date" outkey="1615">
-									<entry name="type" ns="1" type="attribute" outkey="1616"/>
-								</entry>
-							</entry>
-						</root>
-					</data>
-				</component>
 				<component name="mods2tei_erscheinungsangabenDigitalisat" library="user" blackbox="0" uid="636" kind="19" visible="0">
 					<view ltx="1173" lty="-211" rbx="1485" rby="-137"/>
 					<data>
@@ -223,99 +178,36 @@
 						</root>
 					</data>
 				</component>
-				<component name="tei_lite" library="xml" uid="4" kind="14">
-					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="1920" lty="-921" rbx="2310" rby="352"/>
+				<component name="mods2tei_verfasser" library="user" blackbox="0" uid="1130" kind="19" visible="0">
+					<view ltx="1173" lty="-921" rbx="1485" rby="-818"/>
 					<data>
-						<root scrollposition="6230">
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.loc.gov/mods/v3"/>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="mods35" ns="1" componentid="1127" expanded="1">
+								<entry name="name" inpkey="2519" expanded="1">
+									<entry name="role" expanded="1"/>
+								</entry>
+							</entry>
+						</root>
+						<root rootindex="1">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.tei-c.org/ns/1.0"/>
 									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
 								</namespaces>
 							</header>
-							<entry name="FileInstance" ns="2" expanded="1">
-								<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="TEI" expanded="1">
-										<entry name="teiHeader" expanded="1">
-											<entry name="fileDesc" expanded="1">
-												<entry name="extent" inpkey="381"/>
-												<entry name="publicationStmt" expanded="1">
-													<entry name="publisher" inpkey="306">
-														<entry name="s">
-															<entry name="date" expanded="1"/>
-														</entry>
-													</entry>
-													<entry name="date" inpkey="1009" expanded="1">
-														<entry name="type" ns="1" type="attribute" inpkey="1013"/>
-													</entry>
-													<entry name="pubPlace" inpkey="309"/>
-												</entry>
-												<entry name="sourceDesc" expanded="1">
-													<entry name="bibl" expanded="1">
-														<entry name="title" inpkey="145" expanded="1"/>
-														<entry name="date" inpkey="1012">
-															<entry name="type" ns="1" type="attribute" inpkey="1011"/>
-														</entry>
-														<entry name="date" inpkey="1010" clone="1">
-															<entry name="type" ns="1" type="attribute" inpkey="1014"/>
-														</entry>
-														<entry name="date" inpkey="1007" clone="1">
-															<entry name="type" ns="1" type="attribute" inpkey="1008"/>
-														</entry>
-														<entry name="author" expanded="1">
-															<entry name="name" inpkey="10"/>
-														</entry>
-														<entry name="editor" expanded="1">
-															<entry name="name" inpkey="17" expanded="1"/>
-														</entry>
-														<entry name="publisher" inpkey="310"/>
-														<entry name="pubPlace" inpkey="311"/>
-													</entry>
-												</entry>
-											</entry>
-											<entry name="profileDesc" expanded="1">
-												<entry name="langUsage" expanded="1">
-													<entry name="language" inpkey="378"/>
-												</entry>
-												<entry name="textClass" expanded="1">
-													<entry name="classCode" inpkey="399"/>
-													<entry name="keywords" expanded="1">
-														<entry name="term" inpkey="212"/>
-														<entry name="list" expanded="1">
-															<entry name="item" inpkey="3559"/>
-															<entry name="item" inpkey="710" clone="1"/>
-															<entry name="item" inpkey="711" clone="1"/>
-															<entry name="item" inpkey="712" expanded="1" clone="1"/>
-															<entry name="item" clone="1">
-																<entry name="bibl">
-																	<entry name="author">
-																		<entry name="name" inpkey="3599"/>
-																	</entry>
-																</entry>
-																<entry name="bibl" expanded="1" clone="1">
-																	<entry name="editor" expanded="1">
-																		<entry name="name" inpkey="3600"/>
-																	</entry>
-																</entry>
-															</entry>
-														</entry>
-														<entry name="list" clone="1"/>
-														<entry name="list" clone="1"/>
-														<entry name="list" clone="1"/>
-														<entry name="list" clone="1"/>
-														<entry name="list" clone="1"/>
-													</entry>
-												</entry>
-											</entry>
-										</entry>
-									</entry>
-								</entry>
+							<entry name="tei_lite2" ns="1" componentid="1129" expanded="1">
+								<entry name="name" outkey="2520"/>
+							</entry>
+							<entry name="tei_lite" ns="1" componentid="1128" expanded="1">
+								<entry name="name" outkey="2521"/>
 							</entry>
 						</root>
-						<document schema="tei_lite.xsd" outputinstance="tei_lite.xml" instanceroot="{http://www.tei-c.org/ns/1.0}TEI"/>
-						<wsdl/>
 					</data>
 				</component>
 				<component name="mods2tei_titel" library="user" blackbox="0" uid="1152" kind="19" visible="0">
@@ -406,20 +298,113 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="mods2tei_verfasser" library="user" blackbox="0" uid="1130" kind="19" visible="0">
-					<view ltx="1173" lty="-921" rbx="1485" rby="-818"/>
+				<component name="tei_lite" library="xml" uid="4" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="1920" lty="-921" rbx="2310" rby="352"/>
 					<data>
-						<root scrollposition="1">
+						<root scrollposition="4829">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="2" expanded="1">
+								<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="TEI" expanded="1">
+										<entry name="teiHeader" expanded="1">
+											<entry name="fileDesc" expanded="1">
+												<entry name="extent" inpkey="381"/>
+												<entry name="publicationStmt" expanded="1">
+													<entry name="publisher" inpkey="306">
+														<entry name="s">
+															<entry name="date" expanded="1"/>
+														</entry>
+													</entry>
+													<entry name="date" inpkey="1009" expanded="1">
+														<entry name="type" ns="1" type="attribute" inpkey="1013"/>
+													</entry>
+													<entry name="pubPlace" inpkey="309"/>
+												</entry>
+												<entry name="sourceDesc" expanded="1">
+													<entry name="bibl" expanded="1">
+														<entry name="title" inpkey="145" expanded="1"/>
+														<entry name="date" inpkey="1012">
+															<entry name="type" ns="1" type="attribute" inpkey="1011"/>
+														</entry>
+														<entry name="date" inpkey="1010" expanded="1" clone="1">
+															<entry name="type" ns="1" type="attribute" inpkey="1014"/>
+														</entry>
+														<entry name="date" inpkey="1007" clone="1">
+															<entry name="type" ns="1" type="attribute" inpkey="1008"/>
+														</entry>
+														<entry name="author" expanded="1">
+															<entry name="name" inpkey="10"/>
+														</entry>
+														<entry name="editor" expanded="1">
+															<entry name="name" inpkey="17" expanded="1"/>
+														</entry>
+														<entry name="publisher" inpkey="310"/>
+														<entry name="pubPlace" inpkey="311"/>
+													</entry>
+												</entry>
+											</entry>
+											<entry name="profileDesc" expanded="1">
+												<entry name="langUsage" expanded="1">
+													<entry name="language" inpkey="378"/>
+												</entry>
+												<entry name="textClass" expanded="1">
+													<entry name="classCode" inpkey="399"/>
+													<entry name="keywords" expanded="1">
+														<entry name="term" inpkey="212"/>
+														<entry name="list" expanded="1">
+															<entry name="item" inpkey="3559"/>
+															<entry name="item" inpkey="710" clone="1"/>
+															<entry name="item" inpkey="711" clone="1"/>
+															<entry name="item" inpkey="712" expanded="1" clone="1"/>
+															<entry name="item" clone="1">
+																<entry name="bibl">
+																	<entry name="author">
+																		<entry name="name" inpkey="3599"/>
+																	</entry>
+																</entry>
+																<entry name="bibl" expanded="1" clone="1">
+																	<entry name="editor" expanded="1">
+																		<entry name="name" inpkey="3600"/>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+														<entry name="list" clone="1"/>
+														<entry name="list" clone="1"/>
+														<entry name="list" clone="1"/>
+														<entry name="list" clone="1"/>
+														<entry name="list" clone="1"/>
+													</entry>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="tei_lite.xsd" outputinstance="tei_lite.xml" instanceroot="{http://www.tei-c.org/ns/1.0}TEI"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="mods2tei_erscheinungsangabenVorlage" library="user" blackbox="0" uid="662" kind="19" visible="0">
+					<view ltx="1173" lty="-459" rbx="1485" rby="-361"/>
+					<data>
+						<root scrollposition="463">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.loc.gov/mods/v3"/>
 									<namespace/>
 								</namespaces>
 							</header>
-							<entry name="mods35" ns="1" componentid="1127" expanded="1">
-								<entry name="name" inpkey="2519" expanded="1">
-									<entry name="role" expanded="1"/>
-								</entry>
+							<entry name="mods35" ns="1" componentid="656" expanded="1">
+								<entry name="originInfo" inpkey="1608"/>
 							</entry>
 						</root>
 						<root rootindex="1">
@@ -429,11 +414,26 @@
 									<namespace/>
 								</namespaces>
 							</header>
-							<entry name="tei_lite2" ns="1" componentid="1129" expanded="1">
-								<entry name="name" outkey="2520"/>
+							<entry name="tei_lite5" ns="1" componentid="661" expanded="1">
+								<entry name="pubPlace" outkey="1609"/>
 							</entry>
-							<entry name="tei_lite" ns="1" componentid="1128" expanded="1">
-								<entry name="name" outkey="2521"/>
+							<entry name="tei_lite" ns="1" componentid="657" expanded="1">
+								<entry name="publisher" outkey="1610"/>
+							</entry>
+							<entry name="tei_lite4" ns="1" componentid="660" expanded="1">
+								<entry name="date" outkey="1611">
+									<entry name="type" ns="1" type="attribute" outkey="1612"/>
+								</entry>
+							</entry>
+							<entry name="tei_lite2" ns="1" componentid="658" expanded="1">
+								<entry name="date" outkey="1613" expanded="1">
+									<entry name="type" ns="1" type="attribute" outkey="1614"/>
+								</entry>
+							</entry>
+							<entry name="tei_lite3" ns="1" componentid="659" expanded="1">
+								<entry name="date" outkey="1615">
+									<entry name="type" ns="1" type="attribute" outkey="1616"/>
+								</entry>
 							</entry>
 						</root>
 					</data>
@@ -3633,36 +3633,15 @@
 		<properties/>
 		<structure>
 			<children>
-				<component name="document" library="xml" uid="650" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="561" rbx="861" rby="385"/>
+				<component name="constant" library="core" uid="653" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="14"/>
+					</targets>
+					<view ltx="225" lty="249" rbx="413" rby="267"/>
 					<data>
-						<root scrollposition="77">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.loc.gov/mods/v3"/>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="originInfo" inpkey="6" expanded="1">
-									<entry name="place" expanded="1">
-										<entry name="placeTerm" outkey="1"/>
-									</entry>
-									<entry name="publisher" outkey="13" expanded="1"/>
-									<entry name="dateIssued" outkey="2"/>
-									<entry name="dateCreated" outkey="9"/>
-									<entry name="dateOther" outkey="8">
-										<entry name="type" ns="1" type="attribute" outkey="18"/>
-									</entry>
-									<entry name="edition" expanded="1"/>
-								</entry>
-							</entry>
-						</root>
-						<document schema="mods-3-5.xsd" instanceroot="{http://www.loc.gov/mods/v3}mods/{http://www.loc.gov/mods/v3}originInfo"/>
+						<constant value="[Electronic ed.]" datatype="string"/>
 						<wsdl/>
-						<parameter usageKind="variable" name="originInfo"/>
 					</data>
 				</component>
 				<component name="originInfo" library="core" uid="651" kind="3">
@@ -3675,7 +3654,26 @@
 						<datapoint pos="0" key="5"/>
 						<datapoint/>
 					</targets>
-					<view ltx="400" lty="23" rbx="503" rby="79"/>
+					<view ltx="400" lty="23" rbx="504" rby="79"/>
+				</component>
+				<component name="document" library="xml" uid="656" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view rbx="157" rby="340"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.loc.gov/mods/v3"/>
+								</namespaces>
+							</header>
+							<entry name="originInfo" outkey="19" expanded="1">
+								<entry name="edition" outkey="20" expanded="1"/>
+							</entry>
+						</root>
+						<document schema="mods-3-5.xsd" instanceroot="{http://www.loc.gov/mods/v3}mods/{http://www.loc.gov/mods/v3}originInfo"/>
+						<wsdl/>
+						<parameter usageKind="input" name="mods35"/>
+					</data>
 				</component>
 				<component name="not-equal" library="core" uid="652" kind="5">
 					<properties/>
@@ -3686,56 +3684,23 @@
 					<targets>
 						<datapoint pos="0" key="16"/>
 					</targets>
-					<view ltx="383" lty="180" rbx="455" rby="236"/>
+					<view ltx="383" lty="180" rbx="488" rby="236"/>
 				</component>
-				<component name="constant" library="core" uid="653" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="14"/>
-					</targets>
-					<view ltx="250" lty="218" rbx="361" rby="236"/>
-					<data>
-						<constant value="[Electronic ed.]" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="node-name" library="xpath2" uid="654" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="3"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="7"/>
-					</targets>
-					<view ltx="1112" lty="261" rbx="1193" rby="300"/>
-				</component>
-				<component name="node-name" library="xpath2" uid="655" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="10"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="4"/>
-					</targets>
-					<view ltx="1085" lty="402" rbx="1166" rby="441"/>
-				</component>
-				<component name="document" library="xml" uid="656" kind="14">
+				<component name="document" library="xml" uid="661" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
-					<view rbx="157" rby="340"/>
+					<view ltx="1443" rbx="1593" rby="500"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
-									<namespace uid="http://www.loc.gov/mods/v3"/>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
 								</namespaces>
 							</header>
-							<entry name="originInfo" outkey="19" expanded="1">
-								<entry name="edition" outkey="20"/>
-							</entry>
+							<entry name="pubPlace" inpkey="28" expanded="1"/>
 						</root>
-						<document schema="mods-3-5.xsd" instanceroot="{http://www.loc.gov/mods/v3}mods/{http://www.loc.gov/mods/v3}originInfo"/>
+						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}pubPlace"/>
 						<wsdl/>
-						<parameter usageKind="input" name="mods35"/>
+						<parameter usageKind="output" name="tei_lite5"/>
 					</data>
 				</component>
 				<component name="document" library="xml" uid="657" kind="14">
@@ -3755,46 +3720,6 @@
 						<parameter usageKind="output" name="tei_lite"/>
 					</data>
 				</component>
-				<component name="document" library="xml" uid="658" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1443" lty="1650" rbx="1593" rby="2150"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="date" ns="1" inpkey="22" expanded="1">
-								<entry name="type" type="attribute" inpkey="23"/>
-							</entry>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}date"/>
-						<wsdl/>
-						<parameter usageKind="output" name="tei_lite2"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="659" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1443" lty="2200" rbx="1593" rby="2700"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="date" ns="1" inpkey="24" expanded="1">
-								<entry name="type" type="attribute" inpkey="25"/>
-							</entry>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}date"/>
-						<wsdl/>
-						<parameter usageKind="output" name="tei_lite3"/>
-					</data>
-				</component>
 				<component name="document" library="xml" uid="660" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1443" lty="1100" rbx="1593" rby="1600"/>
@@ -3802,22 +3727,19 @@
 						<root scrollposition="1">
 							<header>
 								<namespaces>
-									<namespace/>
 									<namespace uid="http://www.tei-c.org/ns/1.0"/>
 								</namespaces>
 							</header>
-							<entry name="date" ns="1" inpkey="26" expanded="1">
-								<entry name="type" type="attribute" inpkey="27"/>
-							</entry>
+							<entry name="date" inpkey="26" expanded="1"/>
 						</root>
 						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}date"/>
 						<wsdl/>
 						<parameter usageKind="output" name="tei_lite4"/>
 					</data>
 				</component>
-				<component name="document" library="xml" uid="661" kind="14">
+				<component name="document" library="xml" uid="658" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1443" rbx="1593" rby="500"/>
+					<view ltx="1443" lty="1650" rbx="1593" rby="2150"/>
 					<data>
 						<root scrollposition="1">
 							<header>
@@ -3825,11 +3747,57 @@
 									<namespace uid="http://www.tei-c.org/ns/1.0"/>
 								</namespaces>
 							</header>
-							<entry name="pubPlace" inpkey="28" expanded="1"/>
+							<entry name="date" inpkey="22" expanded="1"/>
 						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}pubPlace"/>
+						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}date"/>
 						<wsdl/>
-						<parameter usageKind="output" name="tei_lite5"/>
+						<parameter usageKind="output" name="tei_lite2"/>
+					</data>
+				</component>
+				<component name="document" library="xml" uid="650" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="561" rbx="871" rby="524"/>
+					<data>
+						<root scrollposition="192">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.loc.gov/mods/v3"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="originInfo" inpkey="6" expanded="1">
+									<entry name="place" expanded="1">
+										<entry name="placeTerm" outkey="1" expanded="1"/>
+									</entry>
+									<entry name="publisher" outkey="13" expanded="1"/>
+									<entry name="dateIssued" outkey="2"/>
+									<entry name="dateCreated" outkey="9"/>
+									<entry name="dateOther" outkey="8" expanded="1"/>
+									<entry name="edition" expanded="1"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="mods-3-5.xsd" instanceroot="{http://www.loc.gov/mods/v3}mods/{http://www.loc.gov/mods/v3}originInfo"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="originInfo"/>
+					</data>
+				</component>
+				<component name="document" library="xml" uid="659" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1443" lty="2200" rbx="1593" rby="2700"/>
+					<data>
+						<root scrollposition="10">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+								</namespaces>
+							</header>
+							<entry name="date" inpkey="24" expanded="1"/>
+						</root>
+						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}date"/>
+						<wsdl/>
+						<parameter usageKind="output" name="tei_lite3"/>
 					</data>
 				</component>
 			</children>
@@ -3854,23 +3822,12 @@
 					</vertex>
 					<vertex vertexkey="2">
 						<edges>
-							<edge vertexkey="3" edgekey="32"/>
 							<edge vertexkey="26" edgekey="33"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="4">
-						<edges>
-							<edge vertexkey="23" edgekey="34"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="5">
 						<edges>
 							<edge vertexkey="6" edgekey="30"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="7">
-						<edges>
-							<edge vertexkey="27" edgekey="35"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="8">
@@ -3880,7 +3837,6 @@
 					</vertex>
 					<vertex vertexkey="9">
 						<edges>
-							<edge vertexkey="10" edgekey="37"/>
 							<edge vertexkey="22" edgekey="38"/>
 						</edges>
 					</vertex>
@@ -3897,11 +3853,6 @@
 					<vertex vertexkey="16">
 						<edges>
 							<edge vertexkey="17" edgekey="41"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="18">
-						<edges>
-							<edge vertexkey="25" edgekey="42"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="19">
