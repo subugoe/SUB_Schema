@@ -73,7 +73,7 @@
         <subfield code="0">Elektronische Ressource</subfield>
     </datafield>
     <datafield tag="021A">
-        <subfield code="a">Ein @schön neu-erfundenes Kunst-Büchlein</subfield>
+        <subfield code="a">Ein @schön neu-erfundenes @Kunst-Büchlein</subfield>
         <subfield code="d">Darinnen Hundert fünff und zwantzig Stück, vor Menschen und Vieh,
             sonderlich aber vor reisende Leuthe, wie auch vor die jenigen, so Vieh haben, sehr
             nutzlich zugebrauchen, mit schönen offt probirten Recepten beschrieben ; Welches von mir
@@ -84,11 +84,11 @@
         <subfield code="f">parallelTitle</subfield>
     </datafield>
     <datafield tag="021B">
-        <subfield code="a">021Ba - bla</subfield>
-        <subfield code="d">021Bd - bla</subfield>
-        <subfield code="h">021Bh - bla</subfield>
-        <subfield code="e">021Be - bla</subfield>
-        <subfield code="f">021Bf - bla</subfield>
+        <subfield code="a">021B-a</subfield>
+        <subfield code="d">021B-d</subfield>
+        <subfield code="h">021B-h</subfield>
+        <subfield code="e">021B-e</subfield>
+        <subfield code="f">021B-f</subfield>
     </datafield>
     <datafield tag="021N">
         <subfield code="a">021Na - bla</subfield>
