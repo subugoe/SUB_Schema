@@ -150,34 +150,6 @@
 					</targets>
 					<view ltx="1225" lty="124" rbx="1292" rby="163"/>
 				</component>
-				<component name="title" library="user" blackbox="0" uid="677" kind="19" visible="0">
-					<view ltx="741" lty="20" rbx="1041" rby="85"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="picaxmlv10" ns="1" componentid="485" expanded="1">
-								<entry name="datafield" inpkey="1491"/>
-							</entry>
-							<entry name="bool" ns="1" inpkey="1490" componentid="487"/>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="tei_lite" ns="1" componentid="486" expanded="1">
-								<entry name="title" outkey="1492"/>
-							</entry>
-						</root>
-					</data>
-				</component>
 				<component name="if-else" library="core" uid="687" kind="4">
 					<properties/>
 					<sources>
@@ -228,6 +200,34 @@
 							</header>
 							<entry name="tei_lite" ns="1" componentid="486" expanded="1">
 								<entry name="title" outkey="1497" expanded="1"/>
+							</entry>
+						</root>
+					</data>
+				</component>
+				<component name="title" library="user" blackbox="0" uid="677" kind="19" visible="0">
+					<view ltx="741" lty="20" rbx="1041" rby="85"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="picaxmlv10" ns="1" componentid="485" expanded="1">
+								<entry name="datafield" inpkey="1491"/>
+							</entry>
+							<entry name="bool" ns="1" inpkey="1490" componentid="487"/>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="tei_lite" ns="1" componentid="486" expanded="1">
+								<entry name="title" outkey="1492"/>
 							</entry>
 						</root>
 					</data>
@@ -1630,56 +1630,6 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="title" library="user" blackbox="0" uid="655" kind="19" visible="0">
-					<view ltx="515" lty="238" rbx="815" rby="303"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="picaxmlv10" ns="1" componentid="485" expanded="1">
-								<entry name="datafield" inpkey="60"/>
-							</entry>
-							<entry name="bool" ns="1" inpkey="49" componentid="487"/>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="tei_lite" ns="1" componentid="486" expanded="1">
-								<entry name="title" outkey="61"/>
-							</entry>
-						</root>
-					</data>
-				</component>
-				<component name="equal" library="core" uid="656" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="2"/>
-						<datapoint pos="1" key="15"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="18"/>
-					</targets>
-					<view ltx="355" lty="289" rbx="408" rby="345"/>
-				</component>
-				<component name="constant" library="core" uid="657" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="14"/>
-					</targets>
-					<view ltx="250" lty="327" rbx="316" rby="345"/>
-					<data>
-						<constant value="021M" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
 				<component name="document" library="xml" uid="659" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
 					<view rbx="150" rby="200"/>
@@ -1700,23 +1650,6 @@
 						<parameter usageKind="input" name="picaxmlv10"/>
 					</data>
 				</component>
-				<component name="document" library="xml" uid="662" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1065" lty="1100" rbx="1365" rby="1600"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="title" inpkey="68" expanded="1"/>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}title"/>
-						<wsdl/>
-						<parameter usageKind="output" name="tei_lite3"/>
-					</data>
-				</component>
 				<component name="document" library="xml" uid="663" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1065" lty="1650" rbx="1365" rby="2150"/>
@@ -1727,38 +1660,11 @@
 									<namespace uid="http://www.tei-c.org/ns/1.0"/>
 								</namespaces>
 							</header>
-							<entry name="title" inpkey="69" expanded="1"/>
+							<entry name="title" expanded="1"/>
 						</root>
 						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}title"/>
 						<wsdl/>
 						<parameter usageKind="output" name="tei_lite4"/>
-					</data>
-				</component>
-				<component name="title_021N" library="user" blackbox="0" uid="658" kind="19" visible="0">
-					<view ltx="515" lty="375" rbx="815" rby="450"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="picaxmlv10" ns="1" componentid="569" expanded="1">
-								<entry name="datafield" inpkey="62" expanded="1"/>
-							</entry>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="tei_lite" ns="1" componentid="570" expanded="1">
-								<entry name="title" outkey="63"/>
-							</entry>
-						</root>
 					</data>
 				</component>
 				<component name="document" library="xml" uid="660" kind="14">
@@ -1836,16 +1742,6 @@
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="72">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="73">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
 				</edges>
 				<vertices>
 					<vertex vertexkey="6">
@@ -1856,16 +1752,6 @@
 					<vertex vertexkey="9">
 						<edges>
 							<edge vertexkey="10" edgekey="51"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="14">
-						<edges>
-							<edge vertexkey="15" edgekey="52"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="18">
-						<edges>
-							<edge vertexkey="49" edgekey="53"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="20">
@@ -1888,28 +1774,15 @@
 							<edge vertexkey="67" edgekey="75"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="61">
-						<edges>
-							<edge vertexkey="68" edgekey="76"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="63">
-						<edges>
-							<edge vertexkey="69" edgekey="77"/>
-						</edges>
-					</vertex>
 					<vertex vertexkey="64">
 						<edges>
 							<edge vertexkey="58" edgekey="70"/>
-							<edge vertexkey="62" edgekey="72"/>
-							<edge vertexkey="60" edgekey="73"/>
 							<edge vertexkey="56" edgekey="71"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="65">
 						<edges>
 							<edge vertexkey="4" edgekey="78"/>
-							<edge vertexkey="2" edgekey="79"/>
 							<edge vertexkey="13" edgekey="80"/>
 						</edges>
 					</vertex>
