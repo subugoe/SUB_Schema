@@ -100,7 +100,7 @@
         <subfield code="e">021Me - ups</subfield>
         <subfield code="f">021Mf - ups</subfield>
     </datafield>
-    <!--
+    
     <datafield tag="028A">
         <subfield code="d">028A - Plein</subfield>
         <subfield code="a">028A - Horath</subfield>
@@ -113,7 +113,23 @@
         <subfield code="h">028A - h - 1972</subfield>
         <subfield code="D">028A - D - 1972</subfield>
     </datafield>
-    -->
+    <datafield tag="028A">
+    
+        
+        <subfield code="9">028A - 48879434X</subfield>
+        <subfield code="d">028A - d</subfield>
+    
+        <subfield code="0">gnd/130053813</subfield>
+        
+        <subfield code="p">028A - p</subfield>
+        <subfield code="h">028A - h - 1972</subfield>
+        <subfield code="D">028A - D - 1972</subfield>
+    </datafield>
+    <datafield tag="028A">
+        
+      
+    </datafield>
+    
     <datafield tag="028B">
         <subfield code="d">028Ba - Plein</subfield>
         <subfield code="a">028Ba - Horath</subfield>
