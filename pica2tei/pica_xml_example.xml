@@ -142,19 +142,34 @@
     </datafield>
    
     
-    <datafield tag="028C/D">
-        <subfield code="d">028C/D - d</subfield>
-        <subfield code="a">028C/D - a</subfield>
-        <subfield code="9">028C/D - g</subfield>
-        <subfield code="d">028C/D - 2.d</subfield>
-        <subfield code="a">028C/D - 2.a</subfield>
+    <datafield tag="028C">
+        <subfield code="d">028C - d</subfield>
+        <subfield code="a">028C - a</subfield>
+        <subfield code="9">028C - g</subfield>
+        <subfield code="d">028C - 2.d</subfield>
+        <subfield code="a">028C - 2.a</subfield>
         <subfield code="0">gnd/130053815</subfield>
-        <subfield code="c">028C/D - c</subfield>
-        <subfield code="p">028C/D - p</subfield>
-        <subfield code="h">028C/D - h</subfield>
-        <subfield code="d">028C/D - 3.d</subfield>
-        <subfield code="a">028C/D - 3.a</subfield>
-        <subfield code="D">028C/D - D_1972</subfield>
+        <subfield code="c">028C - c</subfield>
+        <subfield code="p">028C - p</subfield>
+        <subfield code="h">028C - h</subfield>
+        <subfield code="d">028C - 3.d</subfield>
+        <subfield code="a">028C - 3.a</subfield>
+        <subfield code="D">028C - D_1972</subfield>
+        <subfield code="B">[Hrsg.]</subfield>
+    </datafield>
+    <datafield tag="028D">
+        <subfield code="d">028D - d</subfield>
+        <subfield code="a">028D - a</subfield>
+        <subfield code="9">028D - g</subfield>
+        <subfield code="d">028D - 2.d</subfield>
+        <subfield code="a">028D - 2.a</subfield>
+        <subfield code="0">gnd/130053815</subfield>
+        <subfield code="c">028D - c</subfield>
+        <subfield code="p">028D - p</subfield>
+        <subfield code="h">028D - h</subfield>
+        <subfield code="d">028D - 3.d</subfield>
+        <subfield code="a">028D - 3.a</subfield>
+        <subfield code="D">028D - D_1972</subfield>
         <subfield code="B">[Hrsg.]</subfield>
     </datafield>
     <datafield tag="029A">
