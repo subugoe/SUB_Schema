@@ -139,7 +139,7 @@
 					<targets>
 						<datapoint pos="0" key="27"/>
 					</targets>
-					<view ltx="745" lty="459" rbx="798" rby="515"/>
+					<view ltx="933" lty="459" rbx="986" rby="515"/>
 				</component>
 				<component name="subfield" library="core" uid="1002" kind="3">
 					<properties/>
@@ -151,7 +151,7 @@
 						<datapoint pos="0" key="3"/>
 						<datapoint/>
 					</targets>
-					<view ltx="798" lty="17" rbx="901" rby="73"/>
+					<view ltx="986" lty="17" rbx="1089" rby="73"/>
 				</component>
 				<component name="equal" library="core" uid="1003" kind="5">
 					<properties/>
@@ -162,14 +162,14 @@
 					<targets>
 						<datapoint pos="0" key="15"/>
 					</targets>
-					<view ltx="715" rbx="768" rby="56"/>
+					<view ltx="903" rbx="956" rby="56"/>
 				</component>
 				<component name="constant" library="core" uid="1004" kind="2">
 					<properties/>
 					<targets>
 						<datapoint pos="0" key="17"/>
 					</targets>
-					<view ltx="646" lty="38" rbx="692" rby="56"/>
+					<view ltx="834" lty="38" rbx="880" rby="56"/>
 					<data>
 						<constant value="p" datatype="string"/>
 						<wsdl/>
@@ -180,7 +180,7 @@
 					<targets>
 						<datapoint pos="0" key="25"/>
 					</targets>
-					<view ltx="678" lty="525" rbx="724" rby="543"/>
+					<view ltx="866" lty="525" rbx="912" rby="543"/>
 					<data>
 						<constant value="n" datatype="string"/>
 						<wsdl/>
@@ -188,7 +188,7 @@
 				</component>
 				<component name="document" library="xml" uid="1006" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="966" lty="17" rbx="1104" rby="99"/>
+					<view ltx="1154" lty="17" rbx="1292" rby="99"/>
 					<data>
 						<root>
 							<header>
@@ -209,53 +209,16 @@
 						<parameter usageKind="variable" name="subfield"/>
 					</data>
 				</component>
-				<component name="document" library="xml" uid="1007" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="338" lty="229" rbx="512" rby="366"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="datafield" ns="1" inpkey="2" outkey="19" expanded="1">
-									<entry name="subfield" ns="1" outkey="5" expanded="1">
-										<entry name="code" type="attribute" outkey="20"/>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="datafield"/>
-					</data>
-				</component>
 				<component name="constant" library="core" uid="1008" kind="2">
 					<properties/>
 					<targets>
 						<datapoint pos="0" key="11"/>
 					</targets>
-					<view ltx="250" lty="480" rbx="316" rby="498"/>
+					<view ltx="248" lty="155" rbx="314" rby="173"/>
 					<data>
 						<constant value="033A" datatype="string"/>
 						<wsdl/>
 					</data>
-				</component>
-				<component name="datafield" library="core" uid="1009" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="10"/>
-						<datapoint pos="1" key="14"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1"/>
-						<datapoint/>
-					</targets>
-					<view ltx="418" lty="441" rbx="521" rby="497"/>
 				</component>
 				<component name="equal" library="core" uid="1010" kind="5">
 					<properties/>
@@ -266,7 +229,7 @@
 					<targets>
 						<datapoint pos="0" key="13"/>
 					</targets>
-					<view ltx="338" lty="442" rbx="391" rby="498"/>
+					<view ltx="336" lty="117" rbx="389" rby="173"/>
 				</component>
 				<component name="subfield" library="core" uid="1011" kind="3">
 					<properties/>
@@ -278,30 +241,7 @@
 						<datapoint pos="0" key="8"/>
 						<datapoint/>
 					</targets>
-					<view ltx="819" lty="385" rbx="922" rby="441"/>
-				</component>
-				<component name="document" library="xml" uid="1012" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="956" lty="385" rbx="1104" rby="477"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="subfield" ns="1" inpkey="9" expanded="1">
-									<entry name="#text" outkey="24"/>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="subfield"/>
-					</data>
+					<view ltx="1007" lty="385" rbx="1110" rby="441"/>
 				</component>
 				<component name="document" library="xml" uid="1013" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
@@ -325,7 +265,7 @@
 				</component>
 				<component name="document" library="xml" uid="1014" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1354" rbx="1654" rby="500"/>
+					<view ltx="1761" rbx="2061" rby="500"/>
 					<data>
 						<root scrollposition="1">
 							<header>
@@ -342,6 +282,66 @@
 						<wsdl/>
 						<parameter usageKind="output" name="tei_lite"/>
 					</data>
+				</component>
+				<component name="document" library="xml" uid="1007" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="633" lty="155" rbx="807" rby="292"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="datafield" ns="1" inpkey="2" outkey="19" expanded="1">
+									<entry name="subfield" ns="1" outkey="5" expanded="1">
+										<entry name="code" type="attribute" outkey="20"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="datafield"/>
+					</data>
+				</component>
+				<component name="document" library="xml" uid="1012" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1144" lty="385" rbx="1292" rby="477"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" ns="1" inpkey="9" expanded="1">
+									<entry name="#text" outkey="24"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="datafield" library="core" uid="1009" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="10"/>
+						<datapoint pos="1" key="14"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1"/>
+						<datapoint/>
+					</targets>
+					<view ltx="416" lty="116" rbx="519" rby="172"/>
 				</component>
 			</children>
 			<graph directed="1">
