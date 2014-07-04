@@ -216,8 +216,8 @@
 						</root>
 					</data>
 				</component>
-				<component name="verfasser_5" library="user" blackbox="0" uid="2472" kind="19" visible="0">
-					<view ltx="-824" lty="-239" rbx="-332" rby="-103"/>
+				<component name="pica2tei_titles" library="user" blackbox="0" uid="2496" kind="19" visible="0">
+					<view ltx="-720" lty="-1104" rbx="-420" rby="-904"/>
 					<data>
 						<root scrollposition="1">
 							<header>
@@ -226,10 +226,8 @@
 									<namespace/>
 								</namespaces>
 							</header>
-							<entry name="picaxmlv10" ns="1" componentid="1069" expanded="1">
-								<entry name="record" inpkey="3068" expanded="1">
-									<entry name="datafield" inpkey="3069" expanded="1"/>
-								</entry>
+							<entry name="picaxmlv10" ns="1" componentid="756" expanded="1">
+								<entry name="datafield" inpkey="3141"/>
 							</entry>
 						</root>
 						<root rootindex="1">
@@ -239,13 +237,35 @@
 									<namespace/>
 								</namespaces>
 							</header>
-							<entry name="tei_lite" ns="1" componentid="1070" expanded="1">
-								<entry name="author" outkey="3070" expanded="1">
-									<entry name="ref" outkey="3071"/>
-									<entry name="name" outkey="3072"/>
+							<entry name="tei_lite" ns="1" componentid="757" expanded="1">
+								<entry name="title" outkey="3142"/>
+							</entry>
+						</root>
+					</data>
+				</component>
+				<component name="pica-xml-v1-0" library="xml" uid="2" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="-1576" lty="-403" rbx="-1294" rby="-195"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="record" outkey="2907" expanded="1">
+										<entry name="datafield" outkey="2259" expanded="1">
+											<entry name="subfield" expanded="1"/>
+										</entry>
+									</entry>
 								</entry>
 							</entry>
 						</root>
+						<document schema="pica-xml-v1-0.xsd" inputinstance="pica_xml_example.xml" outputinstance="pica-xml-v1-0.xml" instanceroot="{info:srw/schema/5/picaXML-v1.0}record"/>
+						<wsdl/>
 					</data>
 				</component>
 				<component name="verfasser_3" library="user" blackbox="0" uid="2470" kind="19" visible="0">
@@ -278,33 +298,8 @@
 						</root>
 					</data>
 				</component>
-				<component name="pica-xml-v1-0" library="xml" uid="2" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="-1719" lty="115" rbx="-1437" rby="323"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="record" outkey="2907" expanded="1">
-										<entry name="datafield" outkey="2259" expanded="1">
-											<entry name="subfield" expanded="1"/>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" inputinstance="pica_xml_example.xml" outputinstance="pica-xml-v1-0.xml" instanceroot="{info:srw/schema/5/picaXML-v1.0}record"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="pica2tei_titles" library="user" blackbox="0" uid="2496" kind="19" visible="0">
-					<view ltx="-720" lty="-1104" rbx="-420" rby="-904"/>
+				<component name="verfasser_5" library="user" blackbox="0" uid="2472" kind="19" visible="0">
+					<view ltx="-824" lty="-239" rbx="-332" rby="-103"/>
 					<data>
 						<root scrollposition="1">
 							<header>
@@ -313,8 +308,10 @@
 									<namespace/>
 								</namespaces>
 							</header>
-							<entry name="picaxmlv10" ns="1" componentid="756" expanded="1">
-								<entry name="datafield" inpkey="3141"/>
+							<entry name="picaxmlv10" ns="1" componentid="1069" expanded="1">
+								<entry name="record" inpkey="3068" expanded="1">
+									<entry name="datafield" inpkey="3069" expanded="1"/>
+								</entry>
 							</entry>
 						</root>
 						<root rootindex="1">
@@ -324,17 +321,72 @@
 									<namespace/>
 								</namespaces>
 							</header>
-							<entry name="tei_lite" ns="1" componentid="757" expanded="1">
-								<entry name="title" outkey="3142"/>
+							<entry name="tei_lite" ns="1" componentid="1070" expanded="1">
+								<entry name="author" outkey="3070" expanded="1">
+									<entry name="ref" outkey="3071"/>
+									<entry name="name" outkey="3072"/>
+								</entry>
+							</entry>
+						</root>
+					</data>
+				</component>
+				<component name="verfasser_1" library="user" blackbox="0" uid="2502" kind="19" visible="0">
+					<view ltx="-709" lty="-829" rbx="-409" rby="-629"/>
+					<data>
+						<root scrollposition="813">
+							<header>
+								<namespaces>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="picaxmlv10" ns="1" componentid="1613" expanded="1">
+								<entry name="datafield" inpkey="3145" expanded="1"/>
+							</entry>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="tei_lite" ns="1" componentid="1614" expanded="1">
+								<entry name="author" outkey="3146">
+									<entry name="ref" outkey="3147"/>
+									<entry name="date" outkey="3148"/>
+									<entry name="name" outkey="3149"/>
+								</entry>
+							</entry>
+							<entry name="tei_lite2" ns="1" componentid="1615" expanded="1">
+								<entry name="author" outkey="3150">
+									<entry name="ref" outkey="3151"/>
+									<entry name="date" outkey="3152"/>
+									<entry name="name" outkey="3153"/>
+								</entry>
+							</entry>
+							<entry name="tei_lite3" ns="1" componentid="1616" expanded="1">
+								<entry name="editor" outkey="3154">
+									<entry name="ref" outkey="3155"/>
+									<entry name="date" outkey="3156"/>
+									<entry name="name" outkey="3157"/>
+								</entry>
+							</entry>
+							<entry name="tei_lite4" ns="1" componentid="1617" expanded="1">
+								<entry name="editor" outkey="3158" expanded="1">
+									<entry name="ref" outkey="3159"/>
+									<entry name="date" outkey="3160"/>
+									<entry name="name" outkey="3161"/>
+								</entry>
 							</entry>
 						</root>
 					</data>
 				</component>
 				<component name="tei_lite" library="xml" uid="1141" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="593" lty="-715" rbx="953" rby="355"/>
+					<view ltx="-137" lty="-1160" rbx="239" rby="-253"/>
 					<data>
-						<root scrollposition="1020">
+						<root scrollposition="3058">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -355,39 +407,58 @@
 												<entry name="sourceDesc" ns="1" expanded="1">
 													<entry name="bibl" ns="1" expanded="1">
 														<entry name="title" ns="1" inpkey="2780"/>
-														<entry name="author" ns="1" expanded="1">
-															<entry name="date" ns="1" expanded="1"/>
-															<entry name="date" ns="1" expanded="1" clone="1"/>
-															<entry name="name" ns="1" expanded="1"/>
+														<entry name="author" ns="1" inpkey="2847">
+															<entry name="ref" ns="1" inpkey="2848"/>
+															<entry name="date" ns="1" inpkey="2849"/>
+															<entry name="name" ns="1" inpkey="2872"/>
 														</entry>
-														<entry name="author" ns="1" inpkey="2900" expanded="1" clone="1">
+														<entry name="author" ns="1" inpkey="2900" clone="1">
 															<entry name="ref" ns="1" inpkey="2901"/>
 															<entry name="name" ns="1" inpkey="2902"/>
 														</entry>
-														<entry name="author" ns="1" inpkey="2913" expanded="1" clone="1">
+														<entry name="author" ns="1" inpkey="2913" clone="1">
 															<entry name="ref" ns="1" inpkey="2914"/>
 															<entry name="name" ns="1" inpkey="2915"/>
 														</entry>
-														<entry name="editor" ns="1" expanded="1">
+														<entry name="editor" ns="1">
 															<entry name="date" ns="1" expanded="1"/>
 															<entry name="date" ns="1" expanded="1" clone="1"/>
 														</entry>
 													</entry>
-													<entry name="bibl" ns="1" inpkey="2930" expanded="1" clone="1">
+													<entry name="bibl" ns="1" inpkey="2930" clone="1">
 														<entry name="publisher" ns="1" inpkey="2931"/>
 														<entry name="pubPlace" ns="1" inpkey="2932"/>
 													</entry>
-													<entry name="bibl" ns="1" expanded="1" clone="1">
+													<entry name="bibl" ns="1" clone="1">
 														<entry name="publisher" ns="1" inpkey="2941" expanded="1">
 															<entry name="ref" ns="1" inpkey="2942"/>
 															<entry name="name" ns="1" inpkey="2943"/>
 														</entry>
 													</entry>
-													<entry name="bibl" ns="1" expanded="1" clone="1">
+													<entry name="bibl" ns="1" clone="1">
 														<entry name="date" ns="1" inpkey="2953"/>
 														<entry name="date" ns="1" inpkey="2954" clone="1"/>
 														<entry name="date" ns="1" inpkey="2955" clone="1"/>
 														<entry name="date" ns="1" inpkey="2956" clone="1"/>
+													</entry>
+													<entry name="listBibl" ns="1" expanded="1">
+														<entry name="bibl" ns="1" expanded="1">
+															<entry name="author" ns="1" inpkey="3162">
+																<entry name="ref" ns="1" inpkey="3163"/>
+																<entry name="date" ns="1" inpkey="3164"/>
+																<entry name="name" ns="1" inpkey="3165"/>
+															</entry>
+															<entry name="editor" ns="1" inpkey="3166">
+																<entry name="ref" ns="1" inpkey="3167"/>
+																<entry name="date" ns="1" inpkey="3168"/>
+																<entry name="name" ns="1" inpkey="3169"/>
+															</entry>
+															<entry name="editor" ns="1" inpkey="3170" clone="1">
+																<entry name="ref" ns="1" inpkey="3171"/>
+																<entry name="date" ns="1" inpkey="3172"/>
+																<entry name="name" ns="1" inpkey="3173"/>
+															</entry>
+														</entry>
 													</entry>
 												</entry>
 											</entry>
@@ -413,7 +484,7 @@
 			</children>
 			<graph directed="1">
 				<edges>
-					<edge edgekey="3143">
+					<edge edgekey="3174">
 						<data>
 							<dataconnection type="2"/>
 						</data>
@@ -473,6 +544,11 @@
 							<dataconnection type="2"/>
 						</data>
 					</edge>
+					<edge edgekey="3143">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
 				</edges>
 				<vertices>
 					<vertex vertexkey="2259">
@@ -487,6 +563,7 @@
 							<edge vertexkey="3091" edgekey="3101"/>
 							<edge vertexkey="3124" edgekey="3127"/>
 							<edge vertexkey="3141" edgekey="3143"/>
+							<edge vertexkey="3145" edgekey="3174"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="2907">
@@ -612,6 +689,86 @@
 					<vertex vertexkey="3142">
 						<edges>
 							<edge vertexkey="2780" edgekey="3144"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3146">
+						<edges>
+							<edge vertexkey="2847" edgekey="3175"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3147">
+						<edges>
+							<edge vertexkey="2848" edgekey="3176"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3148">
+						<edges>
+							<edge vertexkey="2849" edgekey="3177"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3149">
+						<edges>
+							<edge vertexkey="2872" edgekey="3178"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3150">
+						<edges>
+							<edge vertexkey="3162" edgekey="3179"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3151">
+						<edges>
+							<edge vertexkey="3163" edgekey="3180"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3152">
+						<edges>
+							<edge vertexkey="3164" edgekey="3181"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3153">
+						<edges>
+							<edge vertexkey="3165" edgekey="3182"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3154">
+						<edges>
+							<edge vertexkey="3166" edgekey="3183"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3155">
+						<edges>
+							<edge vertexkey="3167" edgekey="3184"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3156">
+						<edges>
+							<edge vertexkey="3168" edgekey="3185"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3157">
+						<edges>
+							<edge vertexkey="3169" edgekey="3186"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3158">
+						<edges>
+							<edge vertexkey="3170" edgekey="3187"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3159">
+						<edges>
+							<edge vertexkey="3171" edgekey="3188"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3160">
+						<edges>
+							<edge vertexkey="3172" edgekey="3189"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3161">
+						<edges>
+							<edge vertexkey="3173" edgekey="3190"/>
 						</edges>
 					</vertex>
 				</vertices>
