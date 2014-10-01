@@ -5,22 +5,617 @@
 		<properties SelectedLanguage="xslt2"/>
 		<structure>
 			<children>
-				<component name="pica-xml-v1-0" library="xml" uid="2" kind="14">
+				<component name="position" library="core" uid="1156" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2724"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2723"/>
+					</targets>
+					<view ltx="-409" lty="-637" rbx="-342" rby="-598"/>
+				</component>
+				<component name="equal" library="core" uid="1157" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2725"/>
+						<datapoint pos="1" key="2726"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2727"/>
+					</targets>
+					<view ltx="-319" lty="-613" rbx="-266" rby="-557"/>
+				</component>
+				<component name="position" library="core" uid="1158" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2728"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2729"/>
+					</targets>
+					<view ltx="-409" lty="-583" rbx="-342" rby="-544"/>
+				</component>
+				<component name="equal" library="core" uid="1159" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2731"/>
+						<datapoint pos="1" key="2732"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2730"/>
+					</targets>
+					<view ltx="-916" lty="-550" rbx="-863" rby="-494"/>
+				</component>
+				<component name="subfield" library="core" uid="1160" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2735"/>
+						<datapoint pos="1" key="2734"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2733"/>
+						<datapoint/>
+					</targets>
+					<view ltx="-833" lty="-533" rbx="-730" rby="-477"/>
+				</component>
+				<component name="document" library="xml" uid="1161" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="-1844" lty="-174" rbx="-1534" rby="1"/>
+					<view ltx="-665" lty="-533" rbx="-527" rby="-451"/>
 					<data>
-						<root scrollposition="1">
+						<root>
 							<header>
 								<namespaces>
+									<namespace/>
 									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
 									<namespace uid="http://www.altova.com/mapforce"/>
 								</namespaces>
 							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="record" expanded="1">
-										<entry name="datafield" outkey="56" expanded="1">
-											<entry name="subfield" expanded="1"/>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" ns="1" inpkey="2736" outkey="2738" expanded="1">
+									<entry name="#text" outkey="2737"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1162" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2739"/>
+					</targets>
+					<view ltx="-985" lty="-512" rbx="-939" rby="-494"/>
+					<data>
+						<constant value="a" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="1163" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2741"/>
+						<datapoint pos="1" key="2742"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2740"/>
+					</targets>
+					<view ltx="-244" lty="-477" rbx="-147" rby="-401"/>
+				</component>
+				<component name="concat" library="core" uid="1164" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2743"/>
+						<datapoint pos="1" key="2746"/>
+						<datapoint pos="2" key="2745"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2744"/>
+					</targets>
+					<view ltx="-378" lty="-458" rbx="-293" rby="-382"/>
+				</component>
+				<component name="constant" library="core" uid="1165" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2747"/>
+					</targets>
+					<view ltx="-451" lty="-419" rbx="-405" rby="-401"/>
+					<data>
+						<constant value=", " datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="subfield" library="core" uid="1166" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2748"/>
+						<datapoint pos="1" key="2749"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2750"/>
+						<datapoint/>
+					</targets>
+					<view ltx="-812" lty="-344" rbx="-709" rby="-288"/>
+				</component>
+				<component name="document" library="xml" uid="1167" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="-675" lty="-344" rbx="-527" rby="-252"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" ns="1" inpkey="2752" outkey="2751" expanded="1">
+									<entry name="#text" outkey="2753"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="1168" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2756"/>
+						<datapoint pos="1" key="2754"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2755"/>
+					</targets>
+					<view ltx="-886" lty="-270" rbx="-833" rby="-214"/>
+				</component>
+				<component name="document" library="xml" uid="1170" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="-1732" lty="-210" rbx="-1558" rby="-73"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="datafield" ns="1" inpkey="2764" outkey="2763" expanded="1">
+									<entry name="subfield" ns="1" outkey="2762" expanded="1">
+										<entry name="code" type="attribute" outkey="2760"/>
+										<entry name="#text" outkey="2761"/>
+									</entry>
+								</entry>
+								<entry name="datafield" ns="1" inpkey="2765" clone="1"/>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="datafield"/>
+					</data>
+				</component>
+				<component name="datafield" library="core" uid="1171" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2768"/>
+						<datapoint pos="1" key="2766"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2767"/>
+						<datapoint/>
+					</targets>
+					<view ltx="-1996" lty="-204" rbx="-1893" rby="-148"/>
+				</component>
+				<component name="constant" library="core" uid="1172" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2769"/>
+					</targets>
+					<view ltx="-953" lty="-204" rbx="-907" rby="-186"/>
+					<data>
+						<constant value="d" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="1173" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2771"/>
+						<datapoint pos="1" key="2770"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2772"/>
+					</targets>
+					<view ltx="-2085" lty="-203" rbx="-2032" rby="-147"/>
+				</component>
+				<component name="concat" library="core" uid="1174" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2774"/>
+						<datapoint pos="1" key="2773"/>
+						<datapoint pos="2" key="2776"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2775"/>
+					</targets>
+					<view ltx="-382" lty="-185" rbx="-297" rby="-109"/>
+				</component>
+				<component name="constant" library="core" uid="1175" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2777"/>
+					</targets>
+					<view ltx="-2172" lty="-165" rbx="-2107" rby="-147"/>
+					<data>
+						<constant value="028C" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="subfield" library="core" uid="1176" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2780"/>
+						<datapoint pos="1" key="2778"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2779"/>
+						<datapoint/>
+					</targets>
+					<view ltx="-812" lty="-165" rbx="-709" rby="-109"/>
+				</component>
+				<component name="document" library="xml" uid="1177" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="-675" lty="-165" rbx="-527" rby="-73"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" ns="1" inpkey="2781" expanded="1">
+									<entry name="#text" outkey="2782"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1178" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2783"/>
+					</targets>
+					<view ltx="-451" lty="-146" rbx="-408" rby="-128"/>
+					<data>
+						<constant value=" " datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="datafield" library="core" uid="1179" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2786"/>
+						<datapoint pos="1" key="2784"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2785"/>
+						<datapoint/>
+					</targets>
+					<view ltx="-1996" lty="-119" rbx="-1893" rby="-63"/>
+				</component>
+				<component name="equal" library="core" uid="1180" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2788"/>
+						<datapoint pos="1" key="2789"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2787"/>
+					</targets>
+					<view ltx="-2085" lty="-118" rbx="-2032" rby="-62"/>
+				</component>
+				<component name="equal" library="core" uid="1181" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2792"/>
+						<datapoint pos="1" key="2791"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2790"/>
+					</targets>
+					<view ltx="-886" lty="-91" rbx="-833" rby="-35"/>
+				</component>
+				<component name="constant" library="core" uid="1182" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2793"/>
+					</targets>
+					<view ltx="-2172" lty="-80" rbx="-2107" rby="-62"/>
+					<data>
+						<constant value="028D" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1183" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2794"/>
+					</targets>
+					<view ltx="-953" lty="-25" rbx="-907" rby="-7"/>
+					<data>
+						<constant value="c" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="subfield" library="core" uid="1184" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2796"/>
+						<datapoint pos="1" key="2797"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2795"/>
+						<datapoint/>
+					</targets>
+					<view ltx="-812" lty="21" rbx="-709" rby="77"/>
+				</component>
+				<component name="document" library="xml" uid="1185" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="-675" lty="21" rbx="-527" rby="113"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" ns="1" inpkey="2799" expanded="1">
+									<entry name="#text" outkey="2798"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="1186" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2801"/>
+						<datapoint pos="1" key="2800"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2802"/>
+					</targets>
+					<view ltx="-886" lty="95" rbx="-833" rby="151"/>
+				</component>
+				<component name="concat" library="core" uid="1187" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2807"/>
+						<datapoint pos="1" key="2804"/>
+						<datapoint pos="2" key="2803"/>
+						<datapoint pos="3" key="2805"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2806"/>
+					</targets>
+					<view ltx="-382" lty="130" rbx="-297" rby="224"/>
+				</component>
+				<component name="constant" library="core" uid="1188" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2808"/>
+					</targets>
+					<view ltx="-953" lty="161" rbx="-907" rby="179"/>
+					<data>
+						<constant value="p" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1189" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2809"/>
+					</targets>
+					<view ltx="-455" lty="169" rbx="-408" rby="187"/>
+					<data>
+						<constant value=" (" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1190" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2810"/>
+					</targets>
+					<view ltx="-463" lty="206" rbx="-416" rby="224"/>
+					<data>
+						<constant value=") " datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="1191" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2811"/>
+						<datapoint pos="1" key="2812"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2813"/>
+					</targets>
+					<view ltx="-704" lty="507" rbx="-607" rby="583"/>
+				</component>
+				<component name="equal" library="core" uid="1192" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2814"/>
+						<datapoint pos="1" key="2816"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2815"/>
+					</targets>
+					<view ltx="-818" lty="527" rbx="-765" rby="583"/>
+				</component>
+				<component name="constant" library="core" uid="1193" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2817"/>
+					</targets>
+					<view ltx="-887" lty="565" rbx="-841" rby="583"/>
+					<data>
+						<constant value="h" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="1194" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2818"/>
+						<datapoint pos="1" key="2819"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2820"/>
+					</targets>
+					<view ltx="-704" lty="608" rbx="-607" rby="684"/>
+				</component>
+				<component name="equal" library="core" uid="1195" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2823"/>
+						<datapoint pos="1" key="2822"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2821"/>
+					</targets>
+					<view ltx="-818" lty="628" rbx="-765" rby="684"/>
+				</component>
+				<component name="constant" library="core" uid="1196" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2824"/>
+					</targets>
+					<view ltx="-887" lty="666" rbx="-840" rby="684"/>
+					<data>
+						<constant value="D" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1197" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2825"/>
+					</targets>
+					<view ltx="-548" lty="684" rbx="-408" rby="702"/>
+					<data>
+						<constant value="http://d-nb.info/gnd/" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="concat" library="core" uid="1198" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2828"/>
+						<datapoint pos="1" key="2826"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2827"/>
+					</targets>
+					<view ltx="-352" lty="684" rbx="-277" rby="742"/>
+				</component>
+				<component name="if-else" library="core" uid="1199" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2829"/>
+						<datapoint pos="1" key="2830"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2831"/>
+					</targets>
+					<view ltx="-705" lty="708" rbx="-608" rby="784"/>
+				</component>
+				<component name="equal" library="core" uid="1200" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2834"/>
+						<datapoint pos="1" key="2833"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2832"/>
+					</targets>
+					<view ltx="-819" lty="728" rbx="-766" rby="784"/>
+				</component>
+				<component name="substring-after" library="core" uid="1201" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2837"/>
+						<datapoint pos="1" key="2836"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2835"/>
+					</targets>
+					<view ltx="-495" lty="728" rbx="-395" rby="784"/>
+				</component>
+				<component name="constant" library="core" uid="1202" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2838"/>
+					</targets>
+					<view ltx="-888" lty="766" rbx="-842" rby="784"/>
+					<data>
+						<constant value="0" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1203" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2839"/>
+					</targets>
+					<view ltx="-591" lty="766" rbx="-548" rby="784"/>
+					<data>
+						<constant value="/" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="pica-xml-v1-0" library="xml" uid="2" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="-2674" lty="-210" rbx="-2364" rby="-35"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="2" expanded="1">
+								<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="record" ns="1" expanded="1">
+										<entry name="datafield" ns="1" outkey="56" expanded="1">
+											<entry name="tag" type="attribute" outkey="2840"/>
+											<entry name="subfield" ns="1" expanded="1"/>
 										</entry>
 									</entry>
 								</entry>
@@ -30,60 +625,40 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="verfasser_2" library="user" blackbox="0" uid="1152" kind="19" visible="0">
-					<view ltx="-1398" lty="-335" rbx="-1021" rby="482"/>
+				<component name="document" library="xml" uid="1169" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="-548" lty="328" rbx="-219" rby="429"/>
 					<data>
 						<root scrollposition="1">
 							<header>
 								<namespaces>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="picaxmlv10" ns="1" componentid="1147" expanded="1">
-								<entry name="datafield" inpkey="2709" expanded="1"/>
-							</entry>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
+									<namespace uid="http://www.altova.com/mapforce"/>
 									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-									<namespace/>
 								</namespaces>
 							</header>
-							<entry name="tei_lite3" ns="1" componentid="1150" expanded="1">
-								<entry name="name" outkey="2710" expanded="1"/>
-							</entry>
-							<entry name="tei_lite2" ns="1" componentid="1149" expanded="1">
-								<entry name="date" outkey="2711">
-									<entry name="type" ns="1" type="attribute" outkey="2712"/>
-								</entry>
-							</entry>
-							<entry name="tei_lite4" ns="1" componentid="1151" expanded="1">
-								<entry name="date" outkey="2713">
-									<entry name="type" ns="1" type="attribute" outkey="2714"/>
-								</entry>
-							</entry>
-							<entry name="tei_lite" ns="1" componentid="1148" expanded="1">
-								<entry name="ref" outkey="2715" expanded="1"/>
+							<entry name="compute-when" inpkey="2757"/>
+							<entry name="document" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="name" ns="1" inpkey="2758" outkey="2759" expanded="1"/>
 							</entry>
 						</root>
+						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}author/{http://www.tei-c.org/ns/1.0}name"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="name"/>
 					</data>
 				</component>
 				<component name="tei_lite" library="xml" uid="999" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="-827" lty="-335" rbx="-487" rby="482"/>
+					<view ltx="94" lty="-312" rbx="434" rby="505"/>
 					<data>
-						<root scrollposition="1">
+						<root scrollposition="2151">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-									<namespace/>
 									<namespace uid="http://www.altova.com/mapforce"/>
 								</namespaces>
 							</header>
-							<entry name="FileInstance" ns="2" expanded="1">
-								<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
 									<entry name="TEI" expanded="1">
 										<entry name="teiHeader" expanded="1">
 											<entry name="fileDesc" expanded="1">
@@ -91,12 +666,8 @@
 													<entry name="bibl" expanded="1">
 														<entry name="editor" expanded="1">
 															<entry name="ref" inpkey="2234"/>
-															<entry name="date" inpkey="2221">
-																<entry name="type" ns="1" type="attribute" inpkey="2222"/>
-															</entry>
-															<entry name="date" inpkey="2223" clone="1">
-																<entry name="type" ns="1" type="attribute" inpkey="2224"/>
-															</entry>
+															<entry name="date" inpkey="2221"/>
+															<entry name="date" inpkey="2223" clone="1"/>
 															<entry name="name" inpkey="2225"/>
 														</entry>
 													</entry>
@@ -114,7 +685,62 @@
 			</children>
 			<graph directed="1">
 				<edges>
-					<edge edgekey="2716">
+					<edge edgekey="2841">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2842">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2843">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2844">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2845">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2846">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2847">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2848">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2849">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2850">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2851">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2852">
 						<data>
 							<dataconnection type="2"/>
 						</data>
@@ -123,1286 +749,290 @@
 				<vertices>
 					<vertex vertexkey="56">
 						<edges>
-							<edge vertexkey="2709" edgekey="2716"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="2710">
-						<edges>
-							<edge vertexkey="2225" edgekey="2717"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="2711">
-						<edges>
-							<edge vertexkey="2221" edgekey="2718"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="2712">
-						<edges>
-							<edge vertexkey="2222" edgekey="2719"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="2713">
-						<edges>
-							<edge vertexkey="2223" edgekey="2720"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="2714">
-						<edges>
-							<edge vertexkey="2224" edgekey="2721"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="2715">
-						<edges>
-							<edge vertexkey="2234" edgekey="2722"/>
-						</edges>
-					</vertex>
-				</vertices>
-			</graph>
-		</structure>
-	</component>
-	<component name="verfasser_2" library="user" blackbox="0" uid="1090" editable="1" inline="1">
-		<properties/>
-		<structure>
-			<children>
-				<component name="constant" library="core" uid="1091" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="112"/>
-					</targets>
-					<view ltx="1284" lty="125" rbx="1330" rby="143"/>
-					<data>
-						<constant value="a" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1092" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="89"/>
-					</targets>
-					<view ltx="2417" lty="1164" rbx="2520" rby="1182"/>
-					<data>
-						<constant value="Lebensdaten" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1093" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="90"/>
-					</targets>
-					<view ltx="2405" lty="1232" rbx="2508" rby="1250"/>
-					<data>
-						<constant value="Lebensdaten" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1094" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="29"/>
-					</targets>
-					<view ltx="1818" lty="491" rbx="1861" rby="509"/>
-					<data>
-						<constant value=" " datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1095" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="83"/>
-					</targets>
-					<view ltx="2140" lty="584" rbx="2214" rby="602"/>
-					<data>
-						<constant value="person" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="1096" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1594" lty="293" rbx="1742" rby="385"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="subfield" ns="1" inpkey="38" outkey="54" expanded="1">
-									<entry name="#text" outkey="62"/>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="subfield"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="1097" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1594" lty="472" rbx="1742" rby="564"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="subfield" ns="1" inpkey="72" expanded="1">
-									<entry name="#text" outkey="43"/>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="subfield"/>
-					</data>
-				</component>
-				<component name="subfield" library="core" uid="1098" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="114"/>
-						<datapoint pos="1" key="53"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="17"/>
-						<datapoint/>
-					</targets>
-					<view ltx="1436" lty="104" rbx="1539" rby="160"/>
-				</component>
-				<component name="constant" library="core" uid="1099" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="47"/>
-					</targets>
-					<view ltx="1316" lty="798" rbx="1362" rby="816"/>
-					<data>
-						<constant value="p" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1100" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="77"/>
-					</targets>
-					<view ltx="1814" lty="806" rbx="1861" rby="824"/>
-					<data>
-						<constant value=" (" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1101" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="41"/>
-					</targets>
-					<view ltx="1806" lty="843" rbx="1853" rby="861"/>
-					<data>
-						<constant value=") " datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="subfield" library="core" uid="1102" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="56"/>
-						<datapoint pos="1" key="109"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="31"/>
-						<datapoint/>
-					</targets>
-					<view ltx="1457" lty="658" rbx="1560" rby="714"/>
-				</component>
-				<component name="if-else" library="core" uid="1103" kind="4">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="60"/>
-						<datapoint pos="1" key="76"/>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="106"/>
-					</targets>
-					<view ltx="2025" lty="160" rbx="2122" rby="236"/>
-				</component>
-				<component name="subfield" library="core" uid="1104" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="111"/>
-						<datapoint pos="1" key="101"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="71"/>
-						<datapoint/>
-					</targets>
-					<view ltx="1457" lty="472" rbx="1560" rby="528"/>
-				</component>
-				<component name="subfield" library="core" uid="1105" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="34"/>
-						<datapoint pos="1" key="70"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="37"/>
-						<datapoint/>
-					</targets>
-					<view ltx="1457" lty="293" rbx="1560" rby="349"/>
-				</component>
-				<component name="constant" library="core" uid="1106" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="123"/>
-					</targets>
-					<view ltx="1316" lty="612" rbx="1362" rby="630"/>
-					<data>
-						<constant value="c" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1107" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="119"/>
-					</targets>
-					<view ltx="1818" lty="218" rbx="1864" rby="236"/>
-					<data>
-						<constant value=", " datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1108" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="102"/>
-					</targets>
-					<view ltx="1316" lty="433" rbx="1362" rby="451"/>
-					<data>
-						<constant value="d" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1109" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="27"/>
-					</targets>
-					<view ltx="1678" lty="1403" rbx="1721" rby="1421"/>
-					<data>
-						<constant value="/" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1110" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="115"/>
-					</targets>
-					<view ltx="1381" lty="1403" rbx="1427" rby="1421"/>
-					<data>
-						<constant value="0" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1111" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="96"/>
-					</targets>
-					<view ltx="1721" lty="1321" rbx="1861" rby="1339"/>
-					<data>
-						<constant value="http://d-nb.info/gnd/" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1112" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="117"/>
-					</targets>
-					<view ltx="1382" lty="1303" rbx="1429" rby="1321"/>
-					<data>
-						<constant value="D" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1113" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="23"/>
-					</targets>
-					<view ltx="1382" lty="1202" rbx="1428" rby="1220"/>
-					<data>
-						<constant value="h" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="concat" library="core" uid="1114" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="97"/>
-						<datapoint pos="1" key="68"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="95"/>
-					</targets>
-					<view ltx="1917" lty="1321" rbx="1992" rby="1379"/>
-				</component>
-				<component name="concat" library="core" uid="1115" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="107"/>
-						<datapoint pos="1" key="30"/>
-						<datapoint pos="2" key="44"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="104"/>
-					</targets>
-					<view ltx="1887" lty="452" rbx="1972" rby="528"/>
-				</component>
-				<component name="concat" library="core" uid="1116" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="105"/>
-						<datapoint pos="1" key="78"/>
-						<datapoint pos="2" key="16"/>
-						<datapoint pos="3" key="42"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="57"/>
-					</targets>
-					<view ltx="1887" lty="767" rbx="1972" rby="861"/>
-				</component>
-				<component name="equal" library="core" uid="1117" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="51"/>
-						<datapoint pos="1" key="103"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="69"/>
-					</targets>
-					<view ltx="1383" lty="367" rbx="1436" rby="423"/>
-				</component>
-				<component name="equal" library="core" uid="1118" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="20"/>
-						<datapoint pos="1" key="124"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="100"/>
-					</targets>
-					<view ltx="1383" lty="546" rbx="1436" rby="602"/>
-				</component>
-				<component name="equal" library="core" uid="1119" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="99"/>
-						<datapoint pos="1" key="50"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="59"/>
-					</targets>
-					<view ltx="1950" lty="24" rbx="2003" rby="80"/>
-				</component>
-				<component name="concat" library="core" uid="1120" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="65"/>
-						<datapoint pos="1" key="120"/>
-						<datapoint pos="2" key="63"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="75"/>
-					</targets>
-					<view ltx="1891" lty="179" rbx="1976" rby="255"/>
-				</component>
-				<component name="position" library="core" uid="1121" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="22"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="98"/>
-					</targets>
-					<view ltx="1860" rbx="1927" rby="39"/>
-				</component>
-				<component name="position" library="core" uid="1122" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="55"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="49"/>
-					</targets>
-					<view ltx="1860" lty="54" rbx="1927" rby="93"/>
-				</component>
-				<component name="substring-after" library="core" uid="1123" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="94"/>
-						<datapoint pos="1" key="28"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="67"/>
-					</targets>
-					<view ltx="1774" lty="1365" rbx="1874" rby="1421"/>
-				</component>
-				<component name="equal" library="core" uid="1124" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="121"/>
-						<datapoint pos="1" key="118"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="85"/>
-					</targets>
-					<view ltx="1451" lty="1265" rbx="1504" rby="1321"/>
-				</component>
-				<component name="equal" library="core" uid="1125" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="39"/>
-						<datapoint pos="1" key="24"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="73"/>
-					</targets>
-					<view ltx="1451" lty="1164" rbx="1504" rby="1220"/>
-				</component>
-				<component name="equal" library="core" uid="1126" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="66"/>
-						<datapoint pos="1" key="113"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="52"/>
-					</targets>
-					<view ltx="1353" lty="87" rbx="1406" rby="143"/>
-				</component>
-				<component name="document" library="xml" uid="1127" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1604" lty="104" rbx="1742" rby="186"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="subfield" ns="1" inpkey="18" outkey="21" expanded="1">
-									<entry name="#text" outkey="64"/>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="subfield"/>
-					</data>
-				</component>
-				<component name="if-else" library="core" uid="1128" kind="4">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="74"/>
-						<datapoint pos="1" key="36"/>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="91"/>
-					</targets>
-					<view ltx="1565" lty="1144" rbx="1662" rby="1220"/>
-				</component>
-				<component name="equal" library="core" uid="1129" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="122"/>
-						<datapoint pos="1" key="116"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="87"/>
-					</targets>
-					<view ltx="1450" lty="1365" rbx="1503" rby="1421"/>
-				</component>
-				<component name="constant" library="core" uid="1130" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="1"/>
-					</targets>
-					<view ltx="285" lty="880" rbx="332" rby="898"/>
-					<data>
-						<constant value="B" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="if-else" library="core" uid="1132" kind="4">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="88"/>
-						<datapoint pos="1" key="61"/>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="93"/>
-					</targets>
-					<view ltx="1564" lty="1345" rbx="1661" rby="1421"/>
-				</component>
-				<component name="equal" library="core" uid="1133" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="130"/>
-						<datapoint pos="1" key="2"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="125"/>
-					</targets>
-					<view ltx="371" lty="842" rbx="424" rby="898"/>
-				</component>
-				<component name="if-else" library="core" uid="1134" kind="4">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="86"/>
-						<datapoint pos="1" key="40"/>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="92"/>
-					</targets>
-					<view ltx="1565" lty="1245" rbx="1662" rby="1321"/>
-				</component>
-				<component name="datafield" library="core" uid="1135" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="82"/>
-						<datapoint pos="1" key="128"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="45"/>
-						<datapoint/>
-					</targets>
-					<view ltx="367" lty="403" rbx="470" rby="459"/>
-				</component>
-				<component name="constant" library="core" uid="1136" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="25"/>
-					</targets>
-					<view ltx="250" lty="539" rbx="325" rby="557"/>
-					<data>
-						<constant value="028C/D" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="equal" library="core" uid="1137" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="79"/>
-						<datapoint pos="1" key="26"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="127"/>
-					</targets>
-					<view ltx="314" lty="476" rbx="367" rby="532"/>
-				</component>
-				<component name="datafield" library="core" uid="1138" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="10"/>
-						<datapoint pos="1" key="14"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="11"/>
-						<datapoint/>
-					</targets>
-					<view ltx="739" lty="403" rbx="842" rby="459"/>
-				</component>
-				<component name="document" library="xml" uid="1139" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="874" lty="472" rbx="1048" rby="609"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="datafield" ns="1" inpkey="12" outkey="80" expanded="1">
-									<entry name="subfield" ns="1" outkey="33" expanded="1">
-										<entry name="code" type="attribute" outkey="19"/>
-										<entry name="#text" outkey="35"/>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="datafield"/>
-					</data>
-				</component>
-				<component name="equal" library="core" uid="1140" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="8"/>
-						<datapoint pos="1" key="6"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="13"/>
-					</targets>
-					<view ltx="789" lty="627" rbx="842" rby="683"/>
-				</component>
-				<component name="subfield" library="core" uid="1141" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="132"/>
-						<datapoint pos="1" key="126"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="3"/>
-						<datapoint/>
-					</targets>
-					<view ltx="461" lty="842" rbx="564" rby="898"/>
-				</component>
-				<component name="document" library="xml" uid="1142" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="609" lty="717" rbx="747" rby="799"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="subfield" ns="1" inpkey="4" expanded="1">
-									<entry name="#text" outkey="7"/>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="subfield"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="1143" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="507" lty="403" rbx="681" rby="540"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="datafield" ns="1" inpkey="46" outkey="9" expanded="1">
-									<entry name="subfield" ns="1" outkey="131" expanded="1">
-										<entry name="code" type="attribute" outkey="129"/>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="datafield"/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1144" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="5"/>
-					</targets>
-					<view ltx="685" lty="665" rbx="757" rby="683"/>
-					<data>
-						<constant value="[Hrsg.]" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="equal" library="core" uid="1145" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="110"/>
-						<datapoint pos="1" key="48"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="108"/>
-					</targets>
-					<view ltx="1383" lty="732" rbx="1436" rby="788"/>
-				</component>
-				<component name="document" library="xml" uid="1146" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1594" lty="658" rbx="1742" rby="750"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="subfield" ns="1" inpkey="32" expanded="1">
-									<entry name="#text" outkey="15"/>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="subfield"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="1147" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view rbx="150" rby="200"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-								</namespaces>
-							</header>
-							<entry name="datafield" ns="1" outkey="134" expanded="1">
-								<entry name="tag" type="attribute" outkey="135"/>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield"/>
-						<wsdl/>
-						<parameter usageKind="input" name="picaxmlv10"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="1131" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="2197" lty="391" rbx="2526" rby="492"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.altova.com/mapforce"/>
-									<namespace/>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="compute-when" inpkey="81"/>
-							<entry name="document" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="name" ns="2" inpkey="58" outkey="133" expanded="1">
-									<entry name="type" ns="1" type="attribute" inpkey="84"/>
-								</entry>
-							</entry>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}author/{http://www.tei-c.org/ns/1.0}name"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="name"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="1150" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="2776" rbx="3076" rby="500"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="name" inpkey="139" expanded="1"/>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}editor/{http://www.tei-c.org/ns/1.0}name"/>
-						<wsdl/>
-						<parameter usageKind="output" name="tei_lite3"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="1149" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="2776" lty="550" rbx="3076" rby="1050"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="date" ns="1" inpkey="137" expanded="1">
-								<entry name="type" type="attribute" inpkey="138"/>
-							</entry>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}editor/{http://www.tei-c.org/ns/1.0}date"/>
-						<wsdl/>
-						<parameter usageKind="output" name="tei_lite2"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="1151" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="2776" lty="1100" rbx="3076" rby="1600"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="date" ns="1" inpkey="140" expanded="1">
-								<entry name="type" type="attribute" inpkey="141"/>
-							</entry>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}editor/{http://www.tei-c.org/ns/1.0}date"/>
-						<wsdl/>
-						<parameter usageKind="output" name="tei_lite4"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="1148" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="2776" lty="1650" rbx="3076" rby="2150"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="ref" inpkey="136" expanded="1"/>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}editor/{http://www.tei-c.org/ns/1.0}ref"/>
-						<wsdl/>
-						<parameter usageKind="output" name="tei_lite"/>
-					</data>
-				</component>
-			</children>
-			<graph directed="1">
-				<edges>
-					<edge edgekey="142">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="143">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="144">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="145">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="146">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="147">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="148">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="149">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="150">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="151">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="152">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="153">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="154">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="155">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="156">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-				</edges>
-				<vertices>
-					<vertex vertexkey="1">
-						<edges>
-							<edge vertexkey="2" edgekey="157"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="3">
-						<edges>
-							<edge vertexkey="4" edgekey="153"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="5">
-						<edges>
-							<edge vertexkey="6" edgekey="158"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="7">
-						<edges>
-							<edge vertexkey="8" edgekey="159"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="9">
-						<edges>
-							<edge vertexkey="10" edgekey="150"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="11">
-						<edges>
-							<edge vertexkey="12" edgekey="146"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="13">
-						<edges>
-							<edge vertexkey="14" edgekey="160"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="15">
-						<edges>
-							<edge vertexkey="16" edgekey="161"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="17">
-						<edges>
-							<edge vertexkey="18" edgekey="151"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="19">
-						<edges>
-							<edge vertexkey="20" edgekey="162"/>
-							<edge vertexkey="39" edgekey="163"/>
-							<edge vertexkey="51" edgekey="164"/>
-							<edge vertexkey="66" edgekey="165"/>
-							<edge vertexkey="110" edgekey="166"/>
-							<edge vertexkey="121" edgekey="167"/>
-							<edge vertexkey="122" edgekey="168"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="21">
-						<edges>
-							<edge vertexkey="22" edgekey="169"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="23">
-						<edges>
-							<edge vertexkey="24" edgekey="170"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="25">
-						<edges>
-							<edge vertexkey="26" edgekey="171"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="27">
-						<edges>
-							<edge vertexkey="28" edgekey="172"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="29">
-						<edges>
-							<edge vertexkey="30" edgekey="173"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="31">
-						<edges>
-							<edge vertexkey="32" edgekey="149"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="33">
-						<edges>
-							<edge vertexkey="34" edgekey="148"/>
-							<edge vertexkey="56" edgekey="145"/>
-							<edge vertexkey="111" edgekey="143"/>
-							<edge vertexkey="114" edgekey="154"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="35">
-						<edges>
-							<edge vertexkey="36" edgekey="174"/>
-							<edge vertexkey="40" edgekey="175"/>
-							<edge vertexkey="61" edgekey="176"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="37">
-						<edges>
-							<edge vertexkey="38" edgekey="142"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="41">
-						<edges>
-							<edge vertexkey="42" edgekey="177"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="43">
-						<edges>
-							<edge vertexkey="44" edgekey="178"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="45">
-						<edges>
-							<edge vertexkey="46" edgekey="144"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="47">
-						<edges>
-							<edge vertexkey="48" edgekey="179"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="49">
-						<edges>
-							<edge vertexkey="50" edgekey="180"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="52">
-						<edges>
-							<edge vertexkey="53" edgekey="181"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="54">
-						<edges>
-							<edge vertexkey="55" edgekey="182"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="57">
-						<edges>
-							<edge vertexkey="58" edgekey="183"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="59">
-						<edges>
-							<edge vertexkey="60" edgekey="184"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="62">
-						<edges>
-							<edge vertexkey="63" edgekey="185"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="64">
-						<edges>
-							<edge vertexkey="65" edgekey="186"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="67">
-						<edges>
-							<edge vertexkey="68" edgekey="187"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="69">
-						<edges>
-							<edge vertexkey="70" edgekey="188"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="71">
-						<edges>
-							<edge vertexkey="72" edgekey="147"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="73">
-						<edges>
-							<edge vertexkey="74" edgekey="189"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="75">
-						<edges>
-							<edge vertexkey="76" edgekey="190"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="77">
-						<edges>
-							<edge vertexkey="78" edgekey="191"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="80">
-						<edges>
-							<edge vertexkey="81" edgekey="192"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="83">
-						<edges>
-							<edge vertexkey="84" edgekey="193"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="85">
-						<edges>
-							<edge vertexkey="86" edgekey="194"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="87">
-						<edges>
-							<edge vertexkey="88" edgekey="195"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="89">
-						<edges>
-							<edge vertexkey="138" edgekey="196"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="90">
-						<edges>
-							<edge vertexkey="141" edgekey="197"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="91">
-						<edges>
-							<edge vertexkey="137" edgekey="198"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="92">
-						<edges>
-							<edge vertexkey="140" edgekey="199"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="93">
-						<edges>
-							<edge vertexkey="94" edgekey="200"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="95">
-						<edges>
-							<edge vertexkey="136" edgekey="201"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="96">
-						<edges>
-							<edge vertexkey="97" edgekey="202"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="98">
-						<edges>
-							<edge vertexkey="99" edgekey="203"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="100">
-						<edges>
-							<edge vertexkey="101" edgekey="204"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="102">
-						<edges>
-							<edge vertexkey="103" edgekey="205"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="104">
-						<edges>
-							<edge vertexkey="105" edgekey="206"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="106">
-						<edges>
-							<edge vertexkey="107" edgekey="207"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="108">
-						<edges>
-							<edge vertexkey="109" edgekey="208"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="112">
-						<edges>
-							<edge vertexkey="113" edgekey="209"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="115">
-						<edges>
-							<edge vertexkey="116" edgekey="210"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="117">
-						<edges>
-							<edge vertexkey="118" edgekey="211"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="119">
-						<edges>
-							<edge vertexkey="120" edgekey="212"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="123">
-						<edges>
-							<edge vertexkey="124" edgekey="213"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="125">
-						<edges>
-							<edge vertexkey="126" edgekey="214"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="127">
-						<edges>
-							<edge vertexkey="128" edgekey="215"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="129">
-						<edges>
-							<edge vertexkey="130" edgekey="216"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="131">
-						<edges>
-							<edge vertexkey="132" edgekey="152"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="133">
-						<edges>
-							<edge vertexkey="139" edgekey="155"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="134">
-						<edges>
-							<edge vertexkey="82" edgekey="156"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="135">
-						<edges>
-							<edge vertexkey="79" edgekey="217"/>
+							<edge vertexkey="2768" edgekey="2841"/>
+							<edge vertexkey="2786" edgekey="2843"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2723">
+						<edges>
+							<edge vertexkey="2725" edgekey="2853"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2727">
+						<edges>
+							<edge vertexkey="2741" edgekey="2854"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2729">
+						<edges>
+							<edge vertexkey="2726" edgekey="2855"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2730">
+						<edges>
+							<edge vertexkey="2734" edgekey="2856"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2733">
+						<edges>
+							<edge vertexkey="2736" edgekey="2848"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2737">
+						<edges>
+							<edge vertexkey="2743" edgekey="2857"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2738">
+						<edges>
+							<edge vertexkey="2724" edgekey="2858"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2739">
+						<edges>
+							<edge vertexkey="2732" edgekey="2859"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2740">
+						<edges>
+							<edge vertexkey="2774" edgekey="2860"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2744">
+						<edges>
+							<edge vertexkey="2742" edgekey="2861"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2747">
+						<edges>
+							<edge vertexkey="2746" edgekey="2862"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2750">
+						<edges>
+							<edge vertexkey="2752" edgekey="2847"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2751">
+						<edges>
+							<edge vertexkey="2728" edgekey="2863"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2753">
+						<edges>
+							<edge vertexkey="2745" edgekey="2864"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2755">
+						<edges>
+							<edge vertexkey="2749" edgekey="2865"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2759">
+						<edges>
+							<edge vertexkey="2225" edgekey="2866"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2760">
+						<edges>
+							<edge vertexkey="2756" edgekey="2867"/>
+							<edge vertexkey="2792" edgekey="2868"/>
+							<edge vertexkey="2823" edgekey="2869"/>
+							<edge vertexkey="2814" edgekey="2870"/>
+							<edge vertexkey="2731" edgekey="2871"/>
+							<edge vertexkey="2834" edgekey="2872"/>
+							<edge vertexkey="2801" edgekey="2873"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2761">
+						<edges>
+							<edge vertexkey="2812" edgekey="2874"/>
+							<edge vertexkey="2830" edgekey="2875"/>
+							<edge vertexkey="2819" edgekey="2876"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2762">
+						<edges>
+							<edge vertexkey="2735" edgekey="2849"/>
+							<edge vertexkey="2796" edgekey="2850"/>
+							<edge vertexkey="2780" edgekey="2846"/>
+							<edge vertexkey="2748" edgekey="2842"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2763">
+						<edges>
+							<edge vertexkey="2757" edgekey="2877"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2767">
+						<edges>
+							<edge vertexkey="2764" edgekey="2844"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2769">
+						<edges>
+							<edge vertexkey="2754" edgekey="2878"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2772">
+						<edges>
+							<edge vertexkey="2766" edgekey="2879"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2775">
+						<edges>
+							<edge vertexkey="2807" edgekey="2880"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2777">
+						<edges>
+							<edge vertexkey="2770" edgekey="2881"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2779">
+						<edges>
+							<edge vertexkey="2781" edgekey="2845"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2782">
+						<edges>
+							<edge vertexkey="2776" edgekey="2882"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2783">
+						<edges>
+							<edge vertexkey="2773" edgekey="2883"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2785">
+						<edges>
+							<edge vertexkey="2765" edgekey="2852"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2787">
+						<edges>
+							<edge vertexkey="2784" edgekey="2884"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2790">
+						<edges>
+							<edge vertexkey="2778" edgekey="2885"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2793">
+						<edges>
+							<edge vertexkey="2789" edgekey="2886"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2794">
+						<edges>
+							<edge vertexkey="2791" edgekey="2887"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2795">
+						<edges>
+							<edge vertexkey="2799" edgekey="2851"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2798">
+						<edges>
+							<edge vertexkey="2803" edgekey="2888"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2802">
+						<edges>
+							<edge vertexkey="2797" edgekey="2889"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2806">
+						<edges>
+							<edge vertexkey="2758" edgekey="2890"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2808">
+						<edges>
+							<edge vertexkey="2800" edgekey="2891"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2809">
+						<edges>
+							<edge vertexkey="2804" edgekey="2892"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2810">
+						<edges>
+							<edge vertexkey="2805" edgekey="2893"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2813">
+						<edges>
+							<edge vertexkey="2221" edgekey="2894"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2815">
+						<edges>
+							<edge vertexkey="2811" edgekey="2895"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2817">
+						<edges>
+							<edge vertexkey="2816" edgekey="2896"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2820">
+						<edges>
+							<edge vertexkey="2223" edgekey="2897"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2821">
+						<edges>
+							<edge vertexkey="2818" edgekey="2898"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2824">
+						<edges>
+							<edge vertexkey="2822" edgekey="2899"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2825">
+						<edges>
+							<edge vertexkey="2828" edgekey="2900"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2827">
+						<edges>
+							<edge vertexkey="2234" edgekey="2901"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2831">
+						<edges>
+							<edge vertexkey="2837" edgekey="2902"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2832">
+						<edges>
+							<edge vertexkey="2829" edgekey="2903"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2835">
+						<edges>
+							<edge vertexkey="2826" edgekey="2904"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2838">
+						<edges>
+							<edge vertexkey="2833" edgekey="2905"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2839">
+						<edges>
+							<edge vertexkey="2836" edgekey="2906"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2840">
+						<edges>
+							<edge vertexkey="2771" edgekey="2907"/>
+							<edge vertexkey="2788" edgekey="2908"/>
 						</edges>
 					</vertex>
 				</vertices>

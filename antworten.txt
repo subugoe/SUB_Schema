@@ -167,7 +167,7 @@
     - Tag darf nicht wiederholt auftreten
     - was meint @ als Steuerzeichen, wie gehe ich damit um? Aktuell prüfe ich ob @ enthalten ist und lösche entferne es ggf.
 	
-	-> @ im Titelsollte entfernt werden
+	-> @ im Titel sollte entfernt werden
 	-> @ ist immer am Anfang, hinter dem Artikel
 	-> das erste @ entfernen
 	-> wenn das zweite Leerzeichen erreicht wird, sollte @ enthalten bleiben (gehört zu Titel)

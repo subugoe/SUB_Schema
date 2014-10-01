@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record xmlns="info:srw/schema/5/picaXML-v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="info:srw/schema/5/picaXML-v1.0 ./pica-xml-v1-0.xsd">
+  <datafield tag="001@">
+    <subfield code="0">40,34</subfield>
+  </datafield>
+  <datafield tag="001A">
+    <subfield code="0">0007:26-07-06</subfield>
+  </datafield>
+  <datafield tag="001B">
+    <subfield code="0">1999:08-04-13</subfield>
+    <subfield code="t">00:43:23.000</subfield>
+  </datafield>
+  <datafield tag="001D">
+    <subfield code="0">0007:26-07-06</subfield>
+  </datafield>
+  <datafield tag="001U">
+    <subfield code="0">utf8</subfield>
+  </datafield>
+  <datafield tag="001X">
+    <subfield code="0">0</subfield>
+  </datafield>
+  <datafield tag="002@">
+    <subfield code="0">Oau</subfield>
+  </datafield>
+  <datafield tag="003@">
+    <subfield code="0">514964626</subfield>
+  </datafield>
+  <datafield tag="003O">
+    <subfield code="a">OCoLC</subfield>
+    <subfield code="0">836298072</subfield>
+    <subfield code="v">2012-12-31</subfield>
+  </datafield>
+  <datafield tag="007G">
+    <subfield code="c">GBV</subfield>
+    <subfield code="0">514964626</subfield>
+  </datafield>
+  <datafield tag="008@">
+    <subfield code="b">8</subfield>
+  </datafield>
+  <datafield tag="008@">
+    <subfield code="b">ee</subfield>
+  </datafield>
+  <datafield tag="009A">
+    <subfield code="b">de</subfield>
+    <subfield code="c">SUB Göttingen</subfield>
+    <subfield code="a">DD2004 A 38</subfield>
+  </datafield>
+  <datafield tag="009P" occurrence="03">
+    <subfield code="S">1</subfield>
+    <subfield code="0">cgi</subfield>
+    <subfield code="a">http://resolver.sub.uni-goettingen.de/purl?PPN514964626</subfield>
+  </datafield>
+  <datafield tag="010@">
+    <subfield code="a">ger</subfield>
+  </datafield>
+  <datafield tag="011@">
+    <subfield code="a">1730</subfield>
+  </datafield>
+  <datafield tag="011B">
+    <subfield code="a">2006</subfield>
+  </datafield>
+  <datafield tag="016H">
+    <subfield code="0">Elektronische Ressource</subfield>
+  </datafield>
+  <datafield tag="021A">
+    <subfield code="a">Ein @schön neu-erfundenes Kunst-Büchlein</subfield>
+    <subfield code="d">Darinnen Hundert fünff und zwantzig Stück, vor Menschen und Vieh, sonderlich
+      aber vor reisende Leuthe, wie auch vor die jenigen, so Vieh haben, sehr nutzlich zugebrauchen,
+      mit schönen offt probirten Recepten beschrieben ; Welches von mir mit sonderbahrem Fleiß
+      aufgesetzt und gut befunden worden ...</subfield>
+    <subfield code="h">Heraus gegeben von D. Plein Horati, Königlichen Leib-Medico in Egypten, als
+      einem gebohrnen Zigeuner</subfield>
+  </datafield>
+  
+  <datafield tag="028C">
+    <subfield code="P">P - 028C</subfield>
+    <subfield code="d">Plein</subfield>
+    <subfield code="a">Horath (028C)</subfield>
+    <subfield code="a">Horath2</subfield>
+    <subfield code="9">48879434X</subfield>
+    <subfield code="d">Pelin</subfield>
+    
+    <subfield code="c">c</subfield>
+    <subfield code="p">p</subfield>
+    <subfield code="p">p2</subfield>
+    <subfield code="p">p3</subfield>
+    <subfield code="p">p4</subfield>
+    
+    <subfield code="a">Horáth</subfield>
+    <subfield code="0">gnd/130053813</subfield>
+  </datafield>
+  
+  <datafield tag="028D">
+    <subfield code="P">P - 028D</subfield>
+    <subfield code="d">d</subfield>
+    <subfield code="a">a1 (028D)</subfield>
+    <subfield code="a">a2</subfield>
+    <subfield code="9">48879434X</subfield>
+    <subfield code="d">d2</subfield>
+    
+    <subfield code="c">c</subfield>
+    <subfield code="p">p</subfield>
+    <subfield code="p">p2</subfield>
+    <subfield code="p">p3</subfield>
+    <subfield code="p">p4</subfield>
+    
+    <subfield code="a">a3</subfield>
+    <subfield code="0">gnd/130053813</subfield>
+  </datafield>
+  
+  <datafield tag="032C">
+    <subfield code="a">[Online-Ausg.]</subfield>
+  </datafield>
+  <datafield tag="033A">
+    <subfield code="p">[S.l.]</subfield>
+  </datafield>
+  <datafield tag="033B" occurrence="01">
+    <subfield code="p">Göttingen</subfield>
+    <subfield code="n">Niedersächsische Staats- und Universitätsbibliothek</subfield>
+  </datafield>
+  <datafield tag="033O">
+    <subfield code="p">Göttingen</subfield>
+    <subfield code="n">GDZ</subfield>
+  </datafield>
+  <datafield tag="033P">
+    <subfield code="p">Göttingen</subfield>
+    <subfield code="n">DigiWunschbuch</subfield>
+  </datafield>
+  <datafield tag="034D">
+    <subfield code="a">[15] Bl</subfield>
+  </datafield>
+  <datafield tag="037G">
+    <subfield code="a">Zugl. digitaler Master</subfield>
+  </datafield>
+  <datafield tag="037H">
+    <subfield code="a">TIFF, Vers.6.0, 600 dpi, 1 bit (s/w), ITU group 4; Digitalisierungsvorlage:
+      Primärausgabe</subfield>
+  </datafield>
+  <datafield tag="044S">
+    <subfield code="9">096632313</subfield>
+    <subfield code="a">Medizin</subfield>
+  </datafield>
+  <datafield tag="045Q" occurrence="01">
+    <subfield code="9">10641593X</subfield>
+    <subfield code="a">44.52</subfield>
+    <subfield code="j">Therapie</subfield>
+    <subfield code="X">Medizin</subfield>
+  </datafield>
+  <datafield tag="047C">
+    <subfield code="a">schönes</subfield>
+  </datafield>
+  <datafield tag="101@">
+    <subfield code="a">40</subfield>
+    <subfield code="c">PICA</subfield>
+  </datafield>
+  <datafield tag="201B" occurrence="01">
+    <subfield code="0">15-05-09</subfield>
+    <subfield code="t">16:18:35.000</subfield>
+  </datafield>
+  <datafield tag="201D" occurrence="01">
+    <subfield code="0">15-05-09</subfield>
+    <subfield code="b">708</subfield>
+    <subfield code="a">0007</subfield>
+  </datafield>
+  <datafield tag="201U" occurrence="01">
+    <subfield code="0">utf8</subfield>
+  </datafield>
+  <datafield tag="203@" occurrence="01">
+    <subfield code="0">772721424</subfield>
+  </datafield>
+  <datafield tag="208@" occurrence="01">
+    <subfield code="a">26-07-06</subfield>
+    <subfield code="b">x</subfield>
+  </datafield>
+  <datafield tag="209B" occurrence="01">
+    <subfield code="a">Göttingen : Niedersächsische Staats- und Universitätsbibliothek</subfield>
+    <subfield code="x">75</subfield>
+  </datafield>
+  <datafield tag="209O" occurrence="01">
+    <subfield code="a">DigiWuBu</subfield>
+    <subfield code="x">00</subfield>
+  </datafield>
+  <datafield tag="209R" occurrence="01">
+    <subfield code="S">1</subfield>
+    <subfield code="0">cgi</subfield>
+    <subfield code="a">http://resolver.sub.uni-goettingen.de/purl?PPN514964626</subfield>
+  </datafield>
+  <datafield tag="220B" occurrence="01">
+    <subfield code="a">www-gdz</subfield>
+  </datafield>
+  <datafield tag="233P" occurrence="01">
+    <subfield code="n">DigiWunschbuch</subfield>
+  </datafield>
+  <datafield tag="245P" occurrence="01">
+    <subfield code="a">c</subfield>
+  </datafield>
+</record>

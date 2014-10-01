@@ -5,89 +5,32 @@
 		<properties SelectedLanguage="xslt2"/>
 		<structure>
 			<children>
-				<component name="pica-xml-v1-0" library="xml" uid="2" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="-269" lty="-72" rbx="13" rby="136"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="record" expanded="1">
-										<entry name="datafield" outkey="2259" expanded="1">
-											<entry name="subfield" expanded="1"/>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" inputinstance="pica_xml_example.xml" outputinstance="pica-xml-v1-0.xml" instanceroot="{info:srw/schema/5/picaXML-v1.0}record"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="erscheinungsangaben_3" library="user" blackbox="0" uid="1111" kind="19" visible="0">
-					<view ltx="81" lty="-64" rbx="381" rby="136"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="picaxmlv10" ns="1" componentid="1106" expanded="1">
-								<entry name="datafield" inpkey="2494" expanded="1"/>
-							</entry>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="tei_lite" ns="1" componentid="1107" expanded="1">
-								<entry name="date" outkey="2495"/>
-							</entry>
-							<entry name="tei_lite2" ns="1" componentid="1108" expanded="1">
-								<entry name="date" outkey="2496"/>
-							</entry>
-							<entry name="tei_lite3" ns="1" componentid="1109" expanded="1">
-								<entry name="date" outkey="2497"/>
-							</entry>
-							<entry name="tei_lite4" ns="1" componentid="1110" expanded="1">
-								<entry name="date" outkey="2498"/>
-							</entry>
-						</root>
-					</data>
-				</component>
 				<component name="tei_lite" library="xml" uid="999" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="531" lty="-473" rbx="1270" rby="456"/>
+					<view ltx="1631" lty="-453" rbx="2370" rby="476"/>
 					<data>
-						<root scrollposition="1">
+						<root scrollposition="995">
 							<header>
 								<namespaces>
+									<namespace/>
 									<namespace uid="http://www.tei-c.org/ns/1.0"/>
 									<namespace uid="http://www.altova.com/mapforce"/>
 								</namespaces>
 							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="TEI" expanded="1">
-										<entry name="teiHeader" expanded="1">
-											<entry name="fileDesc" expanded="1">
-												<entry name="sourceDesc" expanded="1">
-													<entry name="bibl" expanded="1">
-														<entry name="date" inpkey="2383"/>
-														<entry name="date" inpkey="2411" clone="1"/>
-														<entry name="date" inpkey="2448" clone="1"/>
-														<entry name="date" inpkey="2465" clone="1"/>
+							<entry name="FileInstance" ns="2" expanded="1">
+								<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="TEI" ns="1" expanded="1">
+										<entry name="teiHeader" ns="1" expanded="1">
+											<entry name="fileDesc" ns="1" expanded="1">
+												<entry name="sourceDesc" ns="1" expanded="1">
+													<entry name="bibl" ns="1" inpkey="2626" expanded="1">
+														<entry name="date" ns="1" inpkey="2383">
+															<entry name="#text"/>
+															<entry name="#text" clone="1"/>
+														</entry>
+														<entry name="date" ns="1" inpkey="2411" clone="1"/>
+														<entry name="date" ns="1" inpkey="2448" clone="1"/>
+														<entry name="date" ns="1" inpkey="2465" expanded="1" clone="1"/>
 													</entry>
 												</entry>
 											</entry>
@@ -100,39 +43,873 @@
 						<wsdl/>
 					</data>
 				</component>
+				<component name="subfield" library="core" uid="1206" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2692"/>
+						<datapoint pos="1" key="2690"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2691"/>
+						<datapoint/>
+					</targets>
+					<view ltx="949" lty="-620" rbx="1052" rby="-564"/>
+				</component>
+				<component name="document" library="xml" uid="1207" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1086" lty="-620" rbx="1234" rby="-528"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" ns="1" inpkey="2695" outkey="2694" expanded="1">
+									<entry name="#text" outkey="2693"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="exists" library="core" uid="1208" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2696"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2697"/>
+					</targets>
+					<view ltx="1439" lty="-619" rbx="1506" rby="-580"/>
+				</component>
+				<component name="document" library="xml" uid="1209" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="609" lty="-601" rbx="759" rby="-401"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" ns="1" inpkey="2700" outkey="2699" expanded="1">
+									<entry name="code" type="attribute" outkey="2698"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="logical-and" library="core" uid="1210" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2703"/>
+						<datapoint pos="1" key="2701"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2702"/>
+					</targets>
+					<view ltx="1529" lty="-601" rbx="1608" rby="-543"/>
+				</component>
+				<component name="exists" library="core" uid="1211" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2705"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2704"/>
+					</targets>
+					<view ltx="1439" lty="-570" rbx="1506" rby="-531"/>
+				</component>
+				<component name="equal" library="core" uid="1212" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2708"/>
+						<datapoint pos="1" key="2706"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2707"/>
+					</targets>
+					<view ltx="875" lty="-546" rbx="928" rby="-490"/>
+				</component>
+				<component name="constant" library="core" uid="1213" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2709"/>
+					</targets>
+					<view ltx="782" lty="-509" rbx="828" rby="-491"/>
+					<data>
+						<constant value="a" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="concat" library="core" uid="1214" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2713"/>
+						<datapoint pos="1" key="2711"/>
+						<datapoint pos="2" key="2712"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2710"/>
+					</targets>
+					<view ltx="1408" lty="-509" rbx="1493" rby="-433"/>
+				</component>
+				<component name="constant" library="core" uid="1215" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2714"/>
+					</targets>
+					<view ltx="1295" lty="-474" rbx="1339" rby="-456"/>
+					<data>
+						<constant value="-" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="document" library="xml" uid="1216" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1086" lty="-439" rbx="1234" rby="-347"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" ns="1" inpkey="2717" outkey="2716" expanded="1">
+									<entry name="#text" outkey="2715"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="subfield" library="core" uid="1217" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2718"/>
+						<datapoint pos="1" key="2719"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2720"/>
+						<datapoint/>
+					</targets>
+					<view ltx="949" lty="-412" rbx="1052" rby="-356"/>
+				</component>
+				<component name="if-else" library="core" uid="1218" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2723"/>
+						<datapoint pos="1" key="2722"/>
+						<datapoint pos="2" key="2721"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2724"/>
+					</targets>
+					<view ltx="1553" lty="-412" rbx="1650" rby="-336"/>
+				</component>
+				<component name="equal" library="core" uid="1219" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2725"/>
+						<datapoint pos="1" key="2726"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2727"/>
+					</targets>
+					<view ltx="875" lty="-365" rbx="928" rby="-309"/>
+				</component>
+				<component name="pica-xml-v1-0" library="xml" uid="1220" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="-401" lty="-343" rbx="-119" rby="-135"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="2" expanded="1">
+								<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="record" ns="1" expanded="1">
+										<entry name="datafield" ns="1" outkey="2729" expanded="1">
+											<entry name="tag" type="attribute" outkey="2728"/>
+											<entry name="subfield" ns="1" expanded="1"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" inputinstance="pica_xml_example.xml" outputinstance="pica-xml-v1-0.xml" instanceroot="{info:srw/schema/5/picaXML-v1.0}record"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="datafield" library="core" uid="1221" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2732"/>
+						<datapoint pos="1" key="2731"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2730"/>
+						<datapoint/>
+					</targets>
+					<view ltx="159" lty="-330" rbx="262" rby="-274"/>
+				</component>
+				<component name="document" library="xml" uid="1222" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="286" lty="-329" rbx="436" rby="-129"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="datafield" ns="1" inpkey="2735" outkey="2736" expanded="1">
+									<entry name="subfield" ns="1" outkey="2733" expanded="1">
+										<entry name="code" type="attribute" outkey="2734"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="datafield"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1223" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2737"/>
+					</targets>
+					<view ltx="783" lty="-328" rbx="829" rby="-310"/>
+					<data>
+						<constant value="b" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="1224" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2738"/>
+						<datapoint pos="1" key="2740"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2739"/>
+					</targets>
+					<view ltx="77" lty="-260" rbx="130" rby="-204"/>
+				</component>
+				<component name="subfield" library="core" uid="1225" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2743"/>
+						<datapoint pos="1" key="2741"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2742"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1009" lty="-241" rbx="1112" rby="-185"/>
+				</component>
+				<component name="document" library="xml" uid="1226" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="564" lty="-240" rbx="730" rby="-129"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" ns="1" inpkey="2744" outkey="2746" expanded="1">
+									<entry name="code" type="attribute" outkey="2745"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1227" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2747"/>
+					</targets>
+					<view ltx="-11" lty="-222" rbx="57" rby="-204"/>
+					<data>
+						<constant value="011@" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="document" library="xml" uid="1228" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1146" lty="-221" rbx="1294" rby="-129"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" ns="1" inpkey="2749" expanded="1">
+									<entry name="#text" outkey="2748"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="concat" library="core" uid="1229" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2750"/>
+						<datapoint pos="1" key="2752"/>
+						<datapoint pos="2" key="2751"/>
+					</sources>
+					<targets>
+						<datapoint/>
+					</targets>
+					<view ltx="1422" lty="-198" rbx="1507" rby="-122"/>
+				</component>
+				<component name="equal" library="core" uid="1230" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2755"/>
+						<datapoint pos="1" key="2753"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2754"/>
+					</targets>
+					<view ltx="935" lty="-167" rbx="988" rby="-111"/>
+				</component>
+				<component name="constant" library="core" uid="1231" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2756"/>
+					</targets>
+					<view ltx="1343" lty="-148" rbx="1387" rby="-130"/>
+					<data>
+						<constant value="-" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1232" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2757"/>
+					</targets>
+					<view ltx="842" lty="-130" rbx="888" rby="-112"/>
+					<data>
+						<constant value="c" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="subfield" library="core" uid="1233" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2759"/>
+						<datapoint pos="1" key="2758"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2760"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1009" lty="-60" rbx="1112" rby="-4"/>
+				</component>
+				<component name="document" library="xml" uid="1234" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1146" lty="-60" rbx="1294" rby="32"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" ns="1" inpkey="2762" expanded="1">
+									<entry name="#text" outkey="2761"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="1235" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2765"/>
+						<datapoint pos="1" key="2763"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2764"/>
+					</targets>
+					<view ltx="935" lty="14" rbx="988" rby="70"/>
+				</component>
+				<component name="constant" library="core" uid="1236" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2766"/>
+					</targets>
+					<view ltx="843" lty="51" rbx="889" rby="69"/>
+					<data>
+						<constant value="d" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="subfield" library="core" uid="1237" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2767"/>
+						<datapoint pos="1" key="2768"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2769"/>
+						<datapoint/>
+					</targets>
+					<view ltx="996" lty="447" rbx="1099" rby="503"/>
+				</component>
+				<component name="document" library="xml" uid="1238" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1133" lty="447" rbx="1281" rby="539"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" inpkey="2770" expanded="1"/>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="1239" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2772"/>
+						<datapoint pos="1" key="2771"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2773"/>
+					</targets>
+					<view ltx="922" lty="521" rbx="975" rby="577"/>
+				</component>
+				<component name="constant" library="core" uid="1240" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2774"/>
+					</targets>
+					<view ltx="830" lty="558" rbx="876" rby="576"/>
+					<data>
+						<constant value="n" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="subfield" library="core" uid="1241" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2775"/>
+						<datapoint pos="1" key="2776"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2777"/>
+						<datapoint/>
+					</targets>
+					<view ltx="997" lty="594" rbx="1100" rby="650"/>
+				</component>
+				<component name="document" library="xml" uid="1242" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1134" lty="594" rbx="1282" rby="686"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" inpkey="2778" expanded="1"/>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="1243" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2779"/>
+						<datapoint pos="1" key="2781"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2780"/>
+					</targets>
+					<view ltx="923" lty="668" rbx="976" rby="724"/>
+				</component>
+				<component name="constant" library="core" uid="1244" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="2782"/>
+					</targets>
+					<view ltx="831" lty="705" rbx="877" rby="723"/>
+					<data>
+						<constant value="e" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
 			</children>
 			<graph directed="1">
 				<edges>
-					<edge edgekey="2499">
+					<edge edgekey="2783">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2784">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2785">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2786">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2787">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2788">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2789">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2790">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2791">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2792">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2793">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2794">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2795">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2796">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2797">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="2798">
 						<data>
 							<dataconnection type="2"/>
 						</data>
 					</edge>
 				</edges>
 				<vertices>
-					<vertex vertexkey="2259">
+					<vertex vertexkey="2691">
 						<edges>
-							<edge vertexkey="2494" edgekey="2499"/>
+							<edge vertexkey="2695" edgekey="2789"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="2495">
+					<vertex vertexkey="2693">
 						<edges>
-							<edge vertexkey="2383" edgekey="2500"/>
+							<edge vertexkey="2713" edgekey="2799"/>
+							<edge vertexkey="2721" edgekey="2800"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="2496">
+					<vertex vertexkey="2694">
 						<edges>
-							<edge vertexkey="2411" edgekey="2501"/>
+							<edge vertexkey="2696" edgekey="2801"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="2497">
+					<vertex vertexkey="2697">
 						<edges>
-							<edge vertexkey="2448" edgekey="2502"/>
+							<edge vertexkey="2703" edgekey="2802"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="2498">
+					<vertex vertexkey="2698">
 						<edges>
-							<edge vertexkey="2465" edgekey="2503"/>
+							<edge vertexkey="2708" edgekey="2803"/>
+							<edge vertexkey="2725" edgekey="2804"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2699">
+						<edges>
+							<edge vertexkey="2692" edgekey="2798"/>
+							<edge vertexkey="2718" edgekey="2790"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2702">
+						<edges>
+							<edge vertexkey="2723" edgekey="2805"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2704">
+						<edges>
+							<edge vertexkey="2701" edgekey="2806"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2707">
+						<edges>
+							<edge vertexkey="2690" edgekey="2807"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2709">
+						<edges>
+							<edge vertexkey="2706" edgekey="2808"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2710">
+						<edges>
+							<edge vertexkey="2722" edgekey="2809"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2714">
+						<edges>
+							<edge vertexkey="2711" edgekey="2810"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2715">
+						<edges>
+							<edge vertexkey="2712" edgekey="2811"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2716">
+						<edges>
+							<edge vertexkey="2705" edgekey="2812"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2720">
+						<edges>
+							<edge vertexkey="2717" edgekey="2786"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2724">
+						<edges>
+							<edge vertexkey="2383" edgekey="2813"/>
+							<edge vertexkey="2465" edgekey="2814"/>
+							<edge vertexkey="2448" edgekey="2815"/>
+							<edge vertexkey="2411" edgekey="2816"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2727">
+						<edges>
+							<edge vertexkey="2719" edgekey="2817"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2728">
+						<edges>
+							<edge vertexkey="2738" edgekey="2818"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2729">
+						<edges>
+							<edge vertexkey="2732" edgekey="2787"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2730">
+						<edges>
+							<edge vertexkey="2735" edgekey="2788"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2733">
+						<edges>
+							<edge vertexkey="2767" edgekey="2793"/>
+							<edge vertexkey="2775" edgekey="2791"/>
+							<edge vertexkey="2744" edgekey="2783"/>
+							<edge vertexkey="2700" edgekey="2785"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2734">
+						<edges>
+							<edge vertexkey="2772" edgekey="2819"/>
+							<edge vertexkey="2779" edgekey="2820"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2736">
+						<edges>
+							<edge vertexkey="2626" edgekey="2821"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2737">
+						<edges>
+							<edge vertexkey="2726" edgekey="2822"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2739">
+						<edges>
+							<edge vertexkey="2731" edgekey="2823"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2742">
+						<edges>
+							<edge vertexkey="2749" edgekey="2796"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2745">
+						<edges>
+							<edge vertexkey="2755" edgekey="2824"/>
+							<edge vertexkey="2765" edgekey="2825"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2746">
+						<edges>
+							<edge vertexkey="2743" edgekey="2797"/>
+							<edge vertexkey="2759" edgekey="2795"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2747">
+						<edges>
+							<edge vertexkey="2740" edgekey="2826"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2748">
+						<edges>
+							<edge vertexkey="2750" edgekey="2827"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2754">
+						<edges>
+							<edge vertexkey="2741" edgekey="2828"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2756">
+						<edges>
+							<edge vertexkey="2752" edgekey="2829"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2757">
+						<edges>
+							<edge vertexkey="2753" edgekey="2830"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2760">
+						<edges>
+							<edge vertexkey="2762" edgekey="2794"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2761">
+						<edges>
+							<edge vertexkey="2751" edgekey="2831"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2764">
+						<edges>
+							<edge vertexkey="2758" edgekey="2832"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2766">
+						<edges>
+							<edge vertexkey="2763" edgekey="2833"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2769">
+						<edges>
+							<edge vertexkey="2770" edgekey="2792"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2773">
+						<edges>
+							<edge vertexkey="2768" edgekey="2834"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2774">
+						<edges>
+							<edge vertexkey="2771" edgekey="2835"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2777">
+						<edges>
+							<edge vertexkey="2778" edgekey="2784"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2780">
+						<edges>
+							<edge vertexkey="2776" edgekey="2836"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2782">
+						<edges>
+							<edge vertexkey="2781" edgekey="2837"/>
 						</edges>
 					</vertex>
 				</vertices>
@@ -153,7 +930,7 @@
 						<datapoint pos="0" key="1"/>
 						<datapoint/>
 					</targets>
-					<view ltx="420" lty="290" rbx="523" rby="346"/>
+					<view ltx="250" lty="290" rbx="353" rby="346"/>
 				</component>
 				<component name="equal" library="core" uid="1073" kind="5">
 					<properties/>
@@ -164,14 +941,14 @@
 					<targets>
 						<datapoint pos="0" key="30"/>
 					</targets>
-					<view ltx="338" lty="360" rbx="391" rby="416"/>
+					<view ltx="168" lty="360" rbx="221" rby="416"/>
 				</component>
 				<component name="constant" library="core" uid="1074" kind="2">
 					<properties/>
 					<targets>
 						<datapoint pos="0" key="28"/>
 					</targets>
-					<view ltx="250" lty="398" rbx="318" rby="416"/>
+					<view ltx="80" lty="398" rbx="148" rby="416"/>
 					<data>
 						<constant value="011@" datatype="string"/>
 						<wsdl/>
@@ -189,16 +966,286 @@
 					</targets>
 					<view ltx="1100" lty="379" rbx="1203" rby="435"/>
 				</component>
+				<component name="constant" library="core" uid="1080" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="54"/>
+					</targets>
+					<view ltx="933" lty="490" rbx="979" rby="508"/>
+					<data>
+						<constant value="c" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1081" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="52"/>
+					</targets>
+					<view ltx="934" lty="671" rbx="980" rby="689"/>
+					<data>
+						<constant value="d" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1089" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="39"/>
+					</targets>
+					<view ltx="874" lty="292" rbx="920" rby="310"/>
+					<data>
+						<constant value="b" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1090" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="32"/>
+					</targets>
+					<view ltx="873" lty="111" rbx="919" rby="129"/>
+					<data>
+						<constant value="a" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="subfield" library="core" uid="1091" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="21"/>
+						<datapoint pos="1" key="67"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="25"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1098" lty="742" rbx="1201" rby="798"/>
+				</component>
+				<component name="equal" library="core" uid="1094" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="38"/>
+						<datapoint pos="1" key="70"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="71"/>
+					</targets>
+					<view ltx="1025" lty="963" rbx="1078" rby="1019"/>
+				</component>
+				<component name="subfield" library="core" uid="1095" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="17"/>
+						<datapoint pos="1" key="72"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="22"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1099" lty="889" rbx="1202" rby="945"/>
+				</component>
+				<component name="equal" library="core" uid="1096" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="37"/>
+						<datapoint pos="1" key="65"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="66"/>
+					</targets>
+					<view ltx="1024" lty="816" rbx="1077" rby="872"/>
+				</component>
+				<component name="document" library="xml" uid="1098" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1236" lty="889" rbx="1384" rby="981"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" ns="1" inpkey="23" expanded="1">
+									<entry name="#text" outkey="73"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1099" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="64"/>
+					</targets>
+					<view ltx="932" lty="853" rbx="978" rby="871"/>
+					<data>
+						<constant value="n" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1100" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="69"/>
+					</targets>
+					<view ltx="933" lty="1000" rbx="979" rby="1018"/>
+					<data>
+						<constant value="e" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="subfield" library="core" uid="1103" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="6"/>
+						<datapoint pos="1" key="51"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="9"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1100" lty="560" rbx="1203" rby="616"/>
+				</component>
+				<component name="document" library="xml" uid="1109" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1784" lty="1100" rbx="2084" rby="1600"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+								</namespaces>
+							</header>
+							<entry name="date" inpkey="85" expanded="1"/>
+						</root>
+						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}date"/>
+						<wsdl/>
+						<parameter usageKind="output" name="tei_lite3"/>
+					</data>
+				</component>
+				<component name="document" library="xml" uid="1110" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1784" lty="1650" rbx="2084" rby="2150"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+								</namespaces>
+							</header>
+							<entry name="date" inpkey="86" expanded="1"/>
+						</root>
+						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}date"/>
+						<wsdl/>
+						<parameter usageKind="output" name="tei_lite4"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="1083" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="43"/>
+					</targets>
+					<view ltx="1386" lty="146" rbx="1430" rby="164"/>
+					<data>
+						<constant value="-" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="document" library="xml" uid="1085" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1177" lty="181" rbx="1325" rby="273"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" ns="1" inpkey="20" outkey="140" expanded="1">
+									<entry name="#text" outkey="77"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="exists" library="core" uid="1114" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="138"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="139"/>
+					</targets>
+					<view ltx="1464" lty="222" rbx="1531" rby="261"/>
+				</component>
+				<component name="exists" library="core" uid="1116" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="145"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="141"/>
+					</targets>
+					<view ltx="1465" lty="550" rbx="1532" rby="589"/>
+				</component>
 				<component name="constant" library="core" uid="1076" kind="2">
 					<properties/>
 					<targets>
 						<datapoint pos="0" key="48"/>
 					</targets>
-					<view ltx="1342" lty="757" rbx="1386" rby="775"/>
+					<view ltx="1434" lty="472" rbx="1478" rby="490"/>
 					<data>
 						<constant value="-" datatype="string"/>
 						<wsdl/>
 					</data>
+				</component>
+				<component name="document" library="xml" uid="1104" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1237" lty="560" rbx="1385" rby="652"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" ns="1" inpkey="10" outkey="147" expanded="1">
+									<entry name="#text" outkey="46"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="concat" library="core" uid="1105" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="60"/>
+						<datapoint pos="1" key="49"/>
+						<datapoint pos="2" key="47"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="58"/>
+					</targets>
+					<view ltx="1513" lty="422" rbx="1598" rby="498"/>
 				</component>
 				<component name="document" library="xml" uid="1077" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
@@ -223,6 +1270,47 @@
 						<parameter usageKind="variable" name="subfield"/>
 					</data>
 				</component>
+				<component name="if-else" library="core" uid="1112" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="137"/>
+						<datapoint pos="1" key="136"/>
+						<datapoint pos="2" key="135"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="134"/>
+					</targets>
+					<view ltx="1553" lty="223" rbx="1650" rby="299"/>
+				</component>
+				<component name="if-else" library="core" uid="1115" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="142"/>
+						<datapoint pos="1" key="144"/>
+						<datapoint pos="2" key="143"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="146"/>
+					</targets>
+					<view ltx="1554" lty="551" rbx="1651" rby="627"/>
+				</component>
+				<component name="document" library="xml" uid="1108" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1784" lty="550" rbx="2084" rby="1050"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+								</namespaces>
+							</header>
+							<entry name="date" inpkey="84" expanded="1"/>
+						</root>
+						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}date"/>
+						<wsdl/>
+						<parameter usageKind="output" name="tei_lite2"/>
+					</data>
+				</component>
 				<component name="equal" library="core" uid="1078" kind="5">
 					<properties/>
 					<sources>
@@ -245,27 +1333,28 @@
 					</targets>
 					<view ltx="1026" lty="634" rbx="1079" rby="690"/>
 				</component>
-				<component name="constant" library="core" uid="1080" kind="2">
+				<component name="equal" library="core" uid="1086" kind="5">
 					<properties/>
+					<sources>
+						<datapoint pos="0" key="76"/>
+						<datapoint pos="1" key="33"/>
+					</sources>
 					<targets>
-						<datapoint pos="0" key="54"/>
+						<datapoint pos="0" key="34"/>
 					</targets>
-					<view ltx="933" lty="490" rbx="979" rby="508"/>
-					<data>
-						<constant value="c" datatype="string"/>
-						<wsdl/>
-					</data>
+					<view ltx="966" lty="74" rbx="1019" rby="130"/>
 				</component>
-				<component name="constant" library="core" uid="1081" kind="2">
+				<component name="subfield" library="core" uid="1101" kind="3">
 					<properties/>
+					<sources>
+						<datapoint pos="0" key="18"/>
+						<datapoint pos="1" key="42"/>
+					</sources>
 					<targets>
-						<datapoint pos="0" key="52"/>
+						<datapoint pos="0" key="19"/>
+						<datapoint/>
 					</targets>
-					<view ltx="934" lty="671" rbx="980" rby="689"/>
-					<data>
-						<constant value="d" datatype="string"/>
-						<wsdl/>
-					</data>
+					<view ltx="1040" lty="208" rbx="1143" rby="264"/>
 				</component>
 				<component name="equal" library="core" uid="1082" kind="5">
 					<properties/>
@@ -278,32 +1367,9 @@
 					</targets>
 					<view ltx="966" lty="255" rbx="1019" rby="311"/>
 				</component>
-				<component name="constant" library="core" uid="1083" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="43"/>
-					</targets>
-					<view ltx="1282" lty="348" rbx="1326" rby="366"/>
-					<data>
-						<constant value="-" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="concat" library="core" uid="1084" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="80"/>
-						<datapoint pos="1" key="44"/>
-						<datapoint pos="2" key="78"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="45"/>
-					</targets>
-					<view ltx="1389" lty="291" rbx="1474" rby="367"/>
-				</component>
-				<component name="document" library="xml" uid="1085" kind="14">
+				<component name="document" library="xml" uid="1097" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1177" lty="181" rbx="1325" rby="273"/>
+					<view ltx="377" lty="291" rbx="527" rby="491"/>
 					<data>
 						<root>
 							<header>
@@ -314,26 +1380,17 @@
 								</namespaces>
 							</header>
 							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="subfield" ns="1" inpkey="20" expanded="1">
-									<entry name="#text" outkey="77"/>
+								<entry name="datafield" ns="1" inpkey="2" expanded="1">
+									<entry name="subfield" ns="1" outkey="7" expanded="1">
+										<entry name="code" type="attribute" outkey="36"/>
+									</entry>
 								</entry>
 							</entry>
 						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield"/>
 						<wsdl/>
-						<parameter usageKind="variable" name="subfield"/>
+						<parameter usageKind="variable" name="datafield"/>
 					</data>
-				</component>
-				<component name="equal" library="core" uid="1086" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="76"/>
-						<datapoint pos="1" key="33"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="34"/>
-					</targets>
-					<view ltx="966" lty="74" rbx="1019" rby="130"/>
 				</component>
 				<component name="subfield" library="core" uid="1087" kind="3">
 					<properties/>
@@ -370,66 +1427,38 @@
 						<parameter usageKind="variable" name="subfield"/>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="1089" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="39"/>
-					</targets>
-					<view ltx="874" lty="292" rbx="920" rby="310"/>
-					<data>
-						<constant value="b" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1090" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="32"/>
-					</targets>
-					<view ltx="873" lty="111" rbx="919" rby="129"/>
-					<data>
-						<constant value="a" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="subfield" library="core" uid="1091" kind="3">
+				<component name="concat" library="core" uid="1084" kind="5" growable="1" growablebasename="value">
 					<properties/>
 					<sources>
-						<datapoint pos="0" key="21"/>
-						<datapoint pos="1" key="67"/>
+						<datapoint pos="0" key="80"/>
+						<datapoint pos="1" key="44"/>
+						<datapoint pos="2" key="78"/>
 					</sources>
 					<targets>
-						<datapoint pos="0" key="25"/>
-						<datapoint/>
+						<datapoint pos="0" key="45"/>
 					</targets>
-					<view ltx="1131" lty="811" rbx="1234" rby="867"/>
+					<view ltx="1499" lty="111" rbx="1584" rby="187"/>
 				</component>
-				<component name="document" library="xml" uid="1092" kind="14">
+				<component name="document" library="xml" uid="1107" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="700" lty="539" rbx="850" rby="739"/>
+					<view ltx="1784" rbx="2084" rby="500"/>
 					<data>
 						<root>
 							<header>
 								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
 								</namespaces>
 							</header>
-							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="subfield" ns="1" inpkey="8" outkey="4" expanded="1">
-									<entry name="code" type="attribute" outkey="61"/>
-								</entry>
-							</entry>
+							<entry name="date" inpkey="83"/>
 						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}date"/>
 						<wsdl/>
-						<parameter usageKind="variable" name="subfield"/>
+						<parameter usageKind="output" name="tei_lite"/>
 					</data>
 				</component>
 				<component name="document" library="xml" uid="1093" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1268" lty="811" rbx="1416" rby="903"/>
+					<view ltx="1235" lty="742" rbx="1383" rby="834"/>
 					<data>
 						<root>
 							<header>
@@ -450,195 +1479,9 @@
 						<parameter usageKind="variable" name="subfield"/>
 					</data>
 				</component>
-				<component name="equal" library="core" uid="1094" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="38"/>
-						<datapoint pos="1" key="70"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="71"/>
-					</targets>
-					<view ltx="1058" lty="1032" rbx="1111" rby="1088"/>
-				</component>
-				<component name="subfield" library="core" uid="1095" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="17"/>
-						<datapoint pos="1" key="72"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="22"/>
-						<datapoint/>
-					</targets>
-					<view ltx="1132" lty="958" rbx="1235" rby="1014"/>
-				</component>
-				<component name="equal" library="core" uid="1096" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="37"/>
-						<datapoint pos="1" key="65"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="66"/>
-					</targets>
-					<view ltx="1057" lty="885" rbx="1110" rby="941"/>
-				</component>
-				<component name="document" library="xml" uid="1097" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="547" lty="291" rbx="697" rby="491"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="datafield" ns="1" inpkey="2" expanded="1">
-									<entry name="subfield" ns="1" outkey="7" expanded="1">
-										<entry name="code" type="attribute" outkey="36"/>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="datafield"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="1098" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1269" lty="958" rbx="1417" rby="1050"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="subfield" ns="1" inpkey="23" expanded="1">
-									<entry name="#text" outkey="73"/>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="subfield"/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1099" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="64"/>
-					</targets>
-					<view ltx="965" lty="922" rbx="1011" rby="940"/>
-					<data>
-						<constant value="n" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="1100" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="69"/>
-					</targets>
-					<view ltx="966" lty="1069" rbx="1012" rby="1087"/>
-					<data>
-						<constant value="e" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="subfield" library="core" uid="1101" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="18"/>
-						<datapoint pos="1" key="42"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="19"/>
-						<datapoint/>
-					</targets>
-					<view ltx="1040" lty="208" rbx="1143" rby="264"/>
-				</component>
-				<component name="document" library="xml" uid="1102" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="700" lty="19" rbx="850" rby="219"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="subfield" ns="1" inpkey="24" outkey="15" expanded="1">
-									<entry name="code" type="attribute" outkey="74"/>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="subfield"/>
-					</data>
-				</component>
-				<component name="subfield" library="core" uid="1103" kind="3">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="6"/>
-						<datapoint pos="1" key="51"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="9"/>
-						<datapoint/>
-					</targets>
-					<view ltx="1100" lty="560" rbx="1203" rby="616"/>
-				</component>
-				<component name="document" library="xml" uid="1104" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1237" lty="560" rbx="1385" rby="652"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="subfield" ns="1" inpkey="10" expanded="1">
-									<entry name="#text" outkey="46"/>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="subfield"/>
-					</data>
-				</component>
-				<component name="concat" library="core" uid="1105" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="60"/>
-						<datapoint pos="1" key="49"/>
-						<datapoint pos="2" key="47"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="58"/>
-					</targets>
-					<view ltx="1449" lty="670" rbx="1534" rby="746"/>
-				</component>
 				<component name="document" library="xml" uid="1106" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
-					<view rbx="150" rby="200"/>
+					<view ltx="-295" lty="136" rbx="-145" rby="336"/>
 					<data>
 						<root>
 							<header>
@@ -656,82 +1499,9 @@
 						<parameter usageKind="input" name="picaxmlv10"/>
 					</data>
 				</component>
-				<component name="document" library="xml" uid="1107" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1784" rbx="2084" rby="500"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="date" inpkey="83" expanded="1"/>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}date"/>
-						<wsdl/>
-						<parameter usageKind="output" name="tei_lite"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="1108" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1784" lty="550" rbx="2084" rby="1050"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="date" inpkey="84" expanded="1"/>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}date"/>
-						<wsdl/>
-						<parameter usageKind="output" name="tei_lite2"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="1109" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1784" lty="1100" rbx="2084" rby="1600"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="date" inpkey="85" expanded="1"/>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}date"/>
-						<wsdl/>
-						<parameter usageKind="output" name="tei_lite3"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="1110" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1784" lty="1650" rbx="2084" rby="2150"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="date" inpkey="86" expanded="1"/>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}date"/>
-						<wsdl/>
-						<parameter usageKind="output" name="tei_lite4"/>
-					</data>
-				</component>
 			</children>
 			<graph directed="1">
 				<edges>
-					<edge edgekey="87">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
 					<edge edgekey="88">
 						<data>
 							<dataconnection type="2"/>
@@ -742,22 +1512,12 @@
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="90">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
 					<edge edgekey="91">
 						<data>
 							<dataconnection type="2"/>
 						</data>
 					</edge>
 					<edge edgekey="92">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="93">
 						<data>
 							<dataconnection type="2"/>
 						</data>
@@ -777,32 +1537,37 @@
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="97">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="98">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="99">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
 					<edge edgekey="100">
 						<data>
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="101">
+					<edge edgekey="102">
 						<data>
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="102">
+					<edge edgekey="168">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="169">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="170">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="171">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="172">
 						<data>
 							<dataconnection type="2"/>
 						</data>
@@ -814,18 +1579,14 @@
 							<edge vertexkey="2" edgekey="100"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="4">
-						<edges>
-							<edge vertexkey="5" edgekey="101"/>
-							<edge vertexkey="6" edgekey="97"/>
-						</edges>
-					</vertex>
 					<vertex vertexkey="7">
 						<edges>
-							<edge vertexkey="8" edgekey="99"/>
 							<edge vertexkey="17" edgekey="95"/>
 							<edge vertexkey="21" edgekey="89"/>
-							<edge vertexkey="24" edgekey="90"/>
+							<edge vertexkey="5" edgekey="172"/>
+							<edge vertexkey="6" edgekey="170"/>
+							<edge vertexkey="18" edgekey="169"/>
+							<edge vertexkey="16" edgekey="171"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="9">
@@ -840,13 +1601,7 @@
 					</vertex>
 					<vertex vertexkey="13">
 						<edges>
-							<edge vertexkey="14" edgekey="98"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="15">
-						<edges>
-							<edge vertexkey="16" edgekey="93"/>
-							<edge vertexkey="18" edgekey="87"/>
+							<edge vertexkey="14" edgekey="168"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="19">
@@ -888,6 +1643,10 @@
 						<edges>
 							<edge vertexkey="37" edgekey="107"/>
 							<edge vertexkey="38" edgekey="108"/>
+							<edge vertexkey="63" edgekey="173"/>
+							<edge vertexkey="62" edgekey="174"/>
+							<edge vertexkey="75" edgekey="175"/>
+							<edge vertexkey="76" edgekey="176"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="39">
@@ -907,7 +1666,7 @@
 					</vertex>
 					<vertex vertexkey="45">
 						<edges>
-							<edge vertexkey="83" edgekey="112"/>
+							<edge vertexkey="136" edgekey="148"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="46">
@@ -942,18 +1701,13 @@
 					</vertex>
 					<vertex vertexkey="58">
 						<edges>
-							<edge vertexkey="84" edgekey="119"/>
+							<edge vertexkey="144" edgekey="162"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="59">
 						<edges>
 							<edge vertexkey="60" edgekey="120"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="61">
-						<edges>
-							<edge vertexkey="62" edgekey="121"/>
-							<edge vertexkey="63" edgekey="122"/>
+							<edge vertexkey="143" edgekey="163"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="64">
@@ -986,12 +1740,6 @@
 							<edge vertexkey="86" edgekey="128"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="74">
-						<edges>
-							<edge vertexkey="75" edgekey="129"/>
-							<edge vertexkey="76" edgekey="130"/>
-						</edges>
-					</vertex>
 					<vertex vertexkey="77">
 						<edges>
 							<edge vertexkey="78" edgekey="131"/>
@@ -1000,6 +1748,7 @@
 					<vertex vertexkey="79">
 						<edges>
 							<edge vertexkey="80" edgekey="132"/>
+							<edge vertexkey="135" edgekey="151"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="81">
@@ -1010,6 +1759,36 @@
 					<vertex vertexkey="82">
 						<edges>
 							<edge vertexkey="27" edgekey="133"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="134">
+						<edges>
+							<edge vertexkey="83" edgekey="166"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="139">
+						<edges>
+							<edge vertexkey="137" edgekey="153"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="140">
+						<edges>
+							<edge vertexkey="138" edgekey="154"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="141">
+						<edges>
+							<edge vertexkey="142" edgekey="155"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="146">
+						<edges>
+							<edge vertexkey="84" edgekey="167"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="147">
+						<edges>
+							<edge vertexkey="145" edgekey="165"/>
 						</edges>
 					</vertex>
 				</vertices>

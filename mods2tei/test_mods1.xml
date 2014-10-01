@@ -16,6 +16,11 @@
   </titleInfo>
   <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
     valueURI="http://d-nb.info/gnd/130053813" usage="primary">
+    <namePart type="family">Pipa</namePart>
+    <namePart type="given">Mik</namePart>        
+  </name>
+  <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
+    valueURI="http://d-nb.info/gnd/130053813" usage="primary">
     <namePart type="family">Horáth</namePart>
     <namePart type="given">Plein</namePart>
     <role>
@@ -28,6 +33,14 @@
     <namePart type="given">Jorg</namePart>
     <role>
       <roleTerm>edt</roleTerm>
+    </role>
+  </name>
+  <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
+    valueURI="http://d-nb.info/gnd/130053813" usage="primary">
+    <namePart type="family">Pipa</namePart>
+    <namePart type="given">Din</namePart>
+    <role>
+      <roleTerm></roleTerm>
     </role>
   </name>
   <name type="corporate" authority="gnd" authorityURI="http://d-nb.info/gnd/"
@@ -50,12 +63,13 @@
   <genre>
     ein genre
   </genre>
+  
   <originInfo>
     <place>
-      <placeTerm type="text">S.l.]</placeTerm>
+      <placeTerm type="text">1</placeTerm>
     </place>
     <place>
-      <placeTerm type="text">Göttingen</placeTerm>
+      <placeTerm type="text">Göttingen 1</placeTerm>
     </place>
     <dateIssued>1730</dateIssued>
     <dateCreated>1700</dateCreated>
@@ -67,10 +81,40 @@
   
   <originInfo>
     <place>
-      <placeTerm type="text">S.l.]</placeTerm>
+      <placeTerm type="text">2</placeTerm>
     </place>
     <place>
-      <placeTerm type="text">Göttingen</placeTerm>
+      <placeTerm type="text">Göttingen 2</placeTerm>
+    </place>
+    <dateIssued>1730</dateIssued>
+    <dateCreated>1700</dateCreated>
+    <dateOther type="test">2014</dateOther>
+    <publisher>Niedersächsische Staats- und Universitätsbibliothek</publisher>
+    <issuance>monographic</issuance>
+    <edition>bla</edition>
+  </originInfo>
+  
+  <originInfo>
+    <place>
+      <placeTerm type="text">3</placeTerm>
+    </place>
+    <place>
+      <placeTerm type="text">Göttingen 3</placeTerm>
+    </place>
+    <dateIssued>1730</dateIssued>
+    <dateCreated>1700</dateCreated>
+    <dateOther type="test">2014</dateOther>
+    <publisher>Niedersächsische Staats- und Universitätsbibliothek</publisher>
+    <issuance>monographic</issuance>
+  
+  </originInfo>
+  
+  <originInfo>
+    <place>
+      <placeTerm type="text">4</placeTerm>
+    </place>
+    <place>
+      <placeTerm type="text">Göttingen 4</placeTerm>
     </place>
     <dateCaptured>1979</dateCaptured>
     <publisher>Niedersächsische Staats- und Universitätsbibliothek</publisher>
@@ -85,6 +129,12 @@
   <language>
     <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
   </language>
+  <language>
+    <languageTerm authority="iso639-2b" type="text">en</languageTerm>
+  </language>
+  <language>
+    <languageTerm authority="iso639-2b" >fr</languageTerm>
+  </language>
   <physicalDescription>
     <form authority="marcform">electronic</form>
     <form authority="gmd">Elektronische Ressource</form>
@@ -97,7 +147,9 @@
   <note type="reproduction">Online-Ausg. Göttingen GDZ Göttingen DigiWunschbuch 2006 Zugl.
             digitaler Master |2006||||||||||</note>
   <note type="original location">SUB Göttingen &lt;DD2004 A 38&gt;</note>
-  <classification authority="bcl">44.52</classification>
+  <classification authority="bla">bla 1</classification>
+  <classification authority="ups">ups_1</classification>
+  <classification authority="gdz">gdz_44.52</classification>
   <location>
     <url displayLabel="electronic resource" usage="primary display"
       >http://resolver.sub.uni-goettingen.de/purl?PPN514964626</url>
@@ -115,34 +167,79 @@
       <languageTerm authority="iso639-2b" type="code">ger</languageTerm>
     </languageOfCataloging>
   </recordInfo>
-  <subject>
-    <topic lang="bla">1.1 topic</topic>
-  </subject>
   
-  <subject>
-    <topic lang="bla">2.1 topic</topic>
-    <topic lang="bla">2.2 topic</topic>
-    <geographic>geographic</geographic>
-    <temporal>temporal</temporal>
+  <subject authority="gdz2">
+    <topic lang="bla">subject1 topic</topic>
+    <geographic>subject1 geographic</geographic>
+    <temporal>subject1 temporal</temporal>
     <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
       valueURI="http://d-nb.info/gnd/130053813" >
-      <namePart type="family">1. last</namePart>
-      <namePart type="given">1. first</namePart>
+      <namePart type="family">subject1 1. last</namePart>
+      <namePart type="given">subject1 1. first</namePart>
       <role>
         <roleTerm>aut</roleTerm>
       </role>
     </name>
     <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
       valueURI="http://d-nb.info/gnd/130053813" >
-      <namePart type="family">2. last</namePart>
-      <namePart type="given">2. first</namePart>
+      <namePart type="family">subject1 2. last</namePart>
+      <namePart type="given">subject1 2. first</namePart>
       <role>
         <roleTerm>edt</roleTerm>
       </role>
     </name>
     <name type="corporate" authority="gnd" authorityURI="http://d-nb.info/gnd/"
       valueURI="http://d-nb.info/gnd/130053813" >
-      <namePart type="family">SUB Gö</namePart>
+      <namePart type="family">subject1 SUB Gö</namePart>
+      <role>
+        <roleTerm>edt</roleTerm>
+      </role>
+    </name>
+    
+    <titleInfo>
+      <nonSort>Ein </nonSort>
+      <title>schön neu-erfundenes Kunst-Büchlein</title>
+      <subTitle>(subject.tiTleInfo) Darinnen Hundert fünff und zwantzig Stück, vor Menschen und Vieh, sonderlich
+        aber vor reisende Leuthe, wie auch vor die jenigen, so Vieh haben, sehr nutzlich
+        zugebrauchen, mit schönen offt probirten Recepten beschrieben ; Welches von mir mit
+        sonderbahrem Fleiß aufgesetzt und gut befunden worden</subTitle>
+    </titleInfo>
+    <titleInfo type="alternative">
+      <title>schönes</title>
+    </titleInfo>
+    <titleInfo>
+      <nonSort>Ein </nonSort>
+      <title>schön neu-erfundenes Kunst-Büchlein</title>
+      <subTitle>(subject.tiTleInfo) Darinnen Hundert fünff und zwantzig Stück, vor Menschen und Vieh, sonderlich
+        aber vor reisende Leuthe, wie auch vor die jenigen, so Vieh haben, sehr nutzlich
+        zugebrauchen, mit schönen offt probirten Recepten beschrieben ; Welches von mir mit
+        sonderbahrem Fleiß aufgesetzt und gut befunden worden</subTitle>
+    </titleInfo>
+  </subject>
+  
+  <subject authority="bla">
+    <topic lang="bla">subject2 topic</topic>
+    <geographic>subject2 geographic</geographic>
+    <temporal>subject2 temporal</temporal>
+    <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
+      valueURI="http://d-nb.info/gnd/130053813" >
+      <namePart type="family">subject2 1. last</namePart>
+      <namePart type="given">subject2 1. first</namePart>
+      <role>
+        <roleTerm>aut</roleTerm>
+      </role>
+    </name>
+    <name type="personal" authority="gnd" authorityURI="http://d-nb.info/gnd/"
+      valueURI="http://d-nb.info/gnd/130053813" >
+      <namePart type="family">subject2 2. last</namePart>
+      <namePart type="given">subject2 2. first</namePart>
+      <role>
+        <roleTerm>edt</roleTerm>
+      </role>
+    </name>
+    <name type="corporate" authority="gnd" authorityURI="http://d-nb.info/gnd/"
+      valueURI="http://d-nb.info/gnd/130053813" >
+      <namePart type="family">subject2 SUB Gö</namePart>
       <role>
         <roleTerm>edt</roleTerm>
       </role>

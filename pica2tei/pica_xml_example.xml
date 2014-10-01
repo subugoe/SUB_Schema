@@ -56,14 +56,14 @@
         <subfield code="a">bla</subfield>
     </datafield>
     <datafield tag="011@">
-        <subfield code="a">1730</subfield>
-        <subfield code="b">1731</subfield>
-        <subfield code="c">1730</subfield>
-        <subfield code="d">1731</subfield>
-        <subfield code="n">Erscheinungsjahr nach RAK-WB</subfield>
-        <subfield code="e">urspr. Erscheinungsjahr</subfield>
-
+        <subfield code="a">011@.1a </subfield>
+        <subfield code="b">011@.1b</subfield>
+        <subfield code="c">011@.1c</subfield>
+        <subfield code="d">011@.1d</subfield>
+        <subfield code="n">011@.1n</subfield>
+        <subfield code="e">011@.1e</subfield>
     </datafield>
+
     <datafield tag="011B">
         <subfield code="a">011Ba - 2006</subfield>
         <subfield code="b">011Bb - 2007</subfield>
@@ -84,7 +84,7 @@
         <subfield code="f">parallelTitle</subfield>
     </datafield>
     <datafield tag="021B">
-        <subfield code="a">021B-a</subfield>
+        <subfield code="a">Der @blaue @Brief @bla</subfield>
         <subfield code="d">021B-d</subfield>
         <subfield code="h">021B-h</subfield>
         <subfield code="e">021B-e</subfield>
@@ -100,114 +100,133 @@
         <subfield code="e">021Me - ups</subfield>
         <subfield code="f">021Mf - ups</subfield>
     </datafield>
-    
+    <!--
     <datafield tag="028A">
-        <subfield code="d">028A - Plein</subfield>
-        <subfield code="a">028A - Horath</subfield>
-        <subfield code="9">028A - 48879434X</subfield>
-        <subfield code="d">028A - Pelin</subfield>
-        <subfield code="a">028A - Horáth</subfield>
+        <subfield code="P">028A _ Persönlicher Name</subfield>
+        <subfield code="d">028A _ Plein</subfield>
+        <subfield code="a">028A _ Horath</subfield>
+        <subfield code="9">028A _ 48879434X</subfield>
         <subfield code="0">gnd/130053813</subfield>
-        <subfield code="c">028A - ein c</subfield>
-        <subfield code="p">028A - ein p</subfield>
-        <subfield code="h">028A - h - 1972</subfield>
-        <subfield code="D">028A - D - 1972</subfield>
+        <subfield code="c">028A _ ein c</subfield>
+        <subfield code="p">028A _ ein p</subfield>
+        <subfield code="h">028A _ h - 1972</subfield>
+        <subfield code="D">028A _ D - 1972</subfield>
     </datafield>
-   
+    -->
     <datafield tag="028B">
-        <subfield code="d">028Ba - Plein</subfield>
-        <subfield code="a">028Ba - Horath</subfield>
-        <subfield code="9">028Ba - 48879434X</subfield>
-        <subfield code="d">028Ba - Pelin</subfield>
-        <subfield code="a">028Ba - Horáth</subfield>
-        <subfield code="0">028Ba - gnd/130053814</subfield>
-        <subfield code="c">028Ba - ein c</subfield>
-        <subfield code="p">028Ba - ein p</subfield>
-        <subfield code="h">028Ba - h - 1972</subfield>
-        <subfield code="D">028Ba - D - 1972</subfield>
+        <subfield code="P">028B.1 _ Persönlicher Name</subfield>
+        <subfield code="d">028B.1 - Plein</subfield>
+        <subfield code="a">028B.1 - Horath</subfield>
+        <subfield code="9">028B.1 - 48879434X</subfield>
+        <subfield code="0">028B.1 - gnd/130053814</subfield>
+        <subfield code="c">028B.1 - ein c</subfield>
+        <subfield code="p">028B.1 - ein p</subfield>
+        <subfield code="h">028B.1 - h - 1972</subfield>
+        <subfield code="D">028B.1 - D - 1972</subfield>
     </datafield>
     <datafield tag="028B">
-        <subfield code="d">1d</subfield>
-        <subfield code="a">1a</subfield>
-        <subfield code="9">028B 2 - 48879434X</subfield>
-        <subfield code="d">2d</subfield>
-        <subfield code="a">2a</subfield>
-        <subfield code="0">gnd/130053815</subfield>
-        <subfield code="c">ein c</subfield>
-        <subfield code="p">ein p</subfield>
-        <subfield code="h">h_1972</subfield>
-        <subfield code="d">3d</subfield>
-        <subfield code="a">3a</subfield>
-        <subfield code="D">D_1972</subfield>
+        <subfield code="P">028B.2 _ Persönlicher Name</subfield>
+        <subfield code="d">028B.2 - Plein</subfield>
+        <subfield code="a">028B.2 - Horath</subfield>
+        <subfield code="9">028B.2 - 48879434X</subfield>
+        <subfield code="0">028B.2 - gnd/130053814</subfield>
+        <subfield code="c">028B.2 - ein c</subfield>
+        <subfield code="p">028B.2 - ein p</subfield>
+        <subfield code="h">028B.2 - h - 1972</subfield>
+        <subfield code="D">028B.2 - D - 1972</subfield>
     </datafield>
-   
-    
+
+
     <datafield tag="028C">
+        <subfield code="P">028C _ Persönlicher Name</subfield>
+        <subfield code="d">028C - d</subfield>
+        <subfield code="a">028C - a</subfield>
         <subfield code="d">028C - d</subfield>
         <subfield code="a">028C - a</subfield>
         <subfield code="9">028C - g</subfield>
-        <subfield code="d">028C - 2.d</subfield>
-        <subfield code="a">028C - 2.a</subfield>
         <subfield code="0">gnd/130053815</subfield>
         <subfield code="c">028C - c</subfield>
         <subfield code="p">028C - p</subfield>
         <subfield code="h">028C - h</subfield>
-        <subfield code="d">028C - 3.d</subfield>
-        <subfield code="a">028C - 3.a</subfield>
         <subfield code="D">028C - D_1972</subfield>
         <subfield code="B">[Hrsg.]</subfield>
     </datafield>
-    <datafield tag="028D">
-        <subfield code="d">028D - d</subfield>
-        <subfield code="a">028D - a</subfield>
-        <subfield code="9">028D - g</subfield>
-        <subfield code="d">028D - 2.d</subfield>
-        <subfield code="a">028D - 2.a</subfield>
+    <datafield tag="028C">
+        <subfield code="P">028C.2 _ Persönlicher Name</subfield>
+        <subfield code="d">028C.2 - d</subfield>
+        <subfield code="a">028C.2 - a</subfield>
+        <subfield code="9">028C.2 - g</subfield>
         <subfield code="0">gnd/130053815</subfield>
-        <subfield code="c">028D - c</subfield>
-        <subfield code="p">028D - p</subfield>
-        <subfield code="h">028D - h</subfield>
-        <subfield code="d">028D - 3.d</subfield>
-        <subfield code="a">028D - 3.a</subfield>
-        <subfield code="D">028D - D_1972</subfield>
+        <subfield code="c">028C.2 - c</subfield>
+        <subfield code="p">028C.2 - p</subfield>
+        <subfield code="h">028C.2 - h</subfield>
+        <subfield code="D">028C.2 - D_1972</subfield>
         <subfield code="B">[Hrsg.]</subfield>
     </datafield>
-    <datafield tag="029A">
-        <subfield code="a">Hauptkörperschaft - 1</subfield>
-        <subfield code="b">Untergeordnete Körperschaft - 1</subfield>
-        <subfield code="g">Zusatz - 1</subfield>
-        <subfield code="0">gnd/130053815 - 1</subfield>
+    <datafield tag="028D">
+        <subfield code="P">028D.1 _ Persönlicher Name</subfield>
+        <subfield code="d">028D.1 - d</subfield>
+        <subfield code="a">028D.1 - a</subfield>
+        <subfield code="9">028D.1 - g</subfield>
+        <subfield code="0">gnd/130053815</subfield>
+        <subfield code="c">028D.1 - c</subfield>
+        <subfield code="p">028D.1 - p</subfield>
+        <subfield code="h">028D.1 - h</subfield>
+        <subfield code="D">028D.1 - D_1972</subfield>
+        <subfield code="B">[Hrsg.]</subfield>
     </datafield>
-    <datafield tag="029A">
-        <subfield code="a">Hauptkörperschaft - 2</subfield>
-        <subfield code="b">Untergeordnete Körperschaft - 2</subfield>
-        <subfield code="g">Zusatz - 2</subfield>
-        <subfield code="0">gnd/130053815 - 2</subfield>
+    <datafield tag="028D">
+        <subfield code="P">028D.2 _ Persönlicher Name</subfield>
+        <subfield code="d">028D.2 - d</subfield>
+        <subfield code="a">028D.2 - a</subfield>
+        <subfield code="9">028D.2 - g</subfield>
+        <subfield code="0">gnd/130053815</subfield>
+        <subfield code="c">028D.2 - c</subfield>
+        <subfield code="p">028D.2 - p</subfield>
+        <subfield code="h">028D.2 - h</subfield>
+        <subfield code="D">028D.2 - D_1972</subfield>
+        <subfield code="B">[Hrsg.]</subfield>
     </datafield>
-    <datafield tag="029F">
-        <subfield code="a">Hauptkörperschaft</subfield>
-        <subfield code="b">Untergeordnete Körperschaft</subfield>
-        <subfield code="g">Zusatz</subfield>
+
+    <datafield tag="029A">
+        <subfield code="a">Hauptkörperschaft (029A)</subfield>
+        <subfield code="b">Untergeordnete Körperschaft (029A)</subfield>
+        <subfield code="g">Zusatz (029A)</subfield>
         <subfield code="0">gnd/130053825</subfield>
     </datafield>
+
+
+    <datafield tag="029F">
+        <subfield code="a">Hauptkörperschaft (029F)</subfield>
+        <subfield code="b">Untergeordnete Körperschaft (029F)</subfield>
+        <subfield code="g">Zusatz (029F)</subfield>
+        <subfield code="0">gnd/130053825</subfield>
+    </datafield>
+    <datafield tag="029F">
+        <subfield code="a">Hauptkörperschaft (029F2)</subfield>
+        <subfield code="b">Untergeordnete Körperschaft (029F2)</subfield>
+        <subfield code="g">Zusatz (029F2)</subfield>
+        <subfield code="0">gnd/130053825</subfield>
+    </datafield>
+    
     <datafield tag="032C">
         <subfield code="a">[Online-Ausg.]</subfield>
     </datafield>
     <datafield tag="033A">
-        <subfield code="p">033A1 - pubPlace</subfield>
-        <subfield code="n">033A1 - publisher</subfield>
+        <subfield code="p">033A.1 - pubPlace</subfield>
+        <subfield code="n">033A.1 - publisher</subfield>
     </datafield>
     <datafield tag="033A">
-        <subfield code="p">033A2 - pubPlace</subfield>
-        <subfield code="n">033A2 - publisher</subfield>
+        <subfield code="p">033A.2 - pubPlace</subfield>
+        <subfield code="n">033A.2 - publisher</subfield>
     </datafield>
     <datafield tag="033J">
-        <subfield code="a">033J1 - name</subfield>
-        <subfield code="0">033J1 - gnd/130053815</subfield>
+        <subfield code="a">033J.1 - name</subfield>
+        <subfield code="0">033J.1 - gnd/130053815</subfield>
     </datafield>
     <datafield tag="033J">
-        <subfield code="a">033J2 - name</subfield>
-        <subfield code="0">033J2 - gnd/130053816</subfield>
+        <subfield code="a">033J.2 - name</subfield>
+        <subfield code="0">033J.2 - gnd/130053816</subfield>
     </datafield>
 
     <datafield tag="033B" occurrence="01">
@@ -234,10 +253,13 @@
         <subfield code="n">033P - DigiWunschbuch</subfield>
     </datafield>
     <datafield tag="034D">
-        <subfield code="a">034D - [15] Bl</subfield>
+        <subfield code="a">034D</subfield>
     </datafield>
     <datafield tag="034M">
-        <subfield code="a">034M - [15] Bl</subfield>
+        <subfield code="a">034M</subfield>
+    </datafield>
+    <datafield tag="034I">
+        <subfield code="a">034I</subfield>
     </datafield>
     <datafield tag="037G">
         <subfield code="a">Zugl. digitaler Master</subfield>
@@ -250,10 +272,16 @@
         <subfield code="a">Begriff - 1</subfield>
         <subfield code="g">Zusatz - 1</subfield>
     </datafield>
-    <datafield tag="044S">
-        <subfield code="a">Begriff - 2</subfield>
-        <subfield code="g">Zusatz - 2</subfield>
+        
+    <datafield tag="045F">
+        <subfield code="e">23sdnb</subfield>
+        <subfield code="a">490</subfield>
     </datafield>
+    <datafield tag="045F">
+        <subfield code="e">23sdnb</subfield>
+        <subfield code="a">490</subfield>
+    </datafield>
+    
     <datafield tag="045Q" occurrence="01">
         <subfield code="9">10641593X</subfield>
         <subfield code="a">44.52</subfield>

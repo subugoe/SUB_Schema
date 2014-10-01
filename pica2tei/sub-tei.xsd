@@ -41,14 +41,7 @@
       <xs:group ref="ns1:model.global"/>
     </xs:choice>
   </xs:complexType>
-  <xs:complexType name="macro.specialPara" mixed="true">
-    <xs:choice minOccurs="0" maxOccurs="unbounded">
-      <xs:group ref="ns1:model.phrase"/>
-      <xs:group ref="ns1:model.inter"/>
-      <xs:group ref="ns1:model.divPart"/>
-      <xs:group ref="ns1:model.global"/>
-    </xs:choice>
-  </xs:complexType>
+  <xs:complexType name="macro.specialPara" mixed="true"> </xs:complexType>
   <xs:simpleType name="data.certainty">
     <xs:restriction base="xs:token">
       <xs:enumeration value="high"/>
@@ -1270,15 +1263,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
   </xs:group>
   <xs:group name="model.emphLike">
     <xs:choice>
-      <xs:element ref="ns1:foreign"/>
-      <xs:element ref="ns1:emph"/>
-      <xs:element ref="ns1:mentioned"/>
-      <xs:element ref="ns1:soCalled"/>
-      <xs:element ref="ns1:gloss"/>
-      <xs:element ref="ns1:term"/>
       <xs:element ref="ns1:title"/>
-      <xs:element ref="ns1:code"/>
-      <xs:element ref="ns1:ident"/>
     </xs:choice>
   </xs:group>
   <xs:group name="model.emphLike_alternation">
@@ -1348,14 +1333,12 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
   </xs:group>
   <xs:group name="model.highlighted">
     <xs:choice>
-      <xs:group ref="ns1:model.hiLike"/>
       <xs:group ref="ns1:model.emphLike"/>
     </xs:choice>
   </xs:group>
   <xs:group name="model.dateLike">
     <xs:choice>
       <xs:element ref="ns1:date"/>
-      <xs:element ref="ns1:time"/>
     </xs:choice>
   </xs:group>
   <xs:group name="model.dateLike_alternation">
@@ -1599,7 +1582,6 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
   <xs:group name="model.biblLike">
     <xs:choice>
       <xs:element ref="ns1:bibl"/>
-      <xs:element ref="ns1:listBibl"/>
     </xs:choice>
   </xs:group>
   <xs:group name="model.biblLike_alternation">
@@ -1734,11 +1716,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
       <xs:element maxOccurs="unbounded" ref="ns1:table"/>
     </xs:sequence>
   </xs:group>
-  <xs:group name="model.noteLike">
-    <xs:sequence>
-      <xs:element ref="ns1:note"/>
-    </xs:sequence>
-  </xs:group>
+  <xs:group name="model.noteLike"> </xs:group>
   <xs:group name="model.lLike">
     <xs:sequence>
       <xs:element ref="ns1:l"/>
@@ -1770,9 +1748,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
     </xs:sequence>
   </xs:group>
   <xs:group name="model.pLike">
-    <xs:sequence>
-      <xs:element ref="ns1:p"/>
-    </xs:sequence>
+    <xs:sequence> </xs:sequence>
   </xs:group>
   <xs:group name="model.pLike_alternation">
     <xs:sequence>
@@ -1944,10 +1920,6 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
     <xs:choice>
       <xs:element ref="ns1:author"/>
       <xs:element ref="ns1:editor"/>
-      <xs:element ref="ns1:respStmt"/>
-      <xs:element ref="ns1:sponsor"/>
-      <xs:element ref="ns1:funder"/>
-      <xs:element ref="ns1:principal"/>
     </xs:choice>
   </xs:group>
   <xs:group name="model.divWrapper">
@@ -1996,12 +1968,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
       <xs:element ref="ns1:postscript"/>
     </xs:choice>
   </xs:group>
-  <xs:group name="model.divBottom">
-    <xs:choice>
-      <xs:group ref="ns1:model.divWrapper"/>
-      <xs:group ref="ns1:model.divBottomPart"/>
-    </xs:choice>
-  </xs:group>
+  <xs:group name="model.divBottom"> </xs:group>
   <xs:group name="model.titlepagePart">
     <xs:choice>
       <xs:element ref="ns1:graphic"/>
@@ -2032,9 +1999,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
   <xs:group name="model.imprintPart">
     <xs:choice>
       <xs:element ref="ns1:publisher"/>
-      <xs:element ref="ns1:biblScope"/>
       <xs:element ref="ns1:pubPlace"/>
-      <xs:element ref="ns1:distributor"/>
     </xs:choice>
   </xs:group>
   <xs:group name="model.addressLike">
@@ -2114,7 +2079,6 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
     <xs:choice>
       <xs:group ref="ns1:model.global.meta"/>
       <xs:group ref="ns1:model.milestoneLike"/>
-      <xs:group ref="ns1:model.noteLike"/>
       <xs:group ref="ns1:model.global.edit"/>
       <xs:element ref="ns1:figure"/>
     </xs:choice>
@@ -2123,10 +2087,6 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
     <xs:choice>
       <xs:group ref="ns1:model.respLike"/>
       <xs:group ref="ns1:model.imprintPart"/>
-      <xs:element ref="ns1:bibl"/>
-      <xs:element ref="ns1:relatedItem"/>
-      <xs:element ref="ns1:edition"/>
-      <xs:element ref="ns1:extent"/>
     </xs:choice>
   </xs:group>
   <xs:group name="model.frontPart">
@@ -2144,14 +2104,10 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
   <xs:group name="model.pPart.data">
     <xs:choice>
       <xs:group ref="ns1:model.dateLike"/>
-      <xs:group ref="ns1:model.measureLike"/>
-      <xs:group ref="ns1:model.addressLike"/>
-      <xs:group ref="ns1:model.nameLike"/>
     </xs:choice>
   </xs:group>
   <xs:group name="model.inter">
     <xs:choice>
-      <xs:group ref="ns1:model.egLike"/>
       <xs:group ref="ns1:model.biblLike"/>
       <xs:group ref="ns1:model.labelLike"/>
       <xs:group ref="ns1:model.listLike"/>
@@ -2165,17 +2121,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
       <xs:group ref="ns1:model.inter"/>
     </xs:choice>
   </xs:group>
-  <xs:group name="model.phrase">
-    <xs:choice>
-      <xs:group ref="ns1:model.segLike"/>
-      <xs:group ref="ns1:model.highlighted"/>
-      <xs:group ref="ns1:model.graphicLike"/>
-      <xs:group ref="ns1:model.pPart.edit"/>
-      <xs:group ref="ns1:model.ptrLike"/>
-      <xs:group ref="ns1:model.phrase.xml"/>
-      <xs:group ref="ns1:model.pPart.data"/>
-    </xs:choice>
-  </xs:group>
+  <xs:group name="model.phrase"> </xs:group>
   <xs:group name="model.limitedPhrase">
     <xs:choice>
       <xs:group ref="ns1:model.hiLike"/>
@@ -2198,7 +2144,6 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
   </xs:group>
   <xs:group name="model.teiHeaderPart">
     <xs:choice>
-      <xs:element ref="ns1:encodingDesc"/>
       <xs:element ref="ns1:profileDesc"/>
     </xs:choice>
   </xs:group>
@@ -2213,7 +2158,6 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
   </xs:group>
   <xs:group name="model.profileDescPart">
     <xs:choice>
-      <xs:element ref="ns1:creation"/>
       <xs:element ref="ns1:langUsage"/>
       <xs:element ref="ns1:textClass"/>
     </xs:choice>
@@ -3030,89 +2974,18 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</x
     </xs:annotation>
     <xs:complexType>
       <xs:sequence>
-        <xs:choice minOccurs="0" maxOccurs="unbounded">
-          <xs:group ref="ns1:model.divTop"/>
-          <xs:group ref="ns1:model.global"/>
-        </xs:choice>
         <xs:choice>
           <xs:sequence maxOccurs="unbounded">
             <xs:element ref="ns1:item"/>
-            <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:model.global"/>
-          </xs:sequence>
-          <xs:sequence maxOccurs="unbounded">
-            <xs:element ref="ns1:label"/>
-            <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:model.global"/>
-            <xs:element ref="ns1:item"/>
-            <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:model.global"/>
           </xs:sequence>
         </xs:choice>
-        <xs:sequence minOccurs="0" maxOccurs="unbounded">
-          <xs:group ref="ns1:model.divBottom"/>
-          <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:model.global"/>
-        </xs:sequence>
       </xs:sequence>
-      <xs:attributeGroup ref="ns1:att.global.attributes"/>
-      <xs:attributeGroup ref="ns1:att.sortable.attributes"/>
-      <xs:attribute name="type" default="simple">
-        <xs:annotation>
-          <xs:documentation>describes the form of the list.
-Suggested values include: 1] ordered; 2] bulleted; 3] simple; 4] gloss</xs:documentation>
-        </xs:annotation>
-        <xs:simpleType>
-          <xs:union memberTypes="xs:Name">
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="ordered">
-                  <xs:annotation>
-                    <xs:documentation>list items are numbered or lettered.</xs:documentation>
-                  </xs:annotation>
-                </xs:enumeration>
-              </xs:restriction>
-            </xs:simpleType>
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="bulleted">
-                  <xs:annotation>
-                    <xs:documentation>list items are marked with a bullet or other typographic device.</xs:documentation>
-                  </xs:annotation>
-                </xs:enumeration>
-              </xs:restriction>
-            </xs:simpleType>
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="simple">
-                  <xs:annotation>
-                    <xs:documentation>list items are not numbered or bulleted.</xs:documentation>
-                  </xs:annotation>
-                </xs:enumeration>
-              </xs:restriction>
-            </xs:simpleType>
-            <xs:simpleType>
-              <xs:restriction base="xs:token">
-                <xs:enumeration value="gloss">
-                  <xs:annotation>
-                    <xs:documentation>each list item glosses some term or concept, which is given by a label element preceding the list item.</xs:documentation>
-                  </xs:annotation>
-                </xs:enumeration>
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:union>
-        </xs:simpleType>
-      </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="item">
     <xs:annotation>
       <xs:documentation>contains one component of a list. [3.7.  2.5. ]</xs:documentation>
     </xs:annotation>
-    <xs:complexType>
-      <xs:complexContent>
-        <xs:extension base="ns1:macro.specialPara">
-          <xs:attributeGroup ref="ns1:att.global.attributes"/>
-          <xs:attributeGroup ref="ns1:att.sortable.attributes"/>
-        </xs:extension>
-      </xs:complexContent>
-    </xs:complexType>
   </xs:element>
   <xs:element name="label">
     <xs:annotation>
@@ -3467,11 +3340,7 @@ Suggested values include: 1] vol; 2] issue; 3] pp; 4] ll; 5] chap; 6] part</xs:d
       <xs:choice minOccurs="0" maxOccurs="unbounded">
         <xs:group ref="ns1:model.highlighted"/>
         <xs:group ref="ns1:model.pPart.data"/>
-        <xs:group ref="ns1:model.pPart.edit"/>
-        <xs:group ref="ns1:model.segLike"/>
-        <xs:group ref="ns1:model.ptrLike"/>
         <xs:group ref="ns1:model.biblPart"/>
-        <xs:group ref="ns1:model.global"/>
       </xs:choice>
       <xs:attributeGroup ref="ns1:att.global.attributes"/>
       <xs:attributeGroup ref="ns1:att.declarable.attributes"/>
@@ -3750,15 +3619,7 @@ Sample values include: 1] index; 2] toc; 3] figlist; 4] tablist</xs:documentatio
       <xs:sequence>
         <xs:element ref="ns1:fileDesc"/>
         <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:model.teiHeaderPart"/>
-        <xs:element minOccurs="0" ref="ns1:revisionDesc"/>
       </xs:sequence>
-      <xs:attributeGroup ref="ns1:att.global.attributes"/>
-      <xs:attribute name="type" default="text" type="ns1:data.enumerated">
-        <xs:annotation>
-          <xs:documentation>specifies the kind of document to which the header is attached, for example whether it is a corpus or individual text.
-Sample values include: 1] text; 2] corpus</xs:documentation>
-        </xs:annotation>
-      </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="fileDesc">
@@ -3769,15 +3630,11 @@ Sample values include: 1] text; 2] corpus</xs:documentation>
       <xs:sequence>
         <xs:sequence>
           <xs:element ref="ns1:titleStmt"/>
-          <xs:element minOccurs="0" ref="ns1:editionStmt"/>
           <xs:element minOccurs="0" ref="ns1:extent"/>
           <xs:element ref="ns1:publicationStmt"/>
-          <xs:element minOccurs="0" ref="ns1:seriesStmt"/>
-          <xs:element minOccurs="0" ref="ns1:notesStmt"/>
         </xs:sequence>
         <xs:element maxOccurs="unbounded" ref="ns1:sourceDesc"/>
       </xs:sequence>
-      <xs:attributeGroup ref="ns1:att.global.attributes"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="titleStmt">
@@ -3789,7 +3646,6 @@ Sample values include: 1] text; 2] corpus</xs:documentation>
         <xs:element maxOccurs="unbounded" ref="ns1:title"/>
         <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:model.respLike"/>
       </xs:sequence>
-      <xs:attributeGroup ref="ns1:att.global.attributes"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="sponsor">
@@ -4017,14 +3873,11 @@ Sample values include: 1] text; 2] corpus</xs:documentation>
     </xs:annotation>
     <xs:complexType>
       <xs:choice>
-        <xs:group maxOccurs="unbounded" ref="ns1:model.pLike"/>
         <xs:choice maxOccurs="unbounded">
           <xs:group ref="ns1:model.biblLike"/>
           <xs:group ref="ns1:model.listLike"/>
         </xs:choice>
       </xs:choice>
-      <xs:attributeGroup ref="ns1:att.global.attributes"/>
-      <xs:attributeGroup ref="ns1:att.declarable.attributes"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="encodingDesc">
@@ -4142,7 +3995,6 @@ Sample values include: 1] text; 2] corpus</xs:documentation>
     </xs:annotation>
     <xs:complexType>
       <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:model.profileDescPart"/>
-      <xs:attributeGroup ref="ns1:att.global.attributes"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="creation">
@@ -4163,8 +4015,6 @@ Sample values include: 1] text; 2] corpus</xs:documentation>
       <xs:sequence>
         <xs:element maxOccurs="unbounded" ref="ns1:language"/>
       </xs:sequence>
-      <xs:attributeGroup ref="ns1:att.global.attributes"/>
-      <xs:attributeGroup ref="ns1:att.declarable.attributes"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="language">
@@ -4172,26 +4022,11 @@ Sample values include: 1] text; 2] corpus</xs:documentation>
       <xs:documentation>characterizes a single language or sublanguage used within a text. [2.4.2. ]</xs:documentation>
     </xs:annotation>
     <xs:complexType>
-      <xs:complexContent>
-        <xs:extension base="ns1:macro.phraseSeq.limited">
-          <xs:attributeGroup ref="ns1:att.global.attributes"/>
-          <xs:attribute name="ident" use="required" type="ns1:data.language">
-            <xs:annotation>
-              <xs:documentation>(identifier) Supplies a language code constructed as defined in BCP 47 which is used to identify the language documented by this element, and which is referenced by the global xml:lang attribute.</xs:documentation>
-            </xs:annotation>
-          </xs:attribute>
-          <xs:attribute name="usage">
-            <xs:annotation>
-              <xs:documentation>specifies the approximate percentage (by volume) of the text which uses this language.</xs:documentation>
-            </xs:annotation>
-            <xs:simpleType>
-              <xs:restriction base="xs:nonNegativeInteger">
-                <xs:maxInclusive value="100"/>
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:attribute>
-        </xs:extension>
-      </xs:complexContent>
+      <xs:attribute name="ident" use="required" type="ns1:data.language">
+        <xs:annotation>
+          <xs:documentation>(identifier) Supplies a language code constructed as defined in BCP 47 which is used to identify the language documented by this element, and which is referenced by the global xml:lang attribute.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="textClass">
@@ -4200,12 +4035,8 @@ Sample values include: 1] text; 2] corpus</xs:documentation>
     </xs:annotation>
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element ref="ns1:classCode"/>
-        <xs:element ref="ns1:catRef"/>
         <xs:element ref="ns1:keywords"/>
       </xs:choice>
-      <xs:attributeGroup ref="ns1:att.global.attributes"/>
-      <xs:attributeGroup ref="ns1:att.declarable.attributes"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="keywords">
@@ -4214,10 +4045,8 @@ Sample values include: 1] text; 2] corpus</xs:documentation>
     </xs:annotation>
     <xs:complexType>
       <xs:choice>
-        <xs:element maxOccurs="unbounded" ref="ns1:term"/>
         <xs:element ref="ns1:list"/>
       </xs:choice>
-      <xs:attributeGroup ref="ns1:att.global.attributes"/>
       <xs:attribute name="scheme" type="ns1:data.pointer">
         <xs:annotation>
           <xs:documentation>identifies the controlled vocabulary within which the set of keywords concerned is defined identifies the classification scheme within which the set of categories concerned is defined, for example by a taxonomy element, or by some other resource.</xs:documentation>
@@ -4307,7 +4136,6 @@ Sample values include: 1] text; 2] corpus</xs:documentation>
         <xs:element ref="ns1:teiHeader"/>
         <xs:element ref="ns1:text"/>
       </xs:sequence>
-      <xs:attributeGroup ref="ns1:att.global.attributes"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="text">
@@ -4319,11 +4147,9 @@ Sample values include: 1] text; 2] corpus</xs:documentation>
         <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:model.global"/>
         <xs:sequence minOccurs="0">
           <xs:element ref="ns1:front"/>
-          <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:model.global"/>
         </xs:sequence>
         <xs:choice>
           <xs:element ref="ns1:body"/>
-          <xs:element ref="ns1:group"/>
         </xs:choice>
         <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:model.global"/>
         <xs:sequence minOccurs="0">
@@ -4331,9 +4157,6 @@ Sample values include: 1] text; 2] corpus</xs:documentation>
           <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:model.global"/>
         </xs:sequence>
       </xs:sequence>
-      <xs:attributeGroup ref="ns1:att.global.attributes"/>
-      <xs:attributeGroup ref="ns1:att.declaring.attributes"/>
-      <xs:attributeGroup ref="ns1:att.typed.attributes"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="body">
@@ -4384,8 +4207,6 @@ Sample values include: 1] text; 2] corpus</xs:documentation>
           <xs:group minOccurs="0" maxOccurs="unbounded" ref="ns1:model.global"/>
         </xs:sequence>
       </xs:sequence>
-      <xs:attributeGroup ref="ns1:att.global.attributes"/>
-      <xs:attributeGroup ref="ns1:att.declaring.attributes"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="group">
@@ -4790,68 +4611,11 @@ Suggested values include: 1] main; 2] sub; 3] alt; 4] short; 5] desc</xs:documen
     <xs:annotation>
       <xs:documentation>(front matter) contains any prefatory matter (headers, title page, prefaces, dedications, etc.) found at the start of a document, before the main body. [4.6.  4. ]</xs:documentation>
     </xs:annotation>
-    <xs:complexType>
-      <xs:sequence>
-        <xs:choice minOccurs="0" maxOccurs="unbounded">
-          <xs:group ref="ns1:model.frontPart"/>
-          <xs:group ref="ns1:model.pLike"/>
-          <xs:group ref="ns1:model.pLike.front"/>
-          <xs:group ref="ns1:model.global"/>
-        </xs:choice>
-        <xs:sequence minOccurs="0">
-          <xs:sequence>
-            <xs:group ref="ns1:model.divLike"/>
-            <xs:choice minOccurs="0" maxOccurs="unbounded">
-              <xs:group ref="ns1:model.divLike"/>
-              <xs:group ref="ns1:model.frontPart"/>
-              <xs:group ref="ns1:model.global"/>
-            </xs:choice>
-          </xs:sequence>
-          <xs:sequence minOccurs="0">
-            <xs:group ref="ns1:model.divBottom"/>
-            <xs:choice minOccurs="0" maxOccurs="unbounded">
-              <xs:group ref="ns1:model.divBottom"/>
-              <xs:group ref="ns1:model.global"/>
-            </xs:choice>
-          </xs:sequence>
-        </xs:sequence>
-      </xs:sequence>
-      <xs:attributeGroup ref="ns1:att.global.attributes"/>
-      <xs:attributeGroup ref="ns1:att.declaring.attributes"/>
-    </xs:complexType>
   </xs:element>
   <xs:element name="back">
     <xs:annotation>
       <xs:documentation>(back matter) contains any appendixes, etc. following the main part of a text. [4.7.  4. ]</xs:documentation>
     </xs:annotation>
-    <xs:complexType>
-      <xs:sequence>
-        <xs:choice minOccurs="0" maxOccurs="unbounded">
-          <xs:group ref="ns1:model.frontPart"/>
-          <xs:group ref="ns1:model.pLike.front"/>
-          <xs:group ref="ns1:model.pLike"/>
-          <xs:group ref="ns1:model.listLike"/>
-          <xs:group ref="ns1:model.global"/>
-        </xs:choice>
-        <xs:sequence minOccurs="0">
-          <xs:group ref="ns1:model.divLike"/>
-          <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:group ref="ns1:model.frontPart"/>
-            <xs:group ref="ns1:model.divLike"/>
-            <xs:group ref="ns1:model.global"/>
-          </xs:choice>
-        </xs:sequence>
-        <xs:sequence minOccurs="0">
-          <xs:group ref="ns1:model.divBottomPart"/>
-          <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:group ref="ns1:model.divBottomPart"/>
-            <xs:group ref="ns1:model.global"/>
-          </xs:choice>
-        </xs:sequence>
-      </xs:sequence>
-      <xs:attributeGroup ref="ns1:att.global.attributes"/>
-      <xs:attributeGroup ref="ns1:att.declaring.attributes"/>
-    </xs:complexType>
   </xs:element>
   <xs:element name="table">
     <xs:annotation>
