@@ -215,17 +215,6 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="5195" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="10885"/>
-					</targets>
-					<view ltx="-658" lty="-1149" rbx="-607" rby="-1137"/>
-					<data>
-						<constant value="person" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
 				<component name="pica2tei_sprache" library="user" blackbox="0" uid="5070" kind="19" visible="0">
 					<view ltx="-737" lty="641" rbx="-437" rby="841"/>
 					<data>
@@ -481,9 +470,9 @@
 					</data>
 				</component>
 				<component name="pica2tei_verfasser1" library="user" blackbox="0" uid="5189" kind="19" visible="0">
-					<view ltx="-1641" lty="-1622" rbx="-1264" rby="-819"/>
+					<view ltx="-1101" lty="-1602" rbx="-800" rby="-1491"/>
 					<data>
-						<root>
+						<root scrollposition="24">
 							<header>
 								<namespaces>
 									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
@@ -511,7 +500,7 @@
 								<entry name="author" ns="1" outkey="10876"/>
 							</entry>
 							<entry name="variable" componentid="3090" expanded="1">
-								<entry name="name" ns="1" outkey="10875">
+								<entry name="name" ns="1" outkey="10875" expanded="1">
 									<entry name="type" type="attribute" outkey="13022"/>
 								</entry>
 							</entry>
@@ -527,52 +516,11 @@
 						</root>
 					</data>
 				</component>
-				<component name="pica2tei_verfasser1" library="user" blackbox="0" uid="5192" kind="19" visible="0">
-					<view ltx="-1071" lty="-1243" rbx="-780" rby="-1108"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="picaxmlv10" ns="1" componentid="3088" expanded="1">
-								<entry name="datafield" inpkey="10879" expanded="1"/>
-							</entry>
-							<entry name="b" ns="1" inpkey="10878" componentid="3095"/>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="variable2" componentid="3091" expanded="1"/>
-							<entry name="tei_lite" componentid="3089" expanded="1">
-								<entry name="author" ns="1" outkey="10880"/>
-							</entry>
-							<entry name="variable" componentid="3090" expanded="1">
-								<entry name="name" ns="1" outkey="10882"/>
-							</entry>
-							<entry name="variable3" componentid="3092" expanded="1">
-								<entry name="date" ns="1" outkey="10881"/>
-							</entry>
-							<entry name="variable4" componentid="3093" expanded="1">
-								<entry name="date" ns="1" outkey="13029"/>
-							</entry>
-							<entry name="variable5" componentid="3094" expanded="1">
-								<entry name="ref" ns="1" outkey="10883"/>
-							</entry>
-						</root>
-					</data>
-				</component>
 				<component name="tei_lite" library="xml" uid="1141" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
 					<view ltx="-191" lty="-1895" rbx="295" rby="-410"/>
 					<data>
-						<root scrollposition="8079">
+						<root scrollposition="10495">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.tei-c.org/ns/1.0"/>
@@ -590,7 +538,7 @@
 													<entry name="author" inpkey="7605" expanded="1">
 														<entry name="#text" ns="1" inpkey="6054"/>
 													</entry>
-													<entry name="author" inpkey="8261" clone="1">
+													<entry name="author" inpkey="8261" expanded="1" clone="1">
 														<entry name="#text" ns="1" inpkey="6055"/>
 													</entry>
 													<entry name="editor" expanded="1">
@@ -616,7 +564,7 @@
 															<entry name="ref" inpkey="2848"/>
 															<entry name="date" inpkey="2849"/>
 															<entry name="date" inpkey="4275" clone="1"/>
-															<entry name="name">
+															<entry name="name" expanded="1">
 																<entry name="type" ns="1" type="attribute" inpkey="5998"/>
 																<entry name="#text" ns="1" inpkey="6056"/>
 															</entry>
@@ -713,6 +661,53 @@
 						</root>
 						<document schema="tei_lite.xsd" outputinstance="tei_lite.xml" instanceroot="{http://www.tei-c.org/ns/1.0}TEI"/>
 						<wsdl/>
+					</data>
+				</component>
+				<component name="pica2tei_verfasser1" library="user" blackbox="0" uid="5192" kind="19" visible="0">
+					<view ltx="-1100" lty="-1256" rbx="-779" rby="-519"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="picaxmlv10" ns="1" componentid="3088" expanded="1">
+								<entry name="datafield" inpkey="10879" expanded="1"/>
+							</entry>
+							<entry name="b" ns="1" inpkey="10878" componentid="3095"/>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+								</namespaces>
+							</header>
+							<entry name="variable2" componentid="3091" expanded="1">
+								<entry name="name" ns="1" outkey="13031">
+									<entry name="type" type="attribute" outkey="13032"/>
+								</entry>
+							</entry>
+							<entry name="tei_lite" componentid="3089" expanded="1">
+								<entry name="author" ns="1" outkey="10880"/>
+							</entry>
+							<entry name="variable" componentid="3090" expanded="1">
+								<entry name="name" ns="1" outkey="10882">
+									<entry name="type" type="attribute" outkey="13033"/>
+								</entry>
+							</entry>
+							<entry name="variable3" componentid="3092" expanded="1">
+								<entry name="date" ns="1" outkey="10881"/>
+							</entry>
+							<entry name="variable4" componentid="3093" expanded="1">
+								<entry name="date" ns="1" outkey="13029"/>
+							</entry>
+							<entry name="variable5" componentid="3094" expanded="1">
+								<entry name="ref" ns="1" outkey="10883"/>
+							</entry>
+						</root>
 					</data>
 				</component>
 			</children>
@@ -950,7 +945,6 @@
 					</vertex>
 					<vertex vertexkey="10882">
 						<edges>
-							<edge vertexkey="7429" edgekey="11248"/>
 							<edge vertexkey="7430" edgekey="11249"/>
 							<edge vertexkey="6055" edgekey="11250"/>
 						</edges>
@@ -963,12 +957,6 @@
 					<vertex vertexkey="10884">
 						<edges>
 							<edge vertexkey="10878" edgekey="11252"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="10885">
-						<edges>
-							<edge vertexkey="6065" edgekey="11253"/>
-							<edge vertexkey="6063" edgekey="11254"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="11033">
@@ -1090,6 +1078,21 @@
 					<vertex vertexkey="13029">
 						<edges>
 							<edge vertexkey="6061" edgekey="13030"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="13031">
+						<edges>
+							<edge vertexkey="7429" edgekey="13034"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="13032">
+						<edges>
+							<edge vertexkey="6063" edgekey="13035"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="13033">
+						<edges>
+							<edge vertexkey="6065" edgekey="13036"/>
 						</edges>
 					</vertex>
 				</vertices>
