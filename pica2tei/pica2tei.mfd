@@ -8,7 +8,7 @@
 				<component name="pica2tei_gattung" library="user" blackbox="0" uid="4494" kind="19" visible="0">
 					<view ltx="-822" lty="-19" rbx="-332" rby="29"/>
 					<data>
-						<root scrollposition="1">
+						<root>
 							<header>
 								<namespaces>
 									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
@@ -35,7 +35,7 @@
 				<component name="pica2tei_erscheinungsangabenVorlage_033J" library="user" blackbox="0" uid="4719" kind="19" visible="0">
 					<view ltx="-737" lty="223" rbx="-417" rby="298"/>
 					<data>
-						<root scrollposition="1">
+						<root>
 							<header>
 								<namespaces>
 									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
@@ -68,7 +68,7 @@
 				<component name="pica2tei_erscheinungsangabenVorlage_011at" library="user" blackbox="0" uid="4777" kind="19" visible="0">
 					<view ltx="-736" lty="352" rbx="-436" rby="552"/>
 					<data>
-						<root scrollposition="1">
+						<root>
 							<header>
 								<namespaces>
 									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
@@ -104,7 +104,7 @@
 				<component name="pica2tei_erscheinungsangabenVorlage_033A" library="user" blackbox="0" uid="5043" kind="19" visible="0">
 					<view ltx="-737" lty="81" rbx="-417" rby="179"/>
 					<data>
-						<root scrollposition="1">
+						<root>
 							<header>
 								<namespaces>
 									<namespace/>
@@ -136,7 +136,7 @@
 				<component name="pica2tei_umfangsangabe" library="user" blackbox="0" uid="5107" kind="19" visible="0">
 					<view ltx="-736" lty="906" rbx="-436" rby="1106"/>
 					<data>
-						<root scrollposition="1">
+						<root>
 							<header>
 								<namespaces>
 									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
@@ -165,7 +165,7 @@
 				<component name="pica2tei_ddc" library="user" blackbox="0" uid="5145" kind="19" visible="0">
 					<view ltx="-737" lty="1226" rbx="-440" rby="1317"/>
 					<data>
-						<root scrollposition="1">
+						<root>
 							<header>
 								<namespaces>
 									<namespace/>
@@ -198,7 +198,7 @@
 					<targets>
 						<datapoint pos="0" key="10877"/>
 					</targets>
-					<view ltx="-1180" lty="-1394" rbx="-1114" rby="-1376"/>
+					<view ltx="-1180" lty="-1394" rbx="-1135" rby="-1382"/>
 					<data>
 						<constant value="028A" datatype="string"/>
 						<wsdl/>
@@ -209,7 +209,7 @@
 					<targets>
 						<datapoint pos="0" key="10884"/>
 					</targets>
-					<view ltx="-1180" lty="-1149" rbx="-1115" rby="-1131"/>
+					<view ltx="-1180" lty="-1149" rbx="-1135" rby="-1137"/>
 					<data>
 						<constant value="028B" datatype="string"/>
 						<wsdl/>
@@ -220,82 +220,16 @@
 					<targets>
 						<datapoint pos="0" key="10885"/>
 					</targets>
-					<view ltx="-658" lty="-1149" rbx="-584" rby="-1131"/>
+					<view ltx="-658" lty="-1149" rbx="-607" rby="-1137"/>
 					<data>
 						<constant value="person" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="pica2tei_verfasser1" library="user" blackbox="0" uid="5192" kind="19" visible="0">
-					<view ltx="-1071" lty="-1243" rbx="-780" rby="-1108"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="picaxmlv10" ns="1" componentid="3088" expanded="1">
-								<entry name="datafield" inpkey="10879" expanded="1"/>
-							</entry>
-							<entry name="b" ns="1" inpkey="10878" componentid="3095"/>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="variable2" componentid="3091" expanded="1"/>
-							<entry name="tei_lite" componentid="3089" expanded="1">
-								<entry name="author" ns="1" outkey="10880"/>
-							</entry>
-							<entry name="variable" componentid="3090" expanded="1">
-								<entry name="name" ns="1" outkey="10882"/>
-							</entry>
-							<entry name="variable3" componentid="3092" expanded="1">
-								<entry name="date" ns="1" outkey="10881"/>
-							</entry>
-							<entry name="variable4" componentid="3093" expanded="1"/>
-							<entry name="variable5" componentid="3094" expanded="1">
-								<entry name="ref" ns="1" outkey="10883"/>
-							</entry>
-						</root>
-					</data>
-				</component>
-				<component name="pica-xml-v1-0" library="xml" uid="2" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="-1969" lty="-1730" rbx="-1687" rby="-1522"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="2" expanded="1">
-								<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="record" ns="1" outkey="2907" expanded="1">
-										<entry name="datafield" ns="1" outkey="2259" expanded="1">
-											<entry name="tag" type="attribute" outkey="4088"/>
-											<entry name="subfield" ns="1" expanded="1"/>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" inputinstance="pica_xml_example_PPN514964626.xml" outputinstance="pica-xml-v1-0.xml" instanceroot="{info:srw/schema/5/picaXML-v1.0}record"/>
 						<wsdl/>
 					</data>
 				</component>
 				<component name="pica2tei_sprache" library="user" blackbox="0" uid="5070" kind="19" visible="0">
 					<view ltx="-737" lty="641" rbx="-437" rby="841"/>
 					<data>
-						<root scrollposition="1">
+						<root>
 							<header>
 								<namespaces>
 									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
@@ -327,7 +261,7 @@
 					<targets>
 						<datapoint pos="0" key="10816"/>
 					</targets>
-					<view ltx="-1284" lty="-1730" rbx="-1218" rby="-1712"/>
+					<view ltx="-1284" lty="-1730" rbx="-1239" rby="-1718"/>
 					<data>
 						<constant value="029A" datatype="string"/>
 						<wsdl/>
@@ -338,7 +272,7 @@
 					<targets>
 						<datapoint pos="0" key="10838"/>
 					</targets>
-					<view ltx="-1284" lty="-1701" rbx="-1220" rby="-1683"/>
+					<view ltx="-1284" lty="-1701" rbx="-1239" rby="-1689"/>
 					<data>
 						<constant value="029F" datatype="string"/>
 						<wsdl/>
@@ -353,14 +287,14 @@
 					<targets>
 						<datapoint pos="0" key="11574"/>
 					</targets>
-					<view ltx="-1233" lty="-2378" rbx="-1180" rby="-2322"/>
+					<view ltx="-1233" lty="-2378" rbx="-1195" rby="-2340"/>
 				</component>
 				<component name="constant" library="core" uid="5183" kind="2">
 					<properties/>
 					<targets>
 						<datapoint pos="0" key="10860"/>
 					</targets>
-					<view ltx="-1450" lty="-2418" rbx="-1385" rby="-2400"/>
+					<view ltx="-1450" lty="-2418" rbx="-1404" rby="-2406"/>
 					<data>
 						<constant value="028C" datatype="string"/>
 						<wsdl/>
@@ -371,7 +305,7 @@
 					<targets>
 						<datapoint pos="0" key="11576"/>
 					</targets>
-					<view ltx="-1450" lty="-2340" rbx="-1385" rby="-2322"/>
+					<view ltx="-1450" lty="-2340" rbx="-1404" rby="-2328"/>
 					<data>
 						<constant value="028D" datatype="string"/>
 						<wsdl/>
@@ -386,7 +320,7 @@
 					<targets>
 						<datapoint pos="0" key="11033"/>
 					</targets>
-					<view ltx="-1233" lty="-2450" rbx="-1180" rby="-2394"/>
+					<view ltx="-1233" lty="-2450" rbx="-1195" rby="-2412"/>
 				</component>
 				<component name="logical-or" library="core" uid="5377" kind="5" growable="1" growablebasename="value">
 					<properties/>
@@ -397,12 +331,12 @@
 					<targets>
 						<datapoint pos="0" key="11579"/>
 					</targets>
-					<view ltx="-1144" lty="-2418" rbx="-1069" rby="-2360"/>
+					<view ltx="-1144" lty="-2418" rbx="-1091" rby="-2380"/>
 				</component>
 				<component name="pica2tei_verfasser5" library="user" blackbox="0" uid="6072" kind="19" visible="0">
 					<view ltx="-1017" lty="-2401" rbx="-717" rby="-2201"/>
 					<data>
-						<root scrollposition="1">
+						<root>
 							<header>
 								<namespaces>
 									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
@@ -444,7 +378,7 @@
 				<component name="pica2tei_title" library="user" blackbox="0" uid="2531" kind="19" visible="0">
 					<view ltx="-1014" lty="-484" rbx="-522" rby="-362"/>
 					<data>
-						<root scrollposition="1">
+						<root>
 							<header>
 								<namespaces>
 									<namespace/>
@@ -473,10 +407,83 @@
 						</root>
 					</data>
 				</component>
-				<component name="pica2tei_verfasser1" library="user" blackbox="0" uid="5189" kind="19" visible="0">
-					<view ltx="-1070" lty="-1466" rbx="-779" rby="-1345"/>
+				<component name="pica2tei_verfasser4" library="user" blackbox="0" uid="5398" kind="19" visible="0">
+					<view ltx="-1101" lty="-1853" rbx="-801" rby="-1653"/>
 					<data>
-						<root scrollposition="986">
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="picaxmlv10" ns="1" componentid="5393" expanded="1">
+								<entry name="record" inpkey="11589" expanded="1">
+									<entry name="datafield" inpkey="11590" expanded="1"/>
+								</entry>
+							</entry>
+							<entry name="b" ns="1" inpkey="11591" componentid="5396"/>
+							<entry name="b2" ns="1" inpkey="11592" componentid="5397"/>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="tei_lite" ns="1" componentid="5394" expanded="1">
+								<entry name="author" outkey="11593" expanded="1">
+									<entry name="ref" outkey="11594"/>
+									<entry name="name" expanded="1">
+										<entry name="type" ns="1" type="attribute" outkey="13015"/>
+										<entry name="#text" ns="1" outkey="11595"/>
+									</entry>
+								</entry>
+							</entry>
+							<entry name="tei_lite2" ns="1" componentid="5395" expanded="1">
+								<entry name="author" outkey="11596" expanded="1">
+									<entry name="ref" outkey="11597"/>
+									<entry name="name" expanded="1">
+										<entry name="type" ns="1" type="attribute" outkey="13016"/>
+										<entry name="#text" ns="1" outkey="11598"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+					</data>
+				</component>
+				<component name="pica-xml-v1-0" library="xml" uid="2" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="-1969" lty="-1730" rbx="-1687" rby="-1522"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="2" expanded="1">
+								<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="record" ns="1" outkey="2907" expanded="1">
+										<entry name="datafield" ns="1" outkey="2259" expanded="1">
+											<entry name="tag" type="attribute" outkey="4088"/>
+											<entry name="subfield" ns="1" expanded="1"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" inputinstance="pica_xml_example_PPN514964626.xml" outputinstance="pica-xml-v1-0.xml" instanceroot="{info:srw/schema/5/picaXML-v1.0}record"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="pica2tei_verfasser1" library="user" blackbox="0" uid="5192" kind="19" visible="0">
+					<view ltx="-1071" lty="-1243" rbx="-780" rby="-1108"/>
+					<data>
+						<root>
 							<header>
 								<namespaces>
 									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
@@ -484,9 +491,9 @@
 								</namespaces>
 							</header>
 							<entry name="picaxmlv10" ns="1" componentid="3088" expanded="1">
-								<entry name="datafield" inpkey="10870" expanded="1"/>
+								<entry name="datafield" inpkey="10879" expanded="1"/>
 							</entry>
-							<entry name="b" ns="1" inpkey="10871" componentid="3095"/>
+							<entry name="b" ns="1" inpkey="10878" componentid="3095"/>
 						</root>
 						<root rootindex="1">
 							<header>
@@ -495,32 +502,28 @@
 									<namespace uid="http://www.tei-c.org/ns/1.0"/>
 								</namespaces>
 							</header>
-							<entry name="variable2" componentid="3091" expanded="1">
-								<entry name="name" ns="1" outkey="10872" expanded="1">
-									<entry name="type" type="attribute" outkey="13019"/>
-								</entry>
-							</entry>
+							<entry name="variable2" componentid="3091" expanded="1"/>
 							<entry name="tei_lite" componentid="3089" expanded="1">
-								<entry name="author" ns="1" outkey="10876"/>
+								<entry name="author" ns="1" outkey="10880"/>
 							</entry>
 							<entry name="variable" componentid="3090" expanded="1">
-								<entry name="name" ns="1" outkey="10875"/>
+								<entry name="name" ns="1" outkey="10882"/>
 							</entry>
 							<entry name="variable3" componentid="3092" expanded="1">
-								<entry name="date" ns="1" outkey="10874"/>
+								<entry name="date" ns="1" outkey="10881"/>
 							</entry>
 							<entry name="variable4" componentid="3093" expanded="1"/>
 							<entry name="variable5" componentid="3094" expanded="1">
-								<entry name="ref" ns="1" outkey="10873"/>
+								<entry name="ref" ns="1" outkey="10883"/>
 							</entry>
 						</root>
 					</data>
 				</component>
 				<component name="tei_lite" library="xml" uid="1141" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="-313" lty="-2201" rbx="-31" rby="-1232"/>
+					<view ltx="-191" lty="-1895" rbx="295" rby="-410"/>
 					<data>
-						<root scrollposition="17911">
+						<root scrollposition="5239">
 							<header>
 								<namespaces>
 									<namespace uid="http://www.tei-c.org/ns/1.0"/>
@@ -535,7 +538,7 @@
 											<entry name="fileDesc" expanded="1">
 												<entry name="titleStmt" expanded="1">
 													<entry name="title" inpkey="3215"/>
-													<entry name="author" inpkey="7605">
+													<entry name="author" inpkey="7605" expanded="1">
 														<entry name="#text" ns="1" inpkey="6054"/>
 													</entry>
 													<entry name="author" inpkey="8261" clone="1">
@@ -564,7 +567,7 @@
 															<entry name="ref" inpkey="2848"/>
 															<entry name="date" inpkey="2849"/>
 															<entry name="date" inpkey="4275" clone="1"/>
-															<entry name="name" expanded="1">
+															<entry name="name">
 																<entry name="type" ns="1" type="attribute" inpkey="5998"/>
 																<entry name="#text" ns="1" inpkey="6056"/>
 															</entry>
@@ -663,48 +666,47 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="pica2tei_verfasser4" library="user" blackbox="0" uid="5398" kind="19" visible="0">
-					<view ltx="-1101" lty="-1853" rbx="-801" rby="-1653"/>
+				<component name="pica2tei_verfasser1" library="user" blackbox="0" uid="5189" kind="19" visible="0">
+					<view ltx="-1008" lty="-1594" rbx="-631" rby="-791"/>
 					<data>
-						<root scrollposition="3954">
+						<root scrollposition="24">
 							<header>
 								<namespaces>
 									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
 									<namespace/>
 								</namespaces>
 							</header>
-							<entry name="picaxmlv10" ns="1" componentid="5393" expanded="1">
-								<entry name="record" inpkey="11589" expanded="1">
-									<entry name="datafield" inpkey="11590" expanded="1"/>
-								</entry>
+							<entry name="picaxmlv10" ns="1" componentid="3088" expanded="1">
+								<entry name="datafield" inpkey="10870" expanded="1"/>
 							</entry>
-							<entry name="b" ns="1" inpkey="11591" componentid="5396"/>
-							<entry name="b2" ns="1" inpkey="11592" componentid="5397"/>
+							<entry name="b" ns="1" inpkey="10871" componentid="3095"/>
 						</root>
 						<root rootindex="1">
 							<header>
 								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
 									<namespace/>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
 								</namespaces>
 							</header>
-							<entry name="tei_lite" ns="1" componentid="5394" expanded="1">
-								<entry name="author" outkey="11593" expanded="1">
-									<entry name="ref" outkey="11594"/>
-									<entry name="name" expanded="1">
-										<entry name="type" ns="1" type="attribute" outkey="13015"/>
-										<entry name="#text" ns="1" outkey="11595"/>
-									</entry>
+							<entry name="variable2" componentid="3091" expanded="1">
+								<entry name="name" ns="1" outkey="10872">
+									<entry name="type" type="attribute" outkey="13019"/>
 								</entry>
 							</entry>
-							<entry name="tei_lite2" ns="1" componentid="5395" expanded="1">
-								<entry name="author" outkey="11596" expanded="1">
-									<entry name="ref" outkey="11597"/>
-									<entry name="name" expanded="1">
-										<entry name="type" ns="1" type="attribute" outkey="13016"/>
-										<entry name="#text" ns="1" outkey="11598"/>
-									</entry>
+							<entry name="tei_lite" componentid="3089" expanded="1">
+								<entry name="author" ns="1" outkey="10876"/>
+							</entry>
+							<entry name="variable" componentid="3090" expanded="1">
+								<entry name="name" ns="1" outkey="10875" expanded="1">
+									<entry name="type" type="attribute" outkey="13022"/>
 								</entry>
+							</entry>
+							<entry name="variable3" componentid="3092" expanded="1">
+								<entry name="date" ns="1" outkey="10874"/>
+							</entry>
+							<entry name="variable4" componentid="3093" expanded="1"/>
+							<entry name="variable5" componentid="3094" expanded="1">
+								<entry name="ref" ns="1" outkey="10873"/>
 							</entry>
 						</root>
 					</data>
@@ -901,8 +903,7 @@
 					</vertex>
 					<vertex vertexkey="10872">
 						<edges>
-							<edge vertexkey="6057" edgekey="11235"/>
-							<edge vertexkey="6056" edgekey="11236"/>
+							<edge vertexkey="6056" edgekey="13023"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="10873">
@@ -919,6 +920,7 @@
 					<vertex vertexkey="10875">
 						<edges>
 							<edge vertexkey="6054" edgekey="11240"/>
+							<edge vertexkey="6057" edgekey="13024"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="10876">
@@ -1070,8 +1072,12 @@
 					</vertex>
 					<vertex vertexkey="13019">
 						<edges>
-							<edge vertexkey="6002" edgekey="13020"/>
 							<edge vertexkey="5998" edgekey="13021"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="13022">
+						<edges>
+							<edge vertexkey="6002" edgekey="13025"/>
 						</edges>
 					</vertex>
 				</vertices>
@@ -3547,26 +3553,6 @@
 						<parameter usageKind="variable" name="subfield"/>
 					</data>
 				</component>
-				<component name="document" library="xml" uid="3032" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1849" lty="13" rbx="2018" rby="89"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="subfield" inpkey="9" outkey="142" expanded="1"/>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="subfield"/>
-					</data>
-				</component>
 				<component name="equal" library="core" uid="3033" kind="5">
 					<properties/>
 					<sources>
@@ -3731,17 +3717,6 @@
 					</targets>
 					<view ltx="1369" lty="70" rbx="1415" rby="97"/>
 				</component>
-				<component name="concat" library="core" uid="3048" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="100"/>
-						<datapoint pos="1" key="104"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="1"/>
-					</targets>
-					<view ltx="1899" lty="916" rbx="1951" rby="954"/>
-				</component>
 				<component name="equal" library="core" uid="3049" kind="5">
 					<properties/>
 					<sources>
@@ -3867,26 +3842,6 @@
 						<datapoint pos="0" key="129"/>
 					</targets>
 					<view ltx="961" lty="940" rbx="1028" rby="989"/>
-				</component>
-				<component name="document" library="xml" uid="3060" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="1839" lty="286" rbx="2019" rby="363"/>
-					<data>
-						<root scrollposition="12">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="name" inpkey="49" outkey="139" expanded="1"/>
-							</entry>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}author/{http://www.tei-c.org/ns/1.0}name"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="name"/>
-					</data>
 				</component>
 				<component name="constant" library="core" uid="3061" kind="2">
 					<properties/>
@@ -4033,18 +3988,6 @@
 					</targets>
 					<view ltx="942" lty="411" rbx="1010" rby="449"/>
 				</component>
-				<component name="if-else" library="core" uid="3074" kind="4">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="56"/>
-						<datapoint pos="1" key="7"/>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="140"/>
-					</targets>
-					<view ltx="1875" lty="822" rbx="1942" rby="871"/>
-				</component>
 				<component name="constant" library="core" uid="3075" kind="2">
 					<properties/>
 					<targets>
@@ -4136,32 +4079,6 @@
 					</targets>
 					<view ltx="848" lty="759" rbx="886" rby="797"/>
 				</component>
-				<component name="document" library="xml" uid="3085" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="431" lty="158" rbx="612" rby="364"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
-								<entry name="datafield" ns="1" inpkey="11" outkey="82" expanded="1">
-									<entry name="subfield" ns="1" outkey="25" expanded="1">
-										<entry name="code" type="attribute" outkey="4"/>
-										<entry name="#text" outkey="6"/>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield"/>
-						<wsdl/>
-						<parameter usageKind="variable" name="datafield"/>
-					</data>
-				</component>
 				<component name="document" library="xml" uid="3086" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="1079" lty="496" rbx="1248" rby="571"/>
@@ -4185,18 +4102,6 @@
 						<parameter usageKind="variable" name="subfield"/>
 					</data>
 				</component>
-				<component name="if-else" library="core" uid="3087" kind="4">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="90"/>
-						<datapoint pos="1" key="91"/>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="141"/>
-					</targets>
-					<view ltx="1901" lty="684" rbx="1968" rby="733"/>
-				</component>
 				<component name="document" library="xml" uid="3088" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
 					<view rbx="150" rby="200"/>
@@ -4215,94 +4120,6 @@
 						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield"/>
 						<wsdl/>
 						<parameter usageKind="input" name="picaxmlv10"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="3089" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="2269" lty="550" rbx="2569" rby="1050"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="author" inpkey="145" expanded="1"/>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}author"/>
-						<wsdl/>
-						<parameter usageKind="output" name="tei_lite"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="3091" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="2269" rbx="2569" rby="500"/>
-					<data>
-						<root scrollposition="181">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="name" ns="1" inpkey="147" expanded="1">
-								<entry name="type" type="attribute" inpkey="234"/>
-							</entry>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}author/{http://www.tei-c.org/ns/1.0}name"/>
-						<wsdl/>
-						<parameter usageKind="output" name="variable2"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="3092" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="2269" lty="1650" rbx="2569" rby="2150"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="date" inpkey="148" expanded="1"/>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}author/{http://www.tei-c.org/ns/1.0}date"/>
-						<wsdl/>
-						<parameter usageKind="output" name="variable3"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="3093" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="2269" lty="2200" rbx="2569" rby="2700"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="date" inpkey="149" expanded="1"/>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}author/{http://www.tei-c.org/ns/1.0}date"/>
-						<wsdl/>
-						<parameter usageKind="output" name="variable4"/>
-					</data>
-				</component>
-				<component name="document" library="xml" uid="3094" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="2269" lty="2750" rbx="2569" rby="3250"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://www.tei-c.org/ns/1.0"/>
-								</namespaces>
-							</header>
-							<entry name="ref" inpkey="150" expanded="1"/>
-						</root>
-						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}author/{http://www.tei-c.org/ns/1.0}ref"/>
-						<wsdl/>
-						<parameter usageKind="output" name="variable5"/>
 					</data>
 				</component>
 				<component name="datafield" library="core" uid="3082" kind="3">
@@ -4354,11 +4171,105 @@
 						<wsdl/>
 					</data>
 				</component>
+				<component name="constant" library="core" uid="6076" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="237"/>
+					</targets>
+					<view ltx="2055" lty="1295" rbx="2106" rby="1307"/>
+					<data>
+						<constant value="person" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="document" library="xml" uid="3085" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="431" lty="158" rbx="612" rby="364"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="2" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="datafield" ns="1" inpkey="11" outkey="82" expanded="1">
+									<entry name="subfield" ns="1" outkey="25" expanded="1">
+										<entry name="code" type="attribute" outkey="4"/>
+										<entry name="#text" outkey="6"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="datafield"/>
+					</data>
+				</component>
+				<component name="document" library="xml" uid="3089" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="2269" lty="550" rbx="2569" rby="1050"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+								</namespaces>
+							</header>
+							<entry name="author" inpkey="145" expanded="1"/>
+						</root>
+						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}author"/>
+						<wsdl/>
+						<parameter usageKind="output" name="tei_lite"/>
+					</data>
+				</component>
+				<component name="document" library="xml" uid="3032" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1849" lty="13" rbx="2018" rby="89"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="subfield" inpkey="9" outkey="142" expanded="1"/>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record/{info:srw/schema/5/picaXML-v1.0}datafield/{info:srw/schema/5/picaXML-v1.0}subfield"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="subfield"/>
+					</data>
+				</component>
+				<component name="document" library="xml" uid="3060" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1839" lty="286" rbx="2019" rby="363"/>
+					<data>
+						<root scrollposition="12">
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+								<entry name="name" inpkey="49" outkey="139" expanded="1"/>
+							</entry>
+						</root>
+						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}author/{http://www.tei-c.org/ns/1.0}name"/>
+						<wsdl/>
+						<parameter usageKind="variable" name="name"/>
+					</data>
+				</component>
 				<component name="document" library="xml" uid="3090" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="2269" lty="1100" rbx="2569" rby="1600"/>
 					<data>
-						<root scrollposition="240">
+						<root>
 							<header>
 								<namespaces>
 									<namespace/>
@@ -4374,15 +4285,110 @@
 						<parameter usageKind="output" name="variable"/>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="6076" kind="2">
+				<component name="if-else" library="core" uid="3087" kind="4">
 					<properties/>
+					<sources>
+						<datapoint pos="0" key="90"/>
+						<datapoint pos="1" key="91"/>
+						<datapoint/>
+					</sources>
 					<targets>
-						<datapoint pos="0" key="237"/>
+						<datapoint pos="0" key="141"/>
 					</targets>
-					<view ltx="2055" lty="1295" rbx="2106" rby="1307"/>
+					<view ltx="1901" lty="684" rbx="1968" rby="733"/>
+				</component>
+				<component name="document" library="xml" uid="3092" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="2269" lty="1650" rbx="2569" rby="2150"/>
 					<data>
-						<constant value="person" datatype="string"/>
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+								</namespaces>
+							</header>
+							<entry name="date" inpkey="148" expanded="1"/>
+						</root>
+						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}author/{http://www.tei-c.org/ns/1.0}date"/>
 						<wsdl/>
+						<parameter usageKind="output" name="variable3"/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="3074" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="56"/>
+						<datapoint pos="1" key="7"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="140"/>
+					</targets>
+					<view ltx="1875" lty="822" rbx="1942" rby="871"/>
+				</component>
+				<component name="document" library="xml" uid="3093" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="2269" lty="2200" rbx="2569" rby="2700"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+								</namespaces>
+							</header>
+							<entry name="date" inpkey="149" expanded="1"/>
+						</root>
+						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}author/{http://www.tei-c.org/ns/1.0}date"/>
+						<wsdl/>
+						<parameter usageKind="output" name="variable4"/>
+					</data>
+				</component>
+				<component name="concat" library="core" uid="3048" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="100"/>
+						<datapoint pos="1" key="104"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1"/>
+					</targets>
+					<view ltx="1899" lty="916" rbx="1951" rby="954"/>
+				</component>
+				<component name="document" library="xml" uid="3094" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="2269" lty="2750" rbx="2569" rby="3250"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+								</namespaces>
+							</header>
+							<entry name="ref" inpkey="150" expanded="1"/>
+						</root>
+						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}author/{http://www.tei-c.org/ns/1.0}ref"/>
+						<wsdl/>
+						<parameter usageKind="output" name="variable5"/>
+					</data>
+				</component>
+				<component name="document" library="xml" uid="3091" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="2269" rbx="2569" rby="500"/>
+					<data>
+						<root scrollposition="314">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.tei-c.org/ns/1.0"/>
+								</namespaces>
+							</header>
+							<entry name="name" ns="1" inpkey="147" expanded="1">
+								<entry name="type" type="attribute" inpkey="234"/>
+							</entry>
+						</root>
+						<document schema="tei_lite.xsd" instanceroot="{http://www.tei-c.org/ns/1.0}TEI/{http://www.tei-c.org/ns/1.0}teiHeader/{http://www.tei-c.org/ns/1.0}fileDesc/{http://www.tei-c.org/ns/1.0}sourceDesc/{http://www.tei-c.org/ns/1.0}bibl/{http://www.tei-c.org/ns/1.0}author/{http://www.tei-c.org/ns/1.0}name"/>
+						<wsdl/>
+						<parameter usageKind="output" name="variable2"/>
 					</data>
 				</component>
 			</children>
@@ -11314,28 +11320,6 @@
 					</targets>
 					<view ltx="440" lty="265" rbx="543" rby="321"/>
 				</component>
-				<component name="document" library="xml" uid="5393" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view rbx="150" rby="200"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
-								</namespaces>
-							</header>
-							<entry name="record" ns="1" outkey="36" expanded="1">
-								<entry name="datafield" ns="1" outkey="37">
-									<entry name="tag" type="attribute" outkey="38"/>
-								</entry>
-							</entry>
-						</root>
-						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record"/>
-						<wsdl/>
-						<parameter usageKind="input" name="picaxmlv10"/>
-					</data>
-				</component>
 				<component name="b" library="core" uid="5396" kind="6">
 					<properties/>
 					<sources>
@@ -11468,6 +11452,28 @@
 					<data>
 						<constant value="org" datatype="string"/>
 						<wsdl/>
+					</data>
+				</component>
+				<component name="document" library="xml" uid="5393" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view rbx="150" rby="200"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="info:srw/schema/5/picaXML-v1.0"/>
+								</namespaces>
+							</header>
+							<entry name="record" ns="1" outkey="36" expanded="1">
+								<entry name="datafield" ns="1" outkey="37">
+									<entry name="tag" type="attribute" outkey="38"/>
+								</entry>
+							</entry>
+						</root>
+						<document schema="pica-xml-v1-0.xsd" instanceroot="{info:srw/schema/5/picaXML-v1.0}record"/>
+						<wsdl/>
+						<parameter usageKind="input" name="picaxmlv10"/>
 					</data>
 				</component>
 			</children>
