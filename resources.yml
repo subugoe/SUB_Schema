@@ -1,0 +1,20 @@
+1:
+  typ: monographie
+  titel: Datenbanksysteme
+  position: 1
+  url: http://sru.gbv.de/gvk?version=1.1&operation=searchRetrieve&query=title=Datenbanksysteme&recordSchema=picaxml&maximumRecords=1
+2:
+  typ: zeitschrift
+  titel: Beiträge zur Geschichte der deutschen Sprache und Literatur
+  position: 1
+  url: http://sru.gbv.de/gvk?version=1.1&operation=searchRetrieve&query=pica.ppn=129063347&recordSchema=picaxml&maximumRecords=1
+3:
+  typ: mbw_nichtZit
+  titel: Kommentar zum Bürgerlichen Gesetzbuch
+  position: 1
+  url: http://sru.gbv.de/gvk?version=1.1&operation=searchRetrieve&query=title=Kommentar%20zum%20B%C3%BCrgerlichen%20Gesetzbuch&recordSchema=picaxml&maximumRecords=10
+4:
+  typ: mbw_Zit
+  titel: Harry Potter und der Halbblutprinz
+  position: 2
+  url: http://sru.gbv.de/gvk?version=1.1&operation=searchRetrieve&query=title=Harry%20Potter%20und%20der%20Halbblutprinz&recordSchema=picaxml&maximumRecords=10
